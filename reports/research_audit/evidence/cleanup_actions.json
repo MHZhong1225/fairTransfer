@@ -1,0 +1,155 @@
+{
+  "created_utc": "2026-11-03T02:16:14.168697+00:00",
+  "actions": [
+    {
+      "action": "repair_link_with_backup",
+      "original": "README.md",
+      "current": "README.md",
+      "backup": "_archive/research_audit_20261103/before_link_repair/README.md",
+      "before_sha256": "6f44c6b8b2c4387a8409ae203a1ee33e3e68ee107adcf2cf4496061c24669cf4",
+      "after_sha256": "fd5c93f7c2388532391a03a3b2be584568fd9b2c1abade2851a188b7ef85ef3a",
+      "reason": "仅修复已确定的canonical benchmark文件名；不改变实验数字或计划",
+      "replacements": 1
+    },
+    {
+      "action": "repair_link_with_backup",
+      "original": "docs/experiment_log.md",
+      "current": "docs/experiment_log.md",
+      "backup": "_archive/research_audit_20261103/before_link_repair/docs/experiment_log.md",
+      "before_sha256": "3e8dc42d9606a05282e4ba9c6c87e3148ba4964824959f55d9cba862b92ee187",
+      "after_sha256": "4f94fe2e8b81845087af55e91ac6b373f72edd1305fccc7e0186e94261a44ae9",
+      "reason": "仅修复已确定的canonical benchmark文件名；不改变实验数字或计划",
+      "replacements": 1
+    },
+    {
+      "action": "repair_link_with_backup",
+      "original": "docs/fairness_transfer_training_redesign_20261029.md",
+      "current": "docs/fairness_transfer_training_redesign_20261029.md",
+      "backup": "_archive/research_audit_20261103/before_link_repair/docs/fairness_transfer_training_redesign_20261029.md",
+      "before_sha256": "3d3d3acd342fac98c0b75076086a0053d9fa38a0a2aa81b719c99c90ce953e19",
+      "after_sha256": "25d61c33d4fdf4b4310685cced12f553d443f8ccbe926b62ad3a4d6f4853db7e",
+      "reason": "仅修复已确定的canonical benchmark文件名；不改变实验数字或计划",
+      "replacements": 3
+    },
+    {
+      "action": "repair_link_with_backup",
+      "original": "docs/method_candidate.md",
+      "current": "docs/method_candidate.md",
+      "backup": "_archive/research_audit_20261103/before_link_repair/docs/method_candidate.md",
+      "before_sha256": "34ab3513e8f81cc25b25b6c87e843b763d550dd50c8683e092e5036b849acc48",
+      "after_sha256": "047d20439ad263c4f63e0219f960a4558e7e1ee175e9c980e90a4a7e2bf13310",
+      "reason": "仅修复已确定的canonical benchmark文件名；不改变实验数字或计划",
+      "replacements": 2
+    },
+    {
+      "action": "repair_link_with_backup",
+      "original": "docs/research_plan.md",
+      "current": "docs/research_plan.md",
+      "backup": "_archive/research_audit_20261103/before_link_repair/docs/research_plan.md",
+      "before_sha256": "a491f2e1322cb6550233468bd49770204ed73d161cec4e84972714f412f7166f",
+      "after_sha256": "9c4803c7d62aa3cd82e67df29d874528a1cd0a05e633f5b6fdfc8167207f85de",
+      "reason": "仅修复已确定的canonical benchmark文件名；不改变实验数字或计划",
+      "replacements": 1
+    },
+    {
+      "action": "archive_regenerable_cache",
+      "original": ".pytest_cache",
+      "current": "_archive/research_audit_20261103/pytest_cache",
+      "reason": "只含可再生测试缓存；未归档训练/评审/数据",
+      "files": [
+        {
+          "path": ".pytest_cache/CACHEDIR.TAG",
+          "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+          "bytes": 191
+        },
+        {
+          "path": ".pytest_cache/.gitignore",
+          "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+          "bytes": 37
+        },
+        {
+          "path": ".pytest_cache/README.md",
+          "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+          "bytes": 302
+        },
+        {
+          "path": ".pytest_cache/v/cache/nodeids",
+          "sha256": "dabdf4625e99e5ad5f7c46c9c1201e2b157aef7a8edf9a8bfa8228ca569e2042",
+          "bytes": 35166
+        },
+        {
+          "path": ".pytest_cache/v/cache/lastfailed",
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "action": "create_research_index",
+      "original": null,
+      "current": "experiments/RESEARCH_INDEX.md",
+      "reason": "按RQ归并导航；不移动依赖中的证据",
+      "after_sha256": "0fa31786276c32af99ba3285a00d41902d80a04aa09abe0007f599bec65d0e35"
+    },
+    {
+      "action": "create_research_index",
+      "original": null,
+      "current": "docs/README.md",
+      "reason": "按RQ归并导航；不移动依赖中的证据",
+      "after_sha256": "fe0d7c4838b7a1df74ec153c53e9621fce279cf539345d3915a82a1567c27153"
+    },
+    {
+      "action": "add_root_navigation",
+      "original": "README.md",
+      "current": "README.md",
+      "backup": "_archive/research_audit_20261103/before_root_navigation/README.md",
+      "after_sha256": "a7e18c5c6f478058c4355fefa116d8c54266e70abcec55603eaa5995e7c96c74",
+      "reason": "提供统一结果入口；保留原研究说明"
+    },
+    {
+      "action": "lossless_archive_audit_derivative",
+      "original": "reports/research_audit/evidence/source_text_index.json",
+      "current": "_archive/research_audit_20261103/source_text_index.json.gz",
+      "uncompressed_sha256": "138bd6476ab30b609217566f4aaede535354c8c51a3f768d1cfb70f0cc740d3d",
+      "reason": "审计中间全文语料为派生快照，压缩保留原字节；原实验/文档未删除"
+    },
+    {
+      "action": "compress_audit_asset_manifest",
+      "original": "reports/research_audit/evidence/filesystem_inventory.jsonl",
+      "current": "reports/research_audit/evidence/filesystem_inventory.jsonl.gz",
+      "uncompressed_sha256": "0c384905a23f96b0fb3c883e0b64c77b8eaed2fc744df12a55daa17df967dbaa",
+      "reason": "全资产清单无损压缩；可gzip解压，不改变任何源资产"
+    },
+    {
+      "action": "archive_oneoff_audit_builder",
+      "original": "reports/research_audit/build_catalog.py",
+      "current": "_archive/research_audit_20261103/report_build_scripts/build_catalog.py",
+      "sha256": "51499bd1b2c500c02c3af0044b9362aaef04fd8fcc3aab3c4644dc93670913a6",
+      "reason": "一次性文稿/清理脚本留档，避免重跑覆盖已人工核对的新结果"
+    },
+    {
+      "action": "archive_oneoff_audit_builder",
+      "original": "reports/research_audit/write_rqs.py",
+      "current": "_archive/research_audit_20261103/report_build_scripts/write_rqs.py",
+      "sha256": "36b1f8f785728af89d2090cde818c940fec5c40cfcc0f79b066f35a068f5d26d",
+      "reason": "一次性文稿/清理脚本留档，避免重跑覆盖已人工核对的新结果"
+    },
+    {
+      "action": "archive_oneoff_audit_builder",
+      "original": "reports/research_audit/write_synthesis.py",
+      "current": "_archive/research_audit_20261103/report_build_scripts/write_synthesis.py",
+      "sha256": "96ffe3860c64b0bfa8a09f6cd7482b3199979a6fd008d6edd1de16d1c9d16975",
+      "reason": "一次性文稿/清理脚本留档，避免重跑覆盖已人工核对的新结果"
+    },
+    {
+      "action": "archive_oneoff_audit_builder",
+      "original": "reports/research_audit/safe_cleanup.py",
+      "current": "_archive/research_audit_20261103/report_build_scripts/safe_cleanup.py",
+      "sha256": "02dd23fd4db8b9be7078dfb1a72d8aebd0a7c89e99671ee5bc2c23c3663482e7",
+      "reason": "一次性文稿/清理脚本留档，避免重跑覆盖已人工核对的新结果"
+    }
+  ],
+  "permanent_deletions": 0,
+  "experiment_moves": 0,
+  "weight_changes": 0
+}

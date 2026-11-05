@@ -1,0 +1,62 @@
+[
+  {
+    "source": "README.md",
+    "line": 38,
+    "target": "docs/iris_protocol_audit_20261027.md"
+  },
+  {
+    "source": "README.md",
+    "line": 39,
+    "target": "docs/fairness_transfer_literature_20261028_v2.md"
+  },
+  {
+    "source": "docs/experiment_log.md",
+    "line": 15,
+    "target": "final_experiment_integrity_audit_20261027.md"
+  },
+  {
+    "source": "docs/experiment_log.md",
+    "line": 21,
+    "target": "research_results_20261027.md"
+  },
+  {
+    "source": "docs/experiment_log.md",
+    "line": 23,
+    "target": "bagel_generation_und_routing_audit_20261027.md"
+  },
+  {
+    "source": "docs/fairness_transfer_training_redesign_20261029.md",
+    "line": 44,
+    "target": "prior_transfer_source_diagnosis_20261028.md"
+  },
+  {
+    "source": "docs/method_candidate.md",
+    "line": 17,
+    "target": "research_results_20261027.md"
+  },
+  {
+    "source": "docs/method_candidate.md",
+    "line": 19,
+    "target": "bagel_generation_und_routing_audit_20261027.md"
+  },
+  {
+    "source": "docs/receiver_transfer_proposal_v3.md",
+    "line": 103,
+    "target": "../scripts/receiver_transfer/README.md"
+  },
+  {
+    "source": "docs/research_plan.md",
+    "line": 487,
+    "target": "fairness_transfer_literature_20261028_v2.md"
+  },
+  {
+    "source": "docs/u_dataset_options.md",
+    "line": 33,
+    "target": "../scripts/data/genderbias_vl_archive_probe.py"
+  },
+  {
+    "source": "docs/understanding_generation_sft_training_audit_20261031.md",
+    "line": 53,
+    "target": "/home/ubuntu/zmh/fairness-umm/docs/bagel_cached_native_autograd_audit_20261027.md:1"
+  }
+]

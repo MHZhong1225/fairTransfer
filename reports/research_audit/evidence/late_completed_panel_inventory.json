@@ -1,0 +1,293 @@
+{
+  "snapshot_utc": "2026-11-03T02:20:47.625610+00:00",
+  "files": [
+    {
+      "path": "experiments/answer_probability_real_panel_v1/run_BASE.log",
+      "bytes": 2077,
+      "sha256": "2832bd3b1d3a09232ecbccd4fc054375603ea916c540c43cfd8d1f9351110a49",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/qwen.log",
+      "bytes": 886,
+      "sha256": "e3a9f74b44e5b38cbf07f5316a64560175cbbb452ed6310a161a8023a159edaa",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/strict_semantic_paired_comparison.json",
+      "bytes": 2309,
+      "sha256": "794c17577b2dc78757ea662a0061f18ed1bba5f0a3675016e661a00a720489db",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/question.json",
+      "bytes": 799,
+      "sha256": "bc5c0a1c3d5ce08e55bfa1d0f11d350ef3483b7c5c2006c06ec572bfc0476721",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/acquisition_contract.json",
+      "bytes": 4180,
+      "sha256": "149a3262ae5c8cf140dc66f79473c2792010c04c44cca2cd9554243f5596dbda",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/source_metadata_audit.json",
+      "bytes": 5845,
+      "sha256": "49cf5f456d2364c23c15f91e30cceecede94f45af93f287a9a8a0c95fce63dd5",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/technical_BASE.log",
+      "bytes": 2077,
+      "sha256": "5f5eab51231b8fa1eed3e1812d749827bec31db644b702f0d5617664089970a8",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/technical_freeze.json",
+      "bytes": 445,
+      "sha256": "602883171c81c8e57662de273665874a37ba63f5ff8367959466149ee3636b2d",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/first_source_pair_example.json",
+      "bytes": 1512,
+      "sha256": "30fb4009837e070852b41d6b48f5c603517b2144c7420e6cbe6d94a8379c2eee",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/reference_freeze.json",
+      "bytes": 998,
+      "sha256": "00c17fdff5d5bba7104cce8a1e5e3187701bdc06fb2827e870554dc61150003e",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/prompt_input_audit.json",
+      "bytes": 453,
+      "sha256": "07c261f897c321b16c48c2424e6366da1b7a9f5d6c3527694bb33cf3545a6101",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/run_gender_understanding.log",
+      "bytes": 2077,
+      "sha256": "926f17c8a221b6aa45292051010337ba8dd3d8c014216973c680b21e552a379f",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/visibility_sensitivity_results.json",
+      "bytes": 3027,
+      "sha256": "711f80cc109988e73079b2d39c35b3922b050e53d8a003c05e349e5d8b9e4871",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/SUPPLEMENTARY_TABLES.md",
+      "bytes": 5985,
+      "sha256": "79a6d7c47b967365f1334e4e65b7bbe8a3c6db1e8bf4b6356fd7bbd33d001399",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/visibility_sensitivity_aux.json",
+      "bytes": 2197,
+      "sha256": "f1e2402fe87eb0a66606b664859ef79f56799bb3f96abee79b5f5e73e466cd93",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/PROTOCOL.md",
+      "bytes": 3942,
+      "sha256": "2b2760486627e69dc0a60940f08ae134ca9f1ca51c78acfb4ff10c0295398c3f",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/freeze.json",
+      "bytes": 1825,
+      "sha256": "741d04c8e4855f61daa4d344fced7c85b07137b7db07f9469be18274e6493d76",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/noncanonical_semantic_review_aux.json",
+      "bytes": 311582,
+      "sha256": "1810a79b81f250694e7e9eba288b87f40f9777970c29ee91f8096da6480749f3",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/downloaded.json",
+      "bytes": 100925,
+      "sha256": "2909dd21e09903702a275a3a0d927e8726d2ce1446b2ebb67ed29ed58d6a5c37",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/probability_and_answers.csv",
+      "bytes": 3484065,
+      "sha256": "21693f5f173ab12911d8eef6c3fc218c556b43062e8eb20e1af9a64feb0d7c24",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/images.json",
+      "bytes": 51029,
+      "sha256": "462dd4c2ec7a5b56cd2e9fd34c6888e90de2eac35501989f831f1b36c2f8027e",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/results.json",
+      "bytes": 5553428,
+      "sha256": "ca8d6f5b370a94ef4434bf002c30db3c4a5874c5b0966efd7b44c6a445036329",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/phi.log",
+      "bytes": 1010,
+      "sha256": "4e10d92c8a4c5b3928c06965b5e1ea6beed7b8d7858c1cf7cb6e96433b6a86e6",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/selection_audit.json",
+      "bytes": 64884,
+      "sha256": "475a738c6d58726990616d24c2212aaf971f416f423adda787be124c4014e4d2",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/source_stratification_addendum.json",
+      "bytes": 1510,
+      "sha256": "a627bf43c79b41d38be6170fc7e0b2d006bf56f30751fb56f20478344abb76e5",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/source_stratification_results.json",
+      "bytes": 19684,
+      "sha256": "8d726b7da4677f5efbad2e0a5fccddb863780bd8b524bf4ff29fd1ee0e24c226",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/downloaded_before_pixel_qualification.json",
+      "bytes": 91253,
+      "sha256": "e5276594beb2a9197dbd7491bbb34bfb74153648264e8898f49bc31157716aca",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/pixel_qualification.json",
+      "bytes": 15221,
+      "sha256": "5685f81a04a8f24891096693585aff1a905ed9abd9d9632d1ebb3587364963c3",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/model_files_integrity.json",
+      "bytes": 4996,
+      "sha256": "19c1bf348271d091ca984bee6cb4e0c42b7fd8dea3bdfe387bc69f926d727aea",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/technical_gender_understanding.log",
+      "bytes": 2077,
+      "sha256": "80c0b25aae0b6808b22b49aa9542aaee7dd20901fa6bd24713bdf68120c500f3",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/plan.jsonl",
+      "bytes": 1988004,
+      "sha256": "70baf78d6841ca1ac0629de7ba37ac113b32abbd7263f07cc225f1a95bb042e2",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/analysis_contract.json",
+      "bytes": 1537,
+      "sha256": "4ca836428e6f8abd13e4b741ea81cd4bacbe417efd800bf8a929d8b6658b24dc",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/references/qwen/observations.jsonl",
+      "bytes": 42625,
+      "sha256": "5b806c4281044c877b1e46390c0faa95804bb62d103a26b0b13991fa08eee7d8",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/references/qwen/status.json",
+      "bytes": 174,
+      "sha256": "f21100721f9ee7fe09ab7676cdca7e4e2e92e0d09f6e93d3bb30b3fad71b1ac9",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/references/phi/observations.jsonl",
+      "bytes": 35971,
+      "sha256": "567ed2a02467974568a4e2df1b7c2528029137762bdfcd0d58ce98cf65973407",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/references/phi/status.json",
+      "bytes": 174,
+      "sha256": "a40965333b6d4707cbb04e276b4476c2f907116f1aeeddff247967b752c24204",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/technical/BASE/status.json",
+      "bytes": 437,
+      "sha256": "11651b5202ddb4c951e24d1f28b26891b0225ee36858beb320da26d9a7bca477",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/technical/gender_understanding/status.json",
+      "bytes": 437,
+      "sha256": "3966dcb5aaeeb6ed1c48cfb62f307ab3966602ccb58c53cc7396e6fef6ae03b2",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/predictions/BASE/observations.jsonl",
+      "bytes": 23147832,
+      "sha256": "8b2c08187810f660c6f8c42e25bfb22255efef102f31b89171a361ee2aba7ffd",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/predictions/BASE/runtime.json",
+      "bytes": 1573,
+      "sha256": "fd889608f410f20f2ec9c2aa8799310ca0995612e7c45a2456ddbf484e3945ce",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/predictions/BASE/status.json",
+      "bytes": 273,
+      "sha256": "7eaebe1c83014cc7496399ce4ac1cb846bfdaf25f3c7b92cb8e2b9182aec6529",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/predictions/gender_understanding/observations.jsonl",
+      "bytes": 23103614,
+      "sha256": "b6fca5165fc2393355010824eff77ffcde3b8e8db59cd1736011ef5deae7c263",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/predictions/gender_understanding/runtime.json",
+      "bytes": 1573,
+      "sha256": "fd889608f410f20f2ec9c2aa8799310ca0995612e7c45a2456ddbf484e3945ce",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/predictions/gender_understanding/status.json",
+      "bytes": 273,
+      "sha256": "d8e849169538a438b4d6708af3aebeff8c3845df5858127d3ca0898e61e83d8e",
+      "new_since_baseline": false
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/REPORT.md",
+      "bytes": 12209,
+      "sha256": "e69b31e2648ac473b4da07d4c3231d75057e29ccab61644cf6683a81e6d9903b",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/RUN_SUMMARY.json",
+      "bytes": 1045,
+      "sha256": "82abdd081d1874802a33eb5fa444ada22c60307f208e8bf05b64237e5abae7b6",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/COMPLETION.json",
+      "bytes": 523,
+      "sha256": "91ec289e40f4c72fba0bb5d5033bef2be73523568b2de7d1f7fe3ec066305487",
+      "new_since_baseline": true
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/integrity.json",
+      "bytes": 1359,
+      "sha256": "784787c88e76341a1209ce5e09ec48e9611595ede269072cad9feea77749036a",
+      "new_since_baseline": true
+    }
+  ]
+}

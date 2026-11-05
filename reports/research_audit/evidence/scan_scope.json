@@ -1,0 +1,6 @@
+{
+  "snapshot_utc": "2026-11-03T02:01:52.487972+00:00",
+  "asset_files": 277402,
+  "logical_bytes": 170756186972,
+  "warning": "Logical sizes include hardlink duplicates; not unique physical storage. No full-image/weight hash audit."
+}

@@ -1,0 +1,19 @@
+{
+  "time_utc": "2026-11-03T02:20:47.534134+00:00",
+  "processes": [],
+  "probability_real_panel": {
+    "BASE": {
+      "rows": 2352,
+      "planned_conditions": 2352,
+      "status": "completed",
+      "final_results_present": true
+    },
+    "gender_understanding": {
+      "rows": 2352,
+      "planned_conditions": 2352,
+      "status": "completed",
+      "final_results_present": true
+    }
+  },
+  "policy": "Final snapshot. Target calls completed naturally during audit; no worker was started, stopped, restarted or renamed by audit."
+}

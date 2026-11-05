@@ -1,0 +1,321 @@
+{
+  "snapshot_utc": "2026-11-03T02:26:45.135216+00:00",
+  "checks": [
+    {
+      "state": "BASE",
+      "metric": "unique_condition_coverage",
+      "recomputed": 2352,
+      "stored": 2352,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "row_count",
+      "recomputed": 2352,
+      "stored": 2352,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "presentation/word/qualified_conditions",
+      "recomputed": 576,
+      "stored": 576,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "presentation/word/sampled_correct",
+      "recomputed": 501,
+      "stored": 501,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "presentation/word/sampled_semantic_correct",
+      "recomputed": 1092,
+      "stored": 1092,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "presentation/word/raw_prefix_correct",
+      "recomputed": 404,
+      "stored": 404,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "presentation/word/raw_complete_correct",
+      "recomputed": 404,
+      "stored": 404,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "presentation/choice/qualified_conditions",
+      "recomputed": 576,
+      "stored": 576,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "presentation/choice/sampled_correct",
+      "recomputed": 838,
+      "stored": 838,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "presentation/choice/sampled_semantic_correct",
+      "recomputed": 838,
+      "stored": 838,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "presentation/choice/raw_prefix_correct",
+      "recomputed": 466,
+      "stored": 466,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "presentation/choice/raw_complete_correct",
+      "recomputed": 447,
+      "stored": 447,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "headwear/word/qualified_conditions",
+      "recomputed": 576,
+      "stored": 576,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "headwear/word/sampled_correct",
+      "recomputed": 810,
+      "stored": 810,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "headwear/word/sampled_semantic_correct",
+      "recomputed": 1140,
+      "stored": 1140,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "headwear/word/raw_prefix_correct",
+      "recomputed": 565,
+      "stored": 565,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "headwear/word/raw_complete_correct",
+      "recomputed": 565,
+      "stored": 565,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "headwear/choice/qualified_conditions",
+      "recomputed": 576,
+      "stored": 576,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "headwear/choice/sampled_correct",
+      "recomputed": 536,
+      "stored": 536,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "headwear/choice/sampled_semantic_correct",
+      "recomputed": 536,
+      "stored": 536,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "headwear/choice/raw_prefix_correct",
+      "recomputed": 342,
+      "stored": 342,
+      "passed": true
+    },
+    {
+      "state": "BASE",
+      "metric": "headwear/choice/raw_complete_correct",
+      "recomputed": 347,
+      "stored": 347,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "unique_condition_coverage",
+      "recomputed": 2352,
+      "stored": 2352,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "row_count",
+      "recomputed": 2352,
+      "stored": 2352,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "presentation/word/qualified_conditions",
+      "recomputed": 576,
+      "stored": 576,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "presentation/word/sampled_correct",
+      "recomputed": 577,
+      "stored": 577,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "presentation/word/sampled_semantic_correct",
+      "recomputed": 838,
+      "stored": 838,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "presentation/word/raw_prefix_correct",
+      "recomputed": 332,
+      "stored": 332,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "presentation/word/raw_complete_correct",
+      "recomputed": 332,
+      "stored": 332,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "presentation/choice/qualified_conditions",
+      "recomputed": 576,
+      "stored": 576,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "presentation/choice/sampled_correct",
+      "recomputed": 892,
+      "stored": 892,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "presentation/choice/sampled_semantic_correct",
+      "recomputed": 892,
+      "stored": 892,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "presentation/choice/raw_prefix_correct",
+      "recomputed": 526,
+      "stored": 526,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "presentation/choice/raw_complete_correct",
+      "recomputed": 502,
+      "stored": 502,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "headwear/word/qualified_conditions",
+      "recomputed": 576,
+      "stored": 576,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "headwear/word/sampled_correct",
+      "recomputed": 1140,
+      "stored": 1140,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "headwear/word/sampled_semantic_correct",
+      "recomputed": 1140,
+      "stored": 1140,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "headwear/word/raw_prefix_correct",
+      "recomputed": 568,
+      "stored": 568,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "headwear/word/raw_complete_correct",
+      "recomputed": 568,
+      "stored": 568,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "headwear/choice/qualified_conditions",
+      "recomputed": 576,
+      "stored": 576,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "headwear/choice/sampled_correct",
+      "recomputed": 562,
+      "stored": 562,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "headwear/choice/sampled_semantic_correct",
+      "recomputed": 562,
+      "stored": 562,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "headwear/choice/raw_prefix_correct",
+      "recomputed": 338,
+      "stored": 338,
+      "passed": true
+    },
+    {
+      "state": "gender_understanding",
+      "metric": "headwear/choice/raw_complete_correct",
+      "recomputed": 335,
+      "stored": 335,
+      "passed": true
+    }
+  ],
+  "total": 44,
+  "failed": 0,
+  "source_hashes": {
+    "experiments/answer_probability_real_panel_v1/predictions/BASE/observations.jsonl": "8b2c08187810f660c6f8c42e25bfb22255efef102f31b89171a361ee2aba7ffd",
+    "experiments/answer_probability_real_panel_v1/predictions/gender_understanding/observations.jsonl": "b6fca5165fc2393355010824eff77ffcde3b8e8db59cd1736011ef5deae7c263"
+  },
+  "results_sha256": "ca8d6f5b370a94ef4434bf002c30db3c4a5874c5b0966efd7b44c6a445036329",
+  "scope": "Raw counts only; auxiliary semantics are saved machine labels, not new human review."
+}

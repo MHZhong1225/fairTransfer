@@ -1,0 +1,2261 @@
+{
+  "checks": [
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/portrait/gender/RD",
+      "recomputed": 0.9147727272727273,
+      "stored": 0.9147727272727273,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/portrait/race/RD",
+      "recomputed": 0.4872159090909091,
+      "stored": 0.4872159090909091,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/work/gender/RD",
+      "recomputed": 0.20983295475719863,
+      "stored": 0.20983295475719863,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/work/gender/detected",
+      "recomputed": 578.0,
+      "stored": 578.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/work/race/RD",
+      "recomputed": 0.31818899044148435,
+      "stored": 0.31818899044148435,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/work/race/detected",
+      "recomputed": 578.0,
+      "stored": 578.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_understanding/test_results.pkl",
+      "metric": "prior_understanding/portrait/gender/RD",
+      "recomputed": 0.8977272727272727,
+      "stored": 0.8977272727272727,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_understanding/test_results.pkl",
+      "metric": "prior_understanding/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_understanding/test_results.pkl",
+      "metric": "prior_understanding/portrait/race/RD",
+      "recomputed": 0.46875000000000006,
+      "stored": 0.46875000000000006,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_understanding/test_results.pkl",
+      "metric": "prior_understanding/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_understanding/test_results.pkl",
+      "metric": "prior_understanding/work/gender/RD",
+      "recomputed": 0.20806424987748204,
+      "stored": 0.20806424987748204,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_understanding/test_results.pkl",
+      "metric": "prior_understanding/work/gender/detected",
+      "recomputed": 552.0,
+      "stored": 552.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_understanding/test_results.pkl",
+      "metric": "prior_understanding/work/race/RD",
+      "recomputed": 0.32447600661756737,
+      "stored": 0.32447600661756737,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_understanding/test_results.pkl",
+      "metric": "prior_understanding/work/race/detected",
+      "recomputed": 552.0,
+      "stored": 552.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_generation/test_results.pkl",
+      "metric": "prior_generation/portrait/gender/RD",
+      "recomputed": 0.3181818181818182,
+      "stored": 0.3181818181818182,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_generation/test_results.pkl",
+      "metric": "prior_generation/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_generation/test_results.pkl",
+      "metric": "prior_generation/portrait/race/RD",
+      "recomputed": 0.4981060606060606,
+      "stored": 0.4981060606060606,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_generation/test_results.pkl",
+      "metric": "prior_generation/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_generation/test_results.pkl",
+      "metric": "prior_generation/work/gender/RD",
+      "recomputed": 0.24431818181818182,
+      "stored": 0.24431818181818182,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_generation/test_results.pkl",
+      "metric": "prior_generation/work/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_generation/test_results.pkl",
+      "metric": "prior_generation/work/race/RD",
+      "recomputed": 0.4995265151515152,
+      "stored": 0.4995265151515152,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_generation/test_results.pkl",
+      "metric": "prior_generation/work/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch1/test_results.pkl",
+      "metric": "understanding_seed4101_epoch1/portrait/gender/RD",
+      "recomputed": 0.8011363636363636,
+      "stored": 0.8011363636363636,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch1/test_results.pkl",
+      "metric": "understanding_seed4101_epoch1/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch1/test_results.pkl",
+      "metric": "understanding_seed4101_epoch1/portrait/race/RD",
+      "recomputed": 0.44602272727272735,
+      "stored": 0.44602272727272735,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch1/test_results.pkl",
+      "metric": "understanding_seed4101_epoch1/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch1/test_results.pkl",
+      "metric": "understanding_seed4101_epoch1/work/gender/RD",
+      "recomputed": 0.22871378895944422,
+      "stored": 0.22871378895944422,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch1/test_results.pkl",
+      "metric": "understanding_seed4101_epoch1/work/gender/detected",
+      "recomputed": 568.0,
+      "stored": 568.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch1/test_results.pkl",
+      "metric": "understanding_seed4101_epoch1/work/race/RD",
+      "recomputed": 0.31543494093057456,
+      "stored": 0.31543494093057456,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch1/test_results.pkl",
+      "metric": "understanding_seed4101_epoch1/work/race/detected",
+      "recomputed": 568.0,
+      "stored": 568.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch3/test_results.pkl",
+      "metric": "understanding_seed4101_epoch3/portrait/gender/RD",
+      "recomputed": 0.8806818181818182,
+      "stored": 0.8806818181818182,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch3/test_results.pkl",
+      "metric": "understanding_seed4101_epoch3/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch3/test_results.pkl",
+      "metric": "understanding_seed4101_epoch3/portrait/race/RD",
+      "recomputed": 0.4474431818181819,
+      "stored": 0.4474431818181819,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch3/test_results.pkl",
+      "metric": "understanding_seed4101_epoch3/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch3/test_results.pkl",
+      "metric": "understanding_seed4101_epoch3/work/gender/RD",
+      "recomputed": 0.1666403971921084,
+      "stored": 0.1666403971921084,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch3/test_results.pkl",
+      "metric": "understanding_seed4101_epoch3/work/gender/detected",
+      "recomputed": 544.0,
+      "stored": 544.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch3/test_results.pkl",
+      "metric": "understanding_seed4101_epoch3/work/race/RD",
+      "recomputed": 0.33732246629545376,
+      "stored": 0.33732246629545376,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch3/test_results.pkl",
+      "metric": "understanding_seed4101_epoch3/work/race/detected",
+      "recomputed": 544.0,
+      "stored": 544.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch1/test_results.pkl",
+      "metric": "generation_seed4101_epoch1/portrait/gender/RD",
+      "recomputed": 0.35511363636363635,
+      "stored": 0.35511363636363635,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch1/test_results.pkl",
+      "metric": "generation_seed4101_epoch1/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch1/test_results.pkl",
+      "metric": "generation_seed4101_epoch1/portrait/race/RD",
+      "recomputed": 0.49905303030303033,
+      "stored": 0.49905303030303033,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch1/test_results.pkl",
+      "metric": "generation_seed4101_epoch1/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch1/test_results.pkl",
+      "metric": "generation_seed4101_epoch1/work/gender/RD",
+      "recomputed": 0.478219696969697,
+      "stored": 0.478219696969697,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch1/test_results.pkl",
+      "metric": "generation_seed4101_epoch1/work/gender/detected",
+      "recomputed": 701.0,
+      "stored": 701.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch1/test_results.pkl",
+      "metric": "generation_seed4101_epoch1/work/race/RD",
+      "recomputed": 0.47958754208754206,
+      "stored": 0.47958754208754206,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch1/test_results.pkl",
+      "metric": "generation_seed4101_epoch1/work/race/detected",
+      "recomputed": 701.0,
+      "stored": 701.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch3/test_results.pkl",
+      "metric": "generation_seed4101_epoch3/portrait/gender/RD",
+      "recomputed": 0.5142045454545454,
+      "stored": 0.5142045454545454,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch3/test_results.pkl",
+      "metric": "generation_seed4101_epoch3/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch3/test_results.pkl",
+      "metric": "generation_seed4101_epoch3/portrait/race/RD",
+      "recomputed": 0.4981060606060606,
+      "stored": 0.4981060606060606,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch3/test_results.pkl",
+      "metric": "generation_seed4101_epoch3/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch3/test_results.pkl",
+      "metric": "generation_seed4101_epoch3/work/gender/RD",
+      "recomputed": 0.5565025252525252,
+      "stored": 0.5565025252525252,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch3/test_results.pkl",
+      "metric": "generation_seed4101_epoch3/work/gender/detected",
+      "recomputed": 703.0,
+      "stored": 703.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch3/test_results.pkl",
+      "metric": "generation_seed4101_epoch3/work/race/RD",
+      "recomputed": 0.4876818783068783,
+      "stored": 0.4876818783068783,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch3/test_results.pkl",
+      "metric": "generation_seed4101_epoch3/work/race/detected",
+      "recomputed": 703.0,
+      "stored": 703.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch1/test_results.pkl",
+      "metric": "understanding_seed4102_epoch1/portrait/gender/RD",
+      "recomputed": 0.7670454545454546,
+      "stored": 0.7670454545454546,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch1/test_results.pkl",
+      "metric": "understanding_seed4102_epoch1/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch1/test_results.pkl",
+      "metric": "understanding_seed4102_epoch1/portrait/race/RD",
+      "recomputed": 0.4384469696969697,
+      "stored": 0.4384469696969697,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch1/test_results.pkl",
+      "metric": "understanding_seed4102_epoch1/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch1/test_results.pkl",
+      "metric": "understanding_seed4102_epoch1/work/gender/RD",
+      "recomputed": 0.14291758856937922,
+      "stored": 0.14291758856937922,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch1/test_results.pkl",
+      "metric": "understanding_seed4102_epoch1/work/gender/detected",
+      "recomputed": 549.0,
+      "stored": 549.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch1/test_results.pkl",
+      "metric": "understanding_seed4102_epoch1/work/race/RD",
+      "recomputed": 0.32135827153114715,
+      "stored": 0.32135827153114715,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch1/test_results.pkl",
+      "metric": "understanding_seed4102_epoch1/work/race/detected",
+      "recomputed": 549.0,
+      "stored": 549.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch3/test_results.pkl",
+      "metric": "understanding_seed4102_epoch3/portrait/gender/RD",
+      "recomputed": 0.6866432178932179,
+      "stored": 0.6866432178932179,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch3/test_results.pkl",
+      "metric": "understanding_seed4102_epoch3/portrait/gender/detected",
+      "recomputed": 703.0,
+      "stored": 703.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch3/test_results.pkl",
+      "metric": "understanding_seed4102_epoch3/portrait/race/RD",
+      "recomputed": 0.43917598605098607,
+      "stored": 0.43917598605098607,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch3/test_results.pkl",
+      "metric": "understanding_seed4102_epoch3/portrait/race/detected",
+      "recomputed": 703.0,
+      "stored": 703.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch3/test_results.pkl",
+      "metric": "understanding_seed4102_epoch3/work/gender/RD",
+      "recomputed": 0.14737045093181161,
+      "stored": 0.14737045093181161,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch3/test_results.pkl",
+      "metric": "understanding_seed4102_epoch3/work/gender/detected",
+      "recomputed": 533.0,
+      "stored": 533.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch3/test_results.pkl",
+      "metric": "understanding_seed4102_epoch3/work/race/RD",
+      "recomputed": 0.3196298694942631,
+      "stored": 0.3196298694942631,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch3/test_results.pkl",
+      "metric": "understanding_seed4102_epoch3/work/race/detected",
+      "recomputed": 533.0,
+      "stored": 533.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch1/test_results.pkl",
+      "metric": "generation_seed4102_epoch1/portrait/gender/RD",
+      "recomputed": 0.38920454545454547,
+      "stored": 0.38920454545454547,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch1/test_results.pkl",
+      "metric": "generation_seed4102_epoch1/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch1/test_results.pkl",
+      "metric": "generation_seed4102_epoch1/portrait/race/RD",
+      "recomputed": 0.49905303030303033,
+      "stored": 0.49905303030303033,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch1/test_results.pkl",
+      "metric": "generation_seed4102_epoch1/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch1/test_results.pkl",
+      "metric": "generation_seed4102_epoch1/work/gender/RD",
+      "recomputed": 0.40648047674753124,
+      "stored": 0.40648047674753124,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch1/test_results.pkl",
+      "metric": "generation_seed4102_epoch1/work/gender/detected",
+      "recomputed": 686.0,
+      "stored": 686.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch1/test_results.pkl",
+      "metric": "generation_seed4102_epoch1/work/race/RD",
+      "recomputed": 0.44495563066259786,
+      "stored": 0.44495563066259786,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch1/test_results.pkl",
+      "metric": "generation_seed4102_epoch1/work/race/detected",
+      "recomputed": 686.0,
+      "stored": 686.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch3/test_results.pkl",
+      "metric": "generation_seed4102_epoch3/portrait/gender/RD",
+      "recomputed": 0.4460227272727273,
+      "stored": 0.4460227272727273,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch3/test_results.pkl",
+      "metric": "generation_seed4102_epoch3/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch3/test_results.pkl",
+      "metric": "generation_seed4102_epoch3/portrait/race/RD",
+      "recomputed": 0.496685606060606,
+      "stored": 0.496685606060606,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch3/test_results.pkl",
+      "metric": "generation_seed4102_epoch3/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch3/test_results.pkl",
+      "metric": "generation_seed4102_epoch3/work/gender/RD",
+      "recomputed": 0.5568005730357174,
+      "stored": 0.5568005730357174,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch3/test_results.pkl",
+      "metric": "generation_seed4102_epoch3/work/gender/detected",
+      "recomputed": 692.0,
+      "stored": 692.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch3/test_results.pkl",
+      "metric": "generation_seed4102_epoch3/work/race/RD",
+      "recomputed": 0.47889686949534144,
+      "stored": 0.47889686949534144,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch3/test_results.pkl",
+      "metric": "generation_seed4102_epoch3/work/race/detected",
+      "recomputed": 692.0,
+      "stored": 692.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch1/test_results.pkl",
+      "metric": "understanding_seed4103_epoch1/portrait/gender/RD",
+      "recomputed": 0.9090909090909091,
+      "stored": 0.9090909090909091,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch1/test_results.pkl",
+      "metric": "understanding_seed4103_epoch1/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch1/test_results.pkl",
+      "metric": "understanding_seed4103_epoch1/portrait/race/RD",
+      "recomputed": 0.45075757575757575,
+      "stored": 0.45075757575757575,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch1/test_results.pkl",
+      "metric": "understanding_seed4103_epoch1/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch1/test_results.pkl",
+      "metric": "understanding_seed4103_epoch1/work/gender/RD",
+      "recomputed": 0.23818263199184433,
+      "stored": 0.23818263199184433,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch1/test_results.pkl",
+      "metric": "understanding_seed4103_epoch1/work/gender/detected",
+      "recomputed": 543.0,
+      "stored": 543.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch1/test_results.pkl",
+      "metric": "understanding_seed4103_epoch1/work/race/RD",
+      "recomputed": 0.32483016920668634,
+      "stored": 0.32483016920668634,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch1/test_results.pkl",
+      "metric": "understanding_seed4103_epoch1/work/race/detected",
+      "recomputed": 543.0,
+      "stored": 543.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch3/test_results.pkl",
+      "metric": "understanding_seed4103_epoch3/portrait/gender/RD",
+      "recomputed": 0.8484848484848485,
+      "stored": 0.8484848484848485,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch3/test_results.pkl",
+      "metric": "understanding_seed4103_epoch3/portrait/gender/detected",
+      "recomputed": 702.0,
+      "stored": 702.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch3/test_results.pkl",
+      "metric": "understanding_seed4103_epoch3/portrait/race/RD",
+      "recomputed": 0.4634665103415104,
+      "stored": 0.4634665103415104,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch3/test_results.pkl",
+      "metric": "understanding_seed4103_epoch3/portrait/race/detected",
+      "recomputed": 702.0,
+      "stored": 702.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch3/test_results.pkl",
+      "metric": "understanding_seed4103_epoch3/work/gender/RD",
+      "recomputed": 0.13634078454820656,
+      "stored": 0.13634078454820656,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch3/test_results.pkl",
+      "metric": "understanding_seed4103_epoch3/work/gender/detected",
+      "recomputed": 504.0,
+      "stored": 504.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch3/test_results.pkl",
+      "metric": "understanding_seed4103_epoch3/work/race/RD",
+      "recomputed": 0.333861286257037,
+      "stored": 0.333861286257037,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch3/test_results.pkl",
+      "metric": "understanding_seed4103_epoch3/work/race/detected",
+      "recomputed": 504.0,
+      "stored": 504.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch1/test_results.pkl",
+      "metric": "generation_seed4103_epoch1/portrait/gender/RD",
+      "recomputed": 0.4289772727272727,
+      "stored": 0.4289772727272727,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch1/test_results.pkl",
+      "metric": "generation_seed4103_epoch1/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch1/test_results.pkl",
+      "metric": "generation_seed4103_epoch1/portrait/race/RD",
+      "recomputed": 0.5,
+      "stored": 0.5,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch1/test_results.pkl",
+      "metric": "generation_seed4103_epoch1/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch1/test_results.pkl",
+      "metric": "generation_seed4103_epoch1/work/gender/RD",
+      "recomputed": 0.5746302308802309,
+      "stored": 0.5746302308802309,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch1/test_results.pkl",
+      "metric": "generation_seed4103_epoch1/work/gender/detected",
+      "recomputed": 701.0,
+      "stored": 701.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch1/test_results.pkl",
+      "metric": "generation_seed4103_epoch1/work/race/RD",
+      "recomputed": 0.48047438672438675,
+      "stored": 0.48047438672438675,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch1/test_results.pkl",
+      "metric": "generation_seed4103_epoch1/work/race/detected",
+      "recomputed": 701.0,
+      "stored": 701.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch3/test_results.pkl",
+      "metric": "generation_seed4103_epoch3/portrait/gender/RD",
+      "recomputed": 0.4346590909090909,
+      "stored": 0.4346590909090909,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch3/test_results.pkl",
+      "metric": "generation_seed4103_epoch3/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch3/test_results.pkl",
+      "metric": "generation_seed4103_epoch3/portrait/race/RD",
+      "recomputed": 0.4981060606060606,
+      "stored": 0.4981060606060606,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch3/test_results.pkl",
+      "metric": "generation_seed4103_epoch3/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch3/test_results.pkl",
+      "metric": "generation_seed4103_epoch3/work/gender/RD",
+      "recomputed": 0.6038350090769445,
+      "stored": 0.6038350090769445,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch3/test_results.pkl",
+      "metric": "generation_seed4103_epoch3/work/gender/detected",
+      "recomputed": 701.0,
+      "stored": 701.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch3/test_results.pkl",
+      "metric": "generation_seed4103_epoch3/work/race/RD",
+      "recomputed": 0.4848106642461482,
+      "stored": 0.4848106642461482,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch3/test_results.pkl",
+      "metric": "generation_seed4103_epoch3/work/race/detected",
+      "recomputed": 701.0,
+      "stored": 701.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/portrait/gender/RD",
+      "recomputed": 0.9147727272727273,
+      "stored": 0.9147727272727273,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/portrait/race/RD",
+      "recomputed": 0.4872159090909091,
+      "stored": 0.4872159090909091,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/work/gender/RD",
+      "recomputed": 0.20983295475719863,
+      "stored": 0.20983295475719863,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/work/gender/detected",
+      "recomputed": 578.0,
+      "stored": 578.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/work/race/RD",
+      "recomputed": 0.31818899044148435,
+      "stored": 0.31818899044148435,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/BASE/test_results.pkl",
+      "metric": "BASE/work/race/detected",
+      "recomputed": 578.0,
+      "stored": 578.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_full/test_results.pkl",
+      "metric": "U_full/portrait/gender/RD",
+      "recomputed": 0.8806818181818182,
+      "stored": 0.8806818181818182,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_full/test_results.pkl",
+      "metric": "U_full/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_full/test_results.pkl",
+      "metric": "U_full/portrait/race/RD",
+      "recomputed": 0.4474431818181819,
+      "stored": 0.4474431818181819,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_full/test_results.pkl",
+      "metric": "U_full/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_full/test_results.pkl",
+      "metric": "U_full/work/gender/RD",
+      "recomputed": 0.1666403971921084,
+      "stored": 0.1666403971921084,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_full/test_results.pkl",
+      "metric": "U_full/work/gender/detected",
+      "recomputed": 544.0,
+      "stored": 544.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_full/test_results.pkl",
+      "metric": "U_full/work/race/RD",
+      "recomputed": 0.33732246629545376,
+      "stored": 0.33732246629545376,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_full/test_results.pkl",
+      "metric": "U_full/work/race/detected",
+      "recomputed": 544.0,
+      "stored": 544.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_full/test_results.pkl",
+      "metric": "G_full/portrait/gender/RD",
+      "recomputed": 0.5142045454545454,
+      "stored": 0.5142045454545454,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_full/test_results.pkl",
+      "metric": "G_full/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_full/test_results.pkl",
+      "metric": "G_full/portrait/race/RD",
+      "recomputed": 0.4981060606060606,
+      "stored": 0.4981060606060606,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_full/test_results.pkl",
+      "metric": "G_full/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_full/test_results.pkl",
+      "metric": "G_full/work/gender/RD",
+      "recomputed": 0.5565025252525252,
+      "stored": 0.5565025252525252,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_full/test_results.pkl",
+      "metric": "G_full/work/gender/detected",
+      "recomputed": 703.0,
+      "stored": 703.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_full/test_results.pkl",
+      "metric": "G_full/work/race/RD",
+      "recomputed": 0.4876818783068783,
+      "stored": 0.4876818783068783,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_full/test_results.pkl",
+      "metric": "G_full/work/race/detected",
+      "recomputed": 703.0,
+      "stored": 703.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_lower_half/test_results.pkl",
+      "metric": "U_lower_half/portrait/gender/RD",
+      "recomputed": 0.8998917748917749,
+      "stored": 0.8998917748917749,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_lower_half/test_results.pkl",
+      "metric": "U_lower_half/portrait/gender/detected",
+      "recomputed": 702.0,
+      "stored": 702.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_lower_half/test_results.pkl",
+      "metric": "U_lower_half/portrait/race/RD",
+      "recomputed": 0.47861802549302546,
+      "stored": 0.47861802549302546,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_lower_half/test_results.pkl",
+      "metric": "U_lower_half/portrait/race/detected",
+      "recomputed": 702.0,
+      "stored": 702.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_lower_half/test_results.pkl",
+      "metric": "U_lower_half/work/gender/RD",
+      "recomputed": 0.18802571651162456,
+      "stored": 0.18802571651162456,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_lower_half/test_results.pkl",
+      "metric": "U_lower_half/work/gender/detected",
+      "recomputed": 532.0,
+      "stored": 532.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_lower_half/test_results.pkl",
+      "metric": "U_lower_half/work/race/RD",
+      "recomputed": 0.329894859451409,
+      "stored": 0.329894859451409,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_lower_half/test_results.pkl",
+      "metric": "U_lower_half/work/race/detected",
+      "recomputed": 532.0,
+      "stored": 532.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_upper_half/test_results.pkl",
+      "metric": "U_upper_half/portrait/gender/RD",
+      "recomputed": 0.84375,
+      "stored": 0.84375,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_upper_half/test_results.pkl",
+      "metric": "U_upper_half/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_upper_half/test_results.pkl",
+      "metric": "U_upper_half/portrait/race/RD",
+      "recomputed": 0.45691287878787884,
+      "stored": 0.45691287878787884,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_upper_half/test_results.pkl",
+      "metric": "U_upper_half/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_upper_half/test_results.pkl",
+      "metric": "U_upper_half/work/gender/RD",
+      "recomputed": 0.22577841342252364,
+      "stored": 0.22577841342252364,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_upper_half/test_results.pkl",
+      "metric": "U_upper_half/work/gender/detected",
+      "recomputed": 558.0,
+      "stored": 558.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_upper_half/test_results.pkl",
+      "metric": "U_upper_half/work/race/RD",
+      "recomputed": 0.3147984712328307,
+      "stored": 0.3147984712328307,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_upper_half/test_results.pkl",
+      "metric": "U_upper_half/work/race/detected",
+      "recomputed": 558.0,
+      "stored": 558.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_random_half/test_results.pkl",
+      "metric": "U_random_half/portrait/gender/RD",
+      "recomputed": 0.8579094516594516,
+      "stored": 0.8579094516594516,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_random_half/test_results.pkl",
+      "metric": "U_random_half/portrait/gender/detected",
+      "recomputed": 703.0,
+      "stored": 703.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_random_half/test_results.pkl",
+      "metric": "U_random_half/portrait/race/RD",
+      "recomputed": 0.47059132996632996,
+      "stored": 0.47059132996632996,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_random_half/test_results.pkl",
+      "metric": "U_random_half/portrait/race/detected",
+      "recomputed": 703.0,
+      "stored": 703.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_random_half/test_results.pkl",
+      "metric": "U_random_half/work/gender/RD",
+      "recomputed": 0.10897963890213198,
+      "stored": 0.10897963890213198,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_random_half/test_results.pkl",
+      "metric": "U_random_half/work/gender/detected",
+      "recomputed": 540.0,
+      "stored": 540.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_random_half/test_results.pkl",
+      "metric": "U_random_half/work/race/RD",
+      "recomputed": 0.32739747689919285,
+      "stored": 0.32739747689919285,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_random_half/test_results.pkl",
+      "metric": "U_random_half/work/race/detected",
+      "recomputed": 540.0,
+      "stored": 540.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_lower_half/test_results.pkl",
+      "metric": "G_lower_half/portrait/gender/RD",
+      "recomputed": 0.8522727272727273,
+      "stored": 0.8522727272727273,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_lower_half/test_results.pkl",
+      "metric": "G_lower_half/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_lower_half/test_results.pkl",
+      "metric": "G_lower_half/portrait/race/RD",
+      "recomputed": 0.49857954545454547,
+      "stored": 0.49857954545454547,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_lower_half/test_results.pkl",
+      "metric": "G_lower_half/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_lower_half/test_results.pkl",
+      "metric": "G_lower_half/work/gender/RD",
+      "recomputed": 0.27248187854485867,
+      "stored": 0.27248187854485867,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_lower_half/test_results.pkl",
+      "metric": "G_lower_half/work/gender/detected",
+      "recomputed": 601.0,
+      "stored": 601.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_lower_half/test_results.pkl",
+      "metric": "G_lower_half/work/race/RD",
+      "recomputed": 0.3213181623934135,
+      "stored": 0.3213181623934135,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_lower_half/test_results.pkl",
+      "metric": "G_lower_half/work/race/detected",
+      "recomputed": 601.0,
+      "stored": 601.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_upper_half/test_results.pkl",
+      "metric": "G_upper_half/portrait/gender/RD",
+      "recomputed": 0.3718434343434343,
+      "stored": 0.3718434343434343,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_upper_half/test_results.pkl",
+      "metric": "G_upper_half/portrait/gender/detected",
+      "recomputed": 703.0,
+      "stored": 703.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_upper_half/test_results.pkl",
+      "metric": "G_upper_half/portrait/race/RD",
+      "recomputed": 0.49239417989417994,
+      "stored": 0.49239417989417994,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_upper_half/test_results.pkl",
+      "metric": "G_upper_half/portrait/race/detected",
+      "recomputed": 703.0,
+      "stored": 703.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_upper_half/test_results.pkl",
+      "metric": "G_upper_half/work/gender/RD",
+      "recomputed": 0.4475198412698413,
+      "stored": 0.4475198412698413,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_upper_half/test_results.pkl",
+      "metric": "G_upper_half/work/gender/detected",
+      "recomputed": 698.0,
+      "stored": 698.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_upper_half/test_results.pkl",
+      "metric": "G_upper_half/work/race/RD",
+      "recomputed": 0.44585287397787393,
+      "stored": 0.44585287397787393,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_upper_half/test_results.pkl",
+      "metric": "G_upper_half/work/race/detected",
+      "recomputed": 698.0,
+      "stored": 698.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_random_half/test_results.pkl",
+      "metric": "G_random_half/portrait/gender/RD",
+      "recomputed": 0.7045454545454546,
+      "stored": 0.7045454545454546,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_random_half/test_results.pkl",
+      "metric": "G_random_half/portrait/gender/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_random_half/test_results.pkl",
+      "metric": "G_random_half/portrait/race/RD",
+      "recomputed": 0.4981060606060606,
+      "stored": 0.4981060606060606,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_random_half/test_results.pkl",
+      "metric": "G_random_half/portrait/race/detected",
+      "recomputed": 704.0,
+      "stored": 704.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_random_half/test_results.pkl",
+      "metric": "G_random_half/work/gender/RD",
+      "recomputed": 0.4694210362159565,
+      "stored": 0.4694210362159565,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_random_half/test_results.pkl",
+      "metric": "G_random_half/work/gender/detected",
+      "recomputed": 668.0,
+      "stored": 668.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_random_half/test_results.pkl",
+      "metric": "G_random_half/work/race/RD",
+      "recomputed": 0.36553369255605905,
+      "stored": 0.36553369255605905,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_random_half/test_results.pkl",
+      "metric": "G_random_half/work/race/detected",
+      "recomputed": 668.0,
+      "stored": 668.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/BASE/test_results.pkl",
+      "metric": "gender/RD",
+      "recomputed": 0.8674592475073557,
+      "stored": 0.8674592475073557,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/BASE/test_results.pkl",
+      "metric": "gender/detected",
+      "recomputed": 7746.0,
+      "stored": 7746.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/gender_understanding/test_results.pkl",
+      "metric": "gender/RD",
+      "recomputed": 0.8467042518679168,
+      "stored": 0.8467042518679168,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/gender_understanding/test_results.pkl",
+      "metric": "gender/detected",
+      "recomputed": 7843.0,
+      "stored": 7843.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/gender_generation/test_results.pkl",
+      "metric": "gender/RD",
+      "recomputed": 0.3007846767514788,
+      "stored": 0.3007846767514788,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/gender_generation/test_results.pkl",
+      "metric": "gender/detected",
+      "recomputed": 7989.0,
+      "stored": 7989.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/race_understanding/test_results.pkl",
+      "metric": "gender/RD",
+      "recomputed": 0.7461778637652146,
+      "stored": 0.7461778637652146,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/race_understanding/test_results.pkl",
+      "metric": "gender/detected",
+      "recomputed": 7456.0,
+      "stored": 7456.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/race_generation/test_results.pkl",
+      "metric": "gender/RD",
+      "recomputed": 0.753258482586767,
+      "stored": 0.753258482586767,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/race_generation/test_results.pkl",
+      "metric": "gender/detected",
+      "recomputed": 7876.0,
+      "stored": 7876.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/BASE/test_results.pkl",
+      "metric": "race/RD",
+      "recomputed": 0.4668465540718719,
+      "stored": 0.4668465540718719,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/BASE/test_results.pkl",
+      "metric": "race/detected",
+      "recomputed": 7746.0,
+      "stored": 7746.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/gender_understanding/test_results.pkl",
+      "metric": "race/RD",
+      "recomputed": 0.4464188985076951,
+      "stored": 0.4464188985076951,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/gender_understanding/test_results.pkl",
+      "metric": "race/detected",
+      "recomputed": 7843.0,
+      "stored": 7843.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/gender_generation/test_results.pkl",
+      "metric": "race/RD",
+      "recomputed": 0.49865915940599487,
+      "stored": 0.49865915940599487,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/gender_generation/test_results.pkl",
+      "metric": "race/detected",
+      "recomputed": 7989.0,
+      "stored": 7989.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/race_understanding/test_results.pkl",
+      "metric": "race/RD",
+      "recomputed": 0.4102795899396635,
+      "stored": 0.4102795899396635,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/race_understanding/test_results.pkl",
+      "metric": "race/detected",
+      "recomputed": 7456.0,
+      "stored": 7456.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/race_generation/test_results.pkl",
+      "metric": "race/RD",
+      "recomputed": 0.2396622004053265,
+      "stored": 0.2396622004053265,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/race_generation/test_results.pkl",
+      "metric": "race/detected",
+      "recomputed": 7876.0,
+      "stored": 7876.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/BASE/test_results.pkl",
+      "metric": "gender/RD",
+      "recomputed": 0.3512715750430521,
+      "stored": 0.3512715750430521,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/BASE/test_results.pkl",
+      "metric": "gender/detected",
+      "recomputed": 1515.0,
+      "stored": 1515.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/gender_understanding/test_results.pkl",
+      "metric": "gender/RD",
+      "recomputed": 0.3464169445958692,
+      "stored": 0.3464169445958692,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/gender_understanding/test_results.pkl",
+      "metric": "gender/detected",
+      "recomputed": 1451.0,
+      "stored": 1451.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/gender_generation/test_results.pkl",
+      "metric": "gender/RD",
+      "recomputed": 0.4074328187535734,
+      "stored": 0.4074328187535734,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/gender_generation/test_results.pkl",
+      "metric": "gender/detected",
+      "recomputed": 1759.0,
+      "stored": 1759.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/race_understanding/test_results.pkl",
+      "metric": "gender/RD",
+      "recomputed": 0.3085824051475841,
+      "stored": 0.3085824051475841,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/race_understanding/test_results.pkl",
+      "metric": "gender/detected",
+      "recomputed": 1323.0,
+      "stored": 1323.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/race_generation/test_results.pkl",
+      "metric": "gender/RD",
+      "recomputed": 0.8331037945365124,
+      "stored": 0.8331037945365124,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/race_generation/test_results.pkl",
+      "metric": "gender/detected",
+      "recomputed": 1755.0,
+      "stored": 1755.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/BASE/test_results.pkl",
+      "metric": "race/RD",
+      "recomputed": 0.335216996481748,
+      "stored": 0.335216996481748,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/BASE/test_results.pkl",
+      "metric": "race/detected",
+      "recomputed": 1515.0,
+      "stored": 1515.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/gender_understanding/test_results.pkl",
+      "metric": "race/RD",
+      "recomputed": 0.3450919064157114,
+      "stored": 0.3450919064157114,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/gender_understanding/test_results.pkl",
+      "metric": "race/detected",
+      "recomputed": 1451.0,
+      "stored": 1451.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/gender_generation/test_results.pkl",
+      "metric": "race/RD",
+      "recomputed": 0.49829545454545454,
+      "stored": 0.49829545454545454,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/gender_generation/test_results.pkl",
+      "metric": "race/detected",
+      "recomputed": 1759.0,
+      "stored": 1759.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/race_understanding/test_results.pkl",
+      "metric": "race/RD",
+      "recomputed": 0.3377600939739319,
+      "stored": 0.3377600939739319,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/race_understanding/test_results.pkl",
+      "metric": "race/detected",
+      "recomputed": 1323.0,
+      "stored": 1323.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/race_generation/test_results.pkl",
+      "metric": "race/RD",
+      "recomputed": 0.2541327519734961,
+      "stored": 0.2541327519734961,
+      "passed": true
+    },
+    {
+      "source": "experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/race_generation/test_results.pkl",
+      "metric": "race/detected",
+      "recomputed": 1755.0,
+      "stored": 1755.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/BASE/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/BASE/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.8774857954545454,
+      "stored": 0.8774857954545454,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/prior_understanding/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/prior_understanding/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.9751420454545454,
+      "stored": 0.9751420454545454,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/prior_generation/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/prior_generation/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.8838778409090909,
+      "stored": 0.8838778409090909,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4101_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4101_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.9655539772727273,
+      "stored": 0.9655539772727273,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4101_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4101_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.9857954545454546,
+      "stored": 0.9857954545454546,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4101_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4101_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.8824573863636364,
+      "stored": 0.8824573863636364,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4101_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4101_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.9311079545454546,
+      "stored": 0.9311079545454546,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4102_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4102_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.9041193181818182,
+      "stored": 0.9041193181818182,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4102_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4102_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.9456676136363636,
+      "stored": 0.9456676136363636,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4102_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4102_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.9009232954545454,
+      "stored": 0.9009232954545454,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4102_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4102_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.9144176136363636,
+      "stored": 0.9144176136363636,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4103_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4103_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.9705255681818182,
+      "stored": 0.9705255681818182,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4103_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4103_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.8863636363636364,
+      "stored": 0.8863636363636364,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4103_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4103_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.9339488636363636,
+      "stored": 0.9339488636363636,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4103_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 2816.0,
+      "stored": 2816.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4103_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.9367897727272727,
+      "stored": 0.9367897727272727,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/BASE/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/BASE/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.6763392857142857,
+      "stored": 0.6763392857142857,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/prior_understanding/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/prior_understanding/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.7276785714285714,
+      "stored": 0.7276785714285714,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/prior_generation/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/prior_generation/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.6841517857142857,
+      "stored": 0.6841517857142857,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4101_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4101_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.7008928571428571,
+      "stored": 0.7008928571428571,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4101_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4101_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.7410714285714286,
+      "stored": 0.7410714285714286,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4101_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4101_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.6863839285714286,
+      "stored": 0.6863839285714286,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4101_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4101_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.6886160714285714,
+      "stored": 0.6886160714285714,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4102_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4102_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.6863839285714286,
+      "stored": 0.6863839285714286,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4102_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4102_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.7299107142857143,
+      "stored": 0.7299107142857143,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4102_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4102_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.6886160714285714,
+      "stored": 0.6886160714285714,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4102_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4102_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.6941964285714286,
+      "stored": 0.6941964285714286,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4103_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4103_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.7198660714285714,
+      "stored": 0.7198660714285714,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4103_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4103_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.6941964285714286,
+      "stored": 0.6941964285714286,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4103_epoch1/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4103_epoch1/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.7075892857142857,
+      "stored": 0.7075892857142857,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4103_epoch3/observations.jsonl",
+      "metric": "raw coverage",
+      "recomputed": 3072.0,
+      "stored": 3072.0,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4103_epoch3/observations.jsonl",
+      "metric": "correct/selected",
+      "recomputed": 0.7098214285714286,
+      "stored": 0.7098214285714286,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "BASE/肖像性别RD",
+      "recomputed": 0.9147727272727273,
+      "stored": 0.9147727272727273,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "BASE/工作性别RD",
+      "recomputed": 0.20983295475719863,
+      "stored": 0.20983295475719863,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "prior_understanding/肖像性别RD",
+      "recomputed": 0.8977272727272727,
+      "stored": 0.8977272727272727,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "prior_understanding/工作性别RD",
+      "recomputed": 0.20806424987748204,
+      "stored": 0.20806424987748204,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "prior_generation/肖像性别RD",
+      "recomputed": 0.3181818181818182,
+      "stored": 0.3181818181818182,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "prior_generation/工作性别RD",
+      "recomputed": 0.24431818181818182,
+      "stored": 0.24431818181818182,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4101_epoch1/肖像性别RD",
+      "recomputed": 0.8011363636363636,
+      "stored": 0.8011363636363636,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4101_epoch1/工作性别RD",
+      "recomputed": 0.22871378895944422,
+      "stored": 0.22871378895944422,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4101_epoch3/肖像性别RD",
+      "recomputed": 0.8806818181818182,
+      "stored": 0.8806818181818182,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4101_epoch3/工作性别RD",
+      "recomputed": 0.1666403971921084,
+      "stored": 0.1666403971921084,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4101_epoch1/肖像性别RD",
+      "recomputed": 0.35511363636363635,
+      "stored": 0.35511363636363635,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4101_epoch1/工作性别RD",
+      "recomputed": 0.478219696969697,
+      "stored": 0.478219696969697,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4101_epoch3/肖像性别RD",
+      "recomputed": 0.5142045454545454,
+      "stored": 0.5142045454545454,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4101_epoch3/工作性别RD",
+      "recomputed": 0.5565025252525252,
+      "stored": 0.5565025252525252,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4102_epoch1/肖像性别RD",
+      "recomputed": 0.7670454545454546,
+      "stored": 0.7670454545454546,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4102_epoch1/工作性别RD",
+      "recomputed": 0.14291758856937922,
+      "stored": 0.14291758856937922,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4102_epoch3/肖像性别RD",
+      "recomputed": 0.6866432178932179,
+      "stored": 0.6866432178932179,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4102_epoch3/工作性别RD",
+      "recomputed": 0.14737045093181161,
+      "stored": 0.14737045093181161,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4102_epoch1/肖像性别RD",
+      "recomputed": 0.38920454545454547,
+      "stored": 0.38920454545454547,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4102_epoch1/工作性别RD",
+      "recomputed": 0.40648047674753124,
+      "stored": 0.40648047674753124,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4102_epoch3/肖像性别RD",
+      "recomputed": 0.4460227272727273,
+      "stored": 0.4460227272727273,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4102_epoch3/工作性别RD",
+      "recomputed": 0.5568005730357174,
+      "stored": 0.5568005730357174,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4103_epoch1/肖像性别RD",
+      "recomputed": 0.9090909090909091,
+      "stored": 0.9090909090909091,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4103_epoch1/工作性别RD",
+      "recomputed": 0.23818263199184433,
+      "stored": 0.23818263199184433,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4103_epoch3/肖像性别RD",
+      "recomputed": 0.8484848484848485,
+      "stored": 0.8484848484848485,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "understanding_seed4103_epoch3/工作性别RD",
+      "recomputed": 0.13634078454820656,
+      "stored": 0.13634078454820656,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4103_epoch1/肖像性别RD",
+      "recomputed": 0.4289772727272727,
+      "stored": 0.4289772727272727,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4103_epoch1/工作性别RD",
+      "recomputed": 0.5746302308802309,
+      "stored": 0.5746302308802309,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4103_epoch3/肖像性别RD",
+      "recomputed": 0.4346590909090909,
+      "stored": 0.4346590909090909,
+      "passed": true
+    },
+    {
+      "source": "experiments/u_g_transfer_followup_v1/matched_evaluation_v1/全部检查点结果.csv",
+      "metric": "generation_seed4103_epoch3/工作性别RD",
+      "recomputed": 0.6038350090769445,
+      "stored": 0.6038350090769445,
+      "passed": true
+    }
+  ],
+  "total": 322,
+  "failed": 0,
+  "scope": "Point estimates and raw coverage only; no new bootstrap, training, generation or classifier inference."
+}

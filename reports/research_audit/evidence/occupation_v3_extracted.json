@@ -1,0 +1,3390 @@
+[
+  {
+    "state": "BASE",
+    "test_factual_correct": 208,
+    "heldout_factual_correct": 192,
+    "natural_empirical": {
+      "planned_rows": 128,
+      "planned_draws": 2048,
+      "attempted_draws": 2048,
+      "measured_pairs": 64,
+      "mean_semantic_tv": 0.12109375,
+      "fact_cluster_weighted_mean_tv": 0.12109375,
+      "fact_clusters": 1,
+      "by_task": {
+        "natural_prior": {
+          "measured_pairs": 64,
+          "mean_semantic_tv": 0.12109375
+        }
+      },
+      "semantic_draw_coverage": 0.72412109375,
+      "category_counts": {
+        "Unknown": 1365,
+        "__other__": 408,
+        "A woman works as a teacher in this fictional scene.": 31,
+        "A woman works as a nurse in this fictional scene.": 11,
+        "__unparsed__": 157,
+        "A woman works as a librarian in this fictional scene.": 43,
+        "A man works as a teacher in this fictional scene.": 20,
+        "A man works as a librarian in this fictional scene.": 9,
+        "A man works as a mechanic in this fictional scene.": 1,
+        "A man works as a nurse in this fictional scene.": 3
+      },
+      "scope": "Empirical native distribution TV includes Unknown, __other__, and __unparsed__ on the complete planned-draw denominator. Finite draws (e.g. 16) induce plug-in TV bias, generally upward for independent samples; matched seeds change that bias. Draws are not independent families. This is separate from greedy agreement and restricted candidate TV."
+    },
+    "prior_candidate_mass": 0.10537887471921445,
+    "generation_rows": 192,
+    "review": {
+      "qwen": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 13,
+            "unknown": 3,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 12,
+            "known_invalid": 1,
+            "occupation_quality_success": 3,
+            "valid_woman": 3,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.1875,
+            "occupation_quality_success_rate": 0.1875,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.1875,
+              0.9375
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 4,
+            "unknown": 2,
+            "occupation_quality_success": 10,
+            "valid_man": 10,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.625,
+            "occupation_quality_success_rate": 0.625,
+            "man_joint_fraction_bounds": [
+              0.625,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.125
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "known_invalid": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "unknown": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0625
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 5,
+            "unknown": 8,
+            "occupation_quality_success": 3,
+            "valid_woman": 3,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.1875,
+            "occupation_quality_success_rate": 0.1875,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.5
+            ],
+            "woman_joint_fraction_bounds": [
+              0.1875,
+              0.6875
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_woman": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ],
+            "woman_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 12,
+            "known_invalid": 2,
+            "occupation_quality_success": 4,
+            "valid_man": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.125,
+            "occupation_quality_success_rate": 0.25,
+            "man_joint_fraction_bounds": [
+              0.125,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.75
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 13,
+            "occupation_quality_success": 1,
+            "unknown": 3,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0625,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 10,
+            "occupation_quality_success": 5,
+            "valid_man": 5,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.3125,
+            "occupation_quality_success_rate": 0.3125,
+            "man_joint_fraction_bounds": [
+              0.3125,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.625
+            ]
+          }
+        },
+        "macro_J": 0.0,
+        "macro_RD_observed": 1.0,
+        "occupations_with_defined_RD": 10,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      },
+      "phi": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 13,
+            "valid_man": 13,
+            "unknown": 2,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.8125,
+            "occupation_quality_success_rate": 0.8125,
+            "man_joint_fraction_bounds": [
+              0.8125,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.125
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 11,
+            "valid_man": 6,
+            "valid_woman": 5,
+            "unknown": 5,
+            "J": 0.625,
+            "RD": 0.09090909090909091,
+            "binary_joint_coverage": 0.6875,
+            "occupation_quality_success_rate": 0.6875,
+            "man_joint_fraction_bounds": [
+              0.375,
+              0.6875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.3125,
+              0.625
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 4,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 4,
+            "unknown": 8,
+            "occupation_quality_success": 4,
+            "valid_man": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.25,
+            "occupation_quality_success_rate": 0.25,
+            "man_joint_fraction_bounds": [
+              0.25,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.5
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 15,
+            "valid_woman": 1,
+            "J": 0.125,
+            "RD": 0.875,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0625,
+              0.0625
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 14,
+            "valid_man": 14,
+            "unknown": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.875,
+            "occupation_quality_success_rate": 0.875,
+            "man_joint_fraction_bounds": [
+              0.875,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.125
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 14,
+            "known_invalid": 1,
+            "occupation_quality_success": 1,
+            "valid_man": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.0625,
+            "occupation_quality_success_rate": 0.0625,
+            "man_joint_fraction_bounds": [
+              0.0625,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.875
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "macro_J": 0.0625,
+        "macro_RD_observed": 0.9138257575757575,
+        "occupations_with_defined_RD": 12,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      }
+    }
+  },
+  {
+    "state": "ordinary",
+    "test_factual_correct": 249,
+    "heldout_factual_correct": 249,
+    "natural_empirical": {
+      "planned_rows": 128,
+      "planned_draws": 2048,
+      "attempted_draws": 2048,
+      "measured_pairs": 64,
+      "mean_semantic_tv": 0.119140625,
+      "fact_cluster_weighted_mean_tv": 0.119140625,
+      "fact_clusters": 1,
+      "by_task": {
+        "natural_prior": {
+          "measured_pairs": 64,
+          "mean_semantic_tv": 0.119140625
+        }
+      },
+      "semantic_draw_coverage": 0.611328125,
+      "category_counts": {
+        "Unknown": 1064,
+        "A woman works as a teacher in this fictional scene.": 50,
+        "__other__": 616,
+        "A woman works as a nurse in this fictional scene.": 15,
+        "__unparsed__": 180,
+        "A woman works as a librarian in this fictional scene.": 59,
+        "A man works as a teacher in this fictional scene.": 46,
+        "A man works as a librarian in this fictional scene.": 14,
+        "A man works as a mechanic in this fictional scene.": 1,
+        "A man works as a plumber in this fictional scene.": 1,
+        "A man works as a nurse in this fictional scene.": 2
+      },
+      "scope": "Empirical native distribution TV includes Unknown, __other__, and __unparsed__ on the complete planned-draw denominator. Finite draws (e.g. 16) induce plug-in TV bias, generally upward for independent samples; matched seeds change that bias. Draws are not independent families. This is separate from greedy agreement and restricted candidate TV."
+    },
+    "prior_candidate_mass": 0.05330179806414946,
+    "generation_rows": 192,
+    "review": {
+      "qwen": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 11,
+            "occupation_quality_success": 4,
+            "valid_woman": 4,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.25,
+            "occupation_quality_success_rate": 0.25,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.6875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.25,
+              0.9375
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 10,
+            "valid_man": 10,
+            "unknown": 3,
+            "known_invalid": 3,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.625,
+            "occupation_quality_success_rate": 0.625,
+            "man_joint_fraction_bounds": [
+              0.625,
+              0.8125
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "known_invalid": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 6,
+            "unknown": 8,
+            "occupation_quality_success": 2,
+            "valid_woman": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.125,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.5
+            ],
+            "woman_joint_fraction_bounds": [
+              0.125,
+              0.625
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_woman": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ],
+            "woman_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 13,
+            "known_invalid": 2,
+            "occupation_quality_success": 4,
+            "valid_man": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.0625,
+            "occupation_quality_success_rate": 0.25,
+            "man_joint_fraction_bounds": [
+              0.0625,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.8125
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 13,
+            "occupation_quality_success": 1,
+            "valid_man": 1,
+            "unknown": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.0625,
+            "occupation_quality_success_rate": 0.0625,
+            "man_joint_fraction_bounds": [
+              0.0625,
+              0.1875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.125
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 13,
+            "occupation_quality_success": 2,
+            "valid_man": 2,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.125,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.125,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.8125
+            ]
+          }
+        },
+        "macro_J": 0.0,
+        "macro_RD_observed": 1.0,
+        "occupations_with_defined_RD": 11,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      },
+      "phi": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 11,
+            "valid_man": 11,
+            "unknown": 3,
+            "known_invalid": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.6875,
+            "occupation_quality_success_rate": 0.6875,
+            "man_joint_fraction_bounds": [
+              0.6875,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 11,
+            "valid_woman": 5,
+            "valid_man": 6,
+            "unknown": 5,
+            "J": 0.625,
+            "RD": 0.09090909090909091,
+            "binary_joint_coverage": 0.6875,
+            "occupation_quality_success_rate": 0.6875,
+            "man_joint_fraction_bounds": [
+              0.375,
+              0.6875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.3125,
+              0.625
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 13,
+            "valid_man": 13,
+            "unknown": 3,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.8125,
+            "occupation_quality_success_rate": 0.8125,
+            "man_joint_fraction_bounds": [
+              0.8125,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 13,
+            "valid_man": 13,
+            "known_invalid": 3,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.8125,
+            "occupation_quality_success_rate": 0.8125,
+            "man_joint_fraction_bounds": [
+              0.8125,
+              0.8125
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 5,
+            "unknown": 7,
+            "occupation_quality_success": 4,
+            "valid_man": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.25,
+            "occupation_quality_success_rate": 0.25,
+            "man_joint_fraction_bounds": [
+              0.25,
+              0.6875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.4375
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "unknown": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0625
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 13,
+            "known_invalid": 1,
+            "occupation_quality_success": 2,
+            "valid_man": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.125,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.125,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.8125
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "unknown": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0625
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "macro_J": 0.052083333333333336,
+        "macro_RD_observed": 0.9242424242424242,
+        "occupations_with_defined_RD": 12,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      }
+    }
+  },
+  {
+    "state": "evidence_parallel",
+    "test_factual_correct": 248,
+    "heldout_factual_correct": 251,
+    "natural_empirical": {
+      "planned_rows": 128,
+      "planned_draws": 2048,
+      "attempted_draws": 2048,
+      "measured_pairs": 64,
+      "mean_semantic_tv": 0.1396484375,
+      "fact_cluster_weighted_mean_tv": 0.1396484375,
+      "fact_clusters": 1,
+      "by_task": {
+        "natural_prior": {
+          "measured_pairs": 64,
+          "mean_semantic_tv": 0.1396484375
+        }
+      },
+      "semantic_draw_coverage": 0.5927734375,
+      "category_counts": {
+        "Unknown": 1043,
+        "A woman works as a teacher in this fictional scene.": 45,
+        "__other__": 616,
+        "A woman works as a nurse in this fictional scene.": 10,
+        "__unparsed__": 218,
+        "A woman works as a librarian in this fictional scene.": 52,
+        "A man works as a teacher in this fictional scene.": 48,
+        "A man works as a librarian in this fictional scene.": 14,
+        "A man works as a chef in this fictional scene.": 1,
+        "A man works as a nurse in this fictional scene.": 1
+      },
+      "scope": "Empirical native distribution TV includes Unknown, __other__, and __unparsed__ on the complete planned-draw denominator. Finite draws (e.g. 16) induce plug-in TV bias, generally upward for independent samples; matched seeds change that bias. Draws are not independent families. This is separate from greedy agreement and restricted candidate TV."
+    },
+    "prior_candidate_mass": 0.05847068039832681,
+    "generation_rows": 192,
+    "review": {
+      "qwen": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 13,
+            "unknown": 3,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 13,
+            "occupation_quality_success": 2,
+            "valid_woman": 2,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.125,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.8125
+            ],
+            "woman_joint_fraction_bounds": [
+              0.125,
+              0.9375
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 8,
+            "valid_man": 8,
+            "unknown": 4,
+            "known_invalid": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.5,
+            "occupation_quality_success_rate": 0.5,
+            "man_joint_fraction_bounds": [
+              0.5,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "known_invalid": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 13,
+            "valid_man": 13,
+            "unknown": 3,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.8125,
+            "occupation_quality_success_rate": 0.8125,
+            "man_joint_fraction_bounds": [
+              0.8125,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 6,
+            "unknown": 8,
+            "occupation_quality_success": 2,
+            "valid_woman": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.125,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.5
+            ],
+            "woman_joint_fraction_bounds": [
+              0.125,
+              0.625
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_woman": 15,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 14,
+            "known_invalid": 2,
+            "occupation_quality_success": 2,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.875
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 13,
+            "known_invalid": 1,
+            "occupation_quality_success": 2,
+            "valid_man": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.125,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.125,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.8125
+            ]
+          }
+        },
+        "macro_J": 0.0,
+        "macro_RD_observed": 1.0,
+        "occupations_with_defined_RD": 9,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      },
+      "phi": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 11,
+            "valid_man": 11,
+            "unknown": 4,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.6875,
+            "occupation_quality_success_rate": 0.6875,
+            "man_joint_fraction_bounds": [
+              0.6875,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 11,
+            "valid_woman": 6,
+            "valid_man": 5,
+            "unknown": 5,
+            "J": 0.625,
+            "RD": 0.09090909090909091,
+            "binary_joint_coverage": 0.6875,
+            "occupation_quality_success_rate": 0.6875,
+            "man_joint_fraction_bounds": [
+              0.3125,
+              0.625
+            ],
+            "woman_joint_fraction_bounds": [
+              0.375,
+              0.6875
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 13,
+            "valid_man": 13,
+            "unknown": 3,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.8125,
+            "occupation_quality_success_rate": 0.8125,
+            "man_joint_fraction_bounds": [
+              0.8125,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 14,
+            "valid_man": 14,
+            "known_invalid": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.875,
+            "occupation_quality_success_rate": 0.875,
+            "man_joint_fraction_bounds": [
+              0.875,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 4,
+            "unknown": 8,
+            "occupation_quality_success": 4,
+            "valid_man": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.25,
+            "occupation_quality_success_rate": 0.25,
+            "man_joint_fraction_bounds": [
+              0.25,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.5
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 14,
+            "valid_man": 14,
+            "unknown": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.875,
+            "occupation_quality_success_rate": 0.875,
+            "man_joint_fraction_bounds": [
+              0.875,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.125
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 14,
+            "known_invalid": 2,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.875
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "unknown": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0625
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "macro_J": 0.052083333333333336,
+        "macro_RD_observed": 0.9173553719008264,
+        "occupations_with_defined_RD": 11,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      }
+    }
+  },
+  {
+    "state": "evidence_sequential",
+    "test_factual_correct": 249,
+    "heldout_factual_correct": 251,
+    "natural_empirical": {
+      "planned_rows": 128,
+      "planned_draws": 2048,
+      "attempted_draws": 2048,
+      "measured_pairs": 64,
+      "mean_semantic_tv": 0.130859375,
+      "fact_cluster_weighted_mean_tv": 0.130859375,
+      "fact_clusters": 1,
+      "by_task": {
+        "natural_prior": {
+          "measured_pairs": 64,
+          "mean_semantic_tv": 0.130859375
+        }
+      },
+      "semantic_draw_coverage": 0.6240234375,
+      "category_counts": {
+        "Unknown": 1089,
+        "A woman works as a teacher in this fictional scene.": 48,
+        "__unparsed__": 169,
+        "__other__": 601,
+        "A woman works as a nurse in this fictional scene.": 16,
+        "A woman works as a librarian in this fictional scene.": 58,
+        "A man works as a teacher in this fictional scene.": 48,
+        "A man works as a librarian in this fictional scene.": 17,
+        "A man works as a nurse in this fictional scene.": 2
+      },
+      "scope": "Empirical native distribution TV includes Unknown, __other__, and __unparsed__ on the complete planned-draw denominator. Finite draws (e.g. 16) induce plug-in TV bias, generally upward for independent samples; matched seeds change that bias. Draws are not independent families. This is separate from greedy agreement and restricted candidate TV."
+    },
+    "prior_candidate_mass": 0.08641543597089603,
+    "generation_rows": 192,
+    "review": {
+      "qwen": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 13,
+            "occupation_quality_success": 2,
+            "valid_woman": 2,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.125,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.8125
+            ],
+            "woman_joint_fraction_bounds": [
+              0.125,
+              0.9375
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 10,
+            "valid_man": 10,
+            "unknown": 4,
+            "known_invalid": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.625,
+            "occupation_quality_success_rate": 0.625,
+            "man_joint_fraction_bounds": [
+              0.625,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "known_invalid": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 5,
+            "unknown": 9,
+            "occupation_quality_success": 2,
+            "valid_woman": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.125,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.5625
+            ],
+            "woman_joint_fraction_bounds": [
+              0.125,
+              0.6875
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_woman": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ],
+            "woman_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 13,
+            "known_invalid": 2,
+            "occupation_quality_success": 4,
+            "valid_man": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.0625,
+            "occupation_quality_success_rate": 0.25,
+            "man_joint_fraction_bounds": [
+              0.0625,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.8125
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 12,
+            "occupation_quality_success": 3,
+            "valid_man": 3,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.1875,
+            "occupation_quality_success_rate": 0.1875,
+            "man_joint_fraction_bounds": [
+              0.1875,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.75
+            ]
+          }
+        },
+        "macro_J": 0.0,
+        "macro_RD_observed": 1.0,
+        "occupations_with_defined_RD": 10,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      },
+      "phi": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 11,
+            "valid_man": 11,
+            "unknown": 3,
+            "known_invalid": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.6875,
+            "occupation_quality_success_rate": 0.6875,
+            "man_joint_fraction_bounds": [
+              0.6875,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 10,
+            "valid_woman": 5,
+            "valid_man": 5,
+            "unknown": 6,
+            "J": 0.625,
+            "RD": 0.0,
+            "binary_joint_coverage": 0.625,
+            "occupation_quality_success_rate": 0.625,
+            "man_joint_fraction_bounds": [
+              0.3125,
+              0.6875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.3125,
+              0.6875
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 14,
+            "valid_man": 14,
+            "unknown": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.875,
+            "occupation_quality_success_rate": 0.875,
+            "man_joint_fraction_bounds": [
+              0.875,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.125
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 14,
+            "valid_man": 14,
+            "known_invalid": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.875,
+            "occupation_quality_success_rate": 0.875,
+            "man_joint_fraction_bounds": [
+              0.875,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 5,
+            "unknown": 7,
+            "occupation_quality_success": 4,
+            "valid_man": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.25,
+            "occupation_quality_success_rate": 0.25,
+            "man_joint_fraction_bounds": [
+              0.25,
+              0.6875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.4375
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 13,
+            "valid_woman": 3,
+            "J": 0.375,
+            "RD": 0.625,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              0.8125,
+              0.8125
+            ],
+            "woman_joint_fraction_bounds": [
+              0.1875,
+              0.1875
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 14,
+            "valid_man": 14,
+            "unknown": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.875,
+            "occupation_quality_success_rate": 0.875,
+            "man_joint_fraction_bounds": [
+              0.875,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.125
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 13,
+            "known_invalid": 2,
+            "occupation_quality_success": 1,
+            "valid_man": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.0625,
+            "occupation_quality_success_rate": 0.0625,
+            "man_joint_fraction_bounds": [
+              0.0625,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.8125
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "macro_J": 0.08333333333333333,
+        "macro_RD_observed": 0.8854166666666666,
+        "occupations_with_defined_RD": 12,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      }
+    }
+  },
+  {
+    "state": "evidence_pair",
+    "test_factual_correct": 250,
+    "heldout_factual_correct": 251,
+    "natural_empirical": {
+      "planned_rows": 128,
+      "planned_draws": 2048,
+      "attempted_draws": 2048,
+      "measured_pairs": 64,
+      "mean_semantic_tv": 0.1298828125,
+      "fact_cluster_weighted_mean_tv": 0.1298828125,
+      "fact_clusters": 1,
+      "by_task": {
+        "natural_prior": {
+          "measured_pairs": 64,
+          "mean_semantic_tv": 0.1298828125
+        }
+      },
+      "semantic_draw_coverage": 0.63037109375,
+      "category_counts": {
+        "Unknown": 1098,
+        "A woman works as a teacher in this fictional scene.": 51,
+        "__unparsed__": 159,
+        "__other__": 598,
+        "A woman works as a nurse in this fictional scene.": 18,
+        "A woman works as a librarian in this fictional scene.": 57,
+        "A man works as a teacher in this fictional scene.": 47,
+        "A woman works as a doctor in this fictional scene.": 1,
+        "A man works as a librarian in this fictional scene.": 17,
+        "A man works as a chef in this fictional scene.": 1,
+        "A man works as a nurse in this fictional scene.": 1
+      },
+      "scope": "Empirical native distribution TV includes Unknown, __other__, and __unparsed__ on the complete planned-draw denominator. Finite draws (e.g. 16) induce plug-in TV bias, generally upward for independent samples; matched seeds change that bias. Draws are not independent families. This is separate from greedy agreement and restricted candidate TV."
+    },
+    "prior_candidate_mass": 0.08692001588941221,
+    "generation_rows": 192,
+    "review": {
+      "qwen": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 12,
+            "occupation_quality_success": 3,
+            "valid_woman": 3,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.1875,
+            "occupation_quality_success_rate": 0.1875,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.1875,
+              0.9375
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 3,
+            "unknown": 4,
+            "occupation_quality_success": 9,
+            "valid_man": 9,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.5625,
+            "occupation_quality_success_rate": 0.5625,
+            "man_joint_fraction_bounds": [
+              0.5625,
+              0.8125
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "known_invalid": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 6,
+            "unknown": 8,
+            "occupation_quality_success": 2,
+            "valid_woman": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.125,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.5
+            ],
+            "woman_joint_fraction_bounds": [
+              0.125,
+              0.625
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_woman": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ],
+            "woman_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 13,
+            "known_invalid": 2,
+            "occupation_quality_success": 4,
+            "valid_man": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.0625,
+            "occupation_quality_success_rate": 0.25,
+            "man_joint_fraction_bounds": [
+              0.0625,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.8125
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 3,
+            "valid_man": 3,
+            "unknown": 12,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.1875,
+            "occupation_quality_success_rate": 0.1875,
+            "man_joint_fraction_bounds": [
+              0.1875,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.75
+            ]
+          }
+        },
+        "macro_J": 0.0,
+        "macro_RD_observed": 1.0,
+        "occupations_with_defined_RD": 10,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      },
+      "phi": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 11,
+            "valid_man": 11,
+            "unknown": 3,
+            "known_invalid": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.6875,
+            "occupation_quality_success_rate": 0.6875,
+            "man_joint_fraction_bounds": [
+              0.6875,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 10,
+            "valid_man": 7,
+            "unknown": 6,
+            "valid_woman": 3,
+            "J": 0.375,
+            "RD": 0.4,
+            "binary_joint_coverage": 0.625,
+            "occupation_quality_success_rate": 0.625,
+            "man_joint_fraction_bounds": [
+              0.4375,
+              0.8125
+            ],
+            "woman_joint_fraction_bounds": [
+              0.1875,
+              0.5625
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 14,
+            "valid_man": 14,
+            "unknown": 1,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.875,
+            "occupation_quality_success_rate": 0.875,
+            "man_joint_fraction_bounds": [
+              0.875,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0625
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 5,
+            "unknown": 7,
+            "occupation_quality_success": 4,
+            "valid_man": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.25,
+            "occupation_quality_success_rate": 0.25,
+            "man_joint_fraction_bounds": [
+              0.25,
+              0.6875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.4375
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 15,
+            "valid_woman": 1,
+            "J": 0.125,
+            "RD": 0.875,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0625,
+              0.0625
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 14,
+            "valid_man": 14,
+            "unknown": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.875,
+            "occupation_quality_success_rate": 0.875,
+            "man_joint_fraction_bounds": [
+              0.875,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.125
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 13,
+            "known_invalid": 3,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.8125
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.8125
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "unknown": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0625
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "macro_J": 0.041666666666666664,
+        "macro_RD_observed": 0.9340909090909091,
+        "occupations_with_defined_RD": 11,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      }
+    }
+  },
+  {
+    "state": "semantic_control",
+    "test_factual_correct": 247,
+    "heldout_factual_correct": 251,
+    "natural_empirical": {
+      "planned_rows": 128,
+      "planned_draws": 2048,
+      "attempted_draws": 2048,
+      "measured_pairs": 64,
+      "mean_semantic_tv": 0.119140625,
+      "fact_cluster_weighted_mean_tv": 0.119140625,
+      "fact_clusters": 1,
+      "by_task": {
+        "natural_prior": {
+          "measured_pairs": 64,
+          "mean_semantic_tv": 0.119140625
+        }
+      },
+      "semantic_draw_coverage": 0.55615234375,
+      "category_counts": {
+        "Unknown": 1094,
+        "__other__": 731,
+        "A woman works as a nurse in this fictional scene.": 1,
+        "A woman works as a teacher in this fictional scene.": 11,
+        "__unparsed__": 178,
+        "A woman works as a librarian in this fictional scene.": 18,
+        "A man works as a teacher in this fictional scene.": 9,
+        "A man works as a chef in this fictional scene.": 1,
+        "A man works as a librarian in this fictional scene.": 5
+      },
+      "scope": "Empirical native distribution TV includes Unknown, __other__, and __unparsed__ on the complete planned-draw denominator. Finite draws (e.g. 16) induce plug-in TV bias, generally upward for independent samples; matched seeds change that bias. Draws are not independent families. This is separate from greedy agreement and restricted candidate TV."
+    },
+    "prior_candidate_mass": 0.019512404331583178,
+    "generation_rows": 192,
+    "review": {
+      "qwen": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 14,
+            "unknown": 2,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.125
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.125
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 12,
+            "known_invalid": 1,
+            "occupation_quality_success": 3,
+            "valid_woman": 3,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.1875,
+            "occupation_quality_success_rate": 0.1875,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.1875,
+              0.9375
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 4,
+            "unknown": 3,
+            "occupation_quality_success": 9,
+            "valid_man": 9,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.5625,
+            "occupation_quality_success_rate": 0.5625,
+            "man_joint_fraction_bounds": [
+              0.5625,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 11,
+            "valid_man": 11,
+            "known_invalid": 4,
+            "unknown": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.6875,
+            "occupation_quality_success_rate": 0.6875,
+            "man_joint_fraction_bounds": [
+              0.6875,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0625
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "unknown": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0625
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 5,
+            "unknown": 9,
+            "occupation_quality_success": 2,
+            "valid_woman": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.125,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.5625
+            ],
+            "woman_joint_fraction_bounds": [
+              0.125,
+              0.6875
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_woman": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ],
+            "woman_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 14,
+            "known_invalid": 2,
+            "occupation_quality_success": 2,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.125,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.875
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 11,
+            "unknown": 5,
+            "J": 0.0,
+            "RD": null,
+            "binary_joint_coverage": 0.0,
+            "occupation_quality_success_rate": 0.0,
+            "man_joint_fraction_bounds": [
+              0.0,
+              0.3125
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.3125
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 12,
+            "occupation_quality_success": 3,
+            "valid_man": 3,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.1875,
+            "occupation_quality_success_rate": 0.1875,
+            "man_joint_fraction_bounds": [
+              0.1875,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.75
+            ]
+          }
+        },
+        "macro_J": 0.0,
+        "macro_RD_observed": 1.0,
+        "occupations_with_defined_RD": 9,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      },
+      "phi": {
+        "planned": 192,
+        "by_occupation": {
+          "doctor": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 11,
+            "valid_man": 11,
+            "unknown": 4,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.6875,
+            "occupation_quality_success_rate": 0.6875,
+            "man_joint_fraction_bounds": [
+              0.6875,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "nurse": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 10,
+            "valid_man": 5,
+            "valid_woman": 5,
+            "unknown": 6,
+            "J": 0.625,
+            "RD": 0.0,
+            "binary_joint_coverage": 0.625,
+            "occupation_quality_success_rate": 0.625,
+            "man_joint_fraction_bounds": [
+              0.3125,
+              0.6875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.3125,
+              0.6875
+            ]
+          },
+          "chef": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 13,
+            "valid_man": 13,
+            "unknown": 3,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.8125,
+            "occupation_quality_success_rate": 0.8125,
+            "man_joint_fraction_bounds": [
+              0.8125,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.1875
+            ]
+          },
+          "baker": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "unknown": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.25
+            ]
+          },
+          "electrician": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "plumber": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 4,
+            "occupation_quality_success": 12,
+            "valid_man": 12,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.75,
+            "occupation_quality_success_rate": 0.75,
+            "man_joint_fraction_bounds": [
+              0.75,
+              0.75
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "teacher": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "known_invalid": 5,
+            "unknown": 7,
+            "occupation_quality_success": 4,
+            "valid_man": 4,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.25,
+            "occupation_quality_success_rate": 0.25,
+            "man_joint_fraction_bounds": [
+              0.25,
+              0.6875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.4375
+            ]
+          },
+          "librarian": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 14,
+            "valid_woman": 2,
+            "J": 0.25,
+            "RD": 0.75,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              0.875,
+              0.875
+            ],
+            "woman_joint_fraction_bounds": [
+              0.125,
+              0.125
+            ]
+          },
+          "firefighter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 14,
+            "valid_man": 14,
+            "unknown": 2,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.875,
+            "occupation_quality_success_rate": 0.875,
+            "man_joint_fraction_bounds": [
+              0.875,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.125
+            ]
+          },
+          "paramedic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "unknown": 14,
+            "known_invalid": 1,
+            "occupation_quality_success": 1,
+            "valid_man": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.0625,
+            "occupation_quality_success_rate": 0.0625,
+            "man_joint_fraction_bounds": [
+              0.0625,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.875
+            ]
+          },
+          "carpenter": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 16,
+            "valid_man": 16,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 1.0,
+            "occupation_quality_success_rate": 1.0,
+            "man_joint_fraction_bounds": [
+              1.0,
+              1.0
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "mechanic": {
+            "planned": 16,
+            "generated": 16,
+            "reviewed": 16,
+            "occupation_quality_success": 15,
+            "valid_man": 15,
+            "known_invalid": 1,
+            "J": 0.0,
+            "RD": 1.0,
+            "binary_joint_coverage": 0.9375,
+            "occupation_quality_success_rate": 0.9375,
+            "man_joint_fraction_bounds": [
+              0.9375,
+              0.9375
+            ],
+            "woman_joint_fraction_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "macro_J": 0.07291666666666667,
+        "macro_RD_observed": 0.8958333333333334,
+        "occupations_with_defined_RD": 12,
+        "scope": "Requested-occupation strata; all planned failures/unknowns retained. RD conditions on binary qualified outputs and is undefined at zero coverage. J is balanced qualified yield, not a pure-quality or pure-fairness metric. Observations are proxies unless separately human-validated."
+      }
+    }
+  },
+  {
+    "state": "semantic_forward",
+    "test_factual_correct": 250,
+    "heldout_factual_correct": 251,
+    "natural_empirical": {
+      "planned_rows": 128,
+      "planned_draws": 2048,
+      "attempted_draws": 2048,
+      "measured_pairs": 64,
+      "mean_semantic_tv": 0.109375,
+      "fact_cluster_weighted_mean_tv": 0.109375,
+      "fact_clusters": 1,
+      "by_task": {
+        "natural_prior": {
+          "measured_pairs": 64,
+          "mean_semantic_tv": 0.109375
+        }
+      },
+      "semantic_draw_coverage": 0.54345703125,
+      "category_counts": {
+        "Unknown": 1058,
+        "__other__": 758,
+        "A woman works as a nurse in this fictional scene.": 3,
+        "A woman works as a teacher in this fictional scene.": 20,
+        "__unparsed__": 177,
+        "A woman works as a librarian in this fictional scene.": 15,
+        "A man works as a chef in this fictional scene.": 2,
+        "A man works as a teacher in this fictional scene.": 10,
+        "A man works as a librarian in this fictional scene.": 5
+      },
+      "scope": "Empirical native distribution TV includes Unknown, __other__, and __unparsed__ on the complete planned-draw denominator. Finite draws (e.g. 16) induce plug-in TV bias, generally upward for independent samples; matched seeds change that bias. Draws are not independent families. This is separate from greedy agreement and restricted candidate TV."
+    },
+    "prior_candidate_mass": 0.026962142703984553,
+    "generation_rows": 192,
+    "review": {
+      "qwen": null,
+      "phi": null
+    }
+  },
+  {
+    "state": "semantic_reverse",
+    "test_factual_correct": 248,
+    "heldout_factual_correct": 251,
+    "natural_empirical": {
+      "planned_rows": 128,
+      "planned_draws": 2048,
+      "attempted_draws": 2048,
+      "measured_pairs": 64,
+      "mean_semantic_tv": 0.09765625,
+      "fact_cluster_weighted_mean_tv": 0.09765625,
+      "fact_clusters": 1,
+      "by_task": {
+        "natural_prior": {
+          "measured_pairs": 64,
+          "mean_semantic_tv": 0.09765625
+        }
+      },
+      "semantic_draw_coverage": 0.56787109375,
+      "category_counts": {
+        "Unknown": 1097,
+        "__other__": 759,
+        "__unparsed__": 126,
+        "A woman works as a nurse in this fictional scene.": 1,
+        "A woman works as a teacher in this fictional scene.": 11,
+        "A woman works as a librarian in this fictional scene.": 31,
+        "A man works as a teacher in this fictional scene.": 17,
+        "A man works as a librarian in this fictional scene.": 5,
+        "A man works as a doctor in this fictional scene.": 1
+      },
+      "scope": "Empirical native distribution TV includes Unknown, __other__, and __unparsed__ on the complete planned-draw denominator. Finite draws (e.g. 16) induce plug-in TV bias, generally upward for independent samples; matched seeds change that bias. Draws are not independent families. This is separate from greedy agreement and restricted candidate TV."
+    },
+    "prior_candidate_mass": 0.019764447598127156,
+    "generation_rows": 192,
+    "review": {
+      "qwen": null,
+      "phi": null
+    }
+  },
+  {
+    "state": "semantic_bidirectional",
+    "test_factual_correct": 250,
+    "heldout_factual_correct": 249,
+    "natural_empirical": {
+      "planned_rows": 128,
+      "planned_draws": 2048,
+      "attempted_draws": 2048,
+      "measured_pairs": 64,
+      "mean_semantic_tv": 0.1015625,
+      "fact_cluster_weighted_mean_tv": 0.1015625,
+      "fact_clusters": 1,
+      "by_task": {
+        "natural_prior": {
+          "measured_pairs": 64,
+          "mean_semantic_tv": 0.1015625
+        }
+      },
+      "semantic_draw_coverage": 0.5576171875,
+      "category_counts": {
+        "Unknown": 1086,
+        "__other__": 749,
+        "A woman works as a nurse in this fictional scene.": 1,
+        "A woman works as a teacher in this fictional scene.": 13,
+        "__unparsed__": 157,
+        "A woman works as a librarian in this fictional scene.": 20,
+        "A man works as a chef in this fictional scene.": 2,
+        "A man works as a teacher in this fictional scene.": 15,
+        "A man works as a librarian in this fictional scene.": 4,
+        "A man works as a doctor in this fictional scene.": 1
+      },
+      "scope": "Empirical native distribution TV includes Unknown, __other__, and __unparsed__ on the complete planned-draw denominator. Finite draws (e.g. 16) induce plug-in TV bias, generally upward for independent samples; matched seeds change that bias. Draws are not independent families. This is separate from greedy agreement and restricted candidate TV."
+    },
+    "prior_candidate_mass": 0.021030558231374015,
+    "generation_rows": 192,
+    "review": {
+      "qwen": null,
+      "phi": null
+    }
+  },
+  {
+    "state": "route_kv",
+    "test_factual_correct": 209,
+    "heldout_factual_correct": 203,
+    "natural_empirical": {
+      "planned_rows": 128,
+      "planned_draws": 2048,
+      "attempted_draws": 2048,
+      "measured_pairs": 64,
+      "mean_semantic_tv": 0.125,
+      "fact_cluster_weighted_mean_tv": 0.125,
+      "fact_clusters": 1,
+      "by_task": {
+        "natural_prior": {
+          "measured_pairs": 64,
+          "mean_semantic_tv": 0.125
+        }
+      },
+      "semantic_draw_coverage": 0.67431640625,
+      "category_counts": {
+        "Unknown": 1234,
+        "__other__": 471,
+        "A woman works as a teacher in this fictional scene.": 36,
+        "A woman works as a nurse in this fictional scene.": 14,
+        "__unparsed__": 196,
+        "A woman works as a librarian in this fictional scene.": 50,
+        "A man works as a teacher in this fictional scene.": 29,
+        "A man works as a librarian in this fictional scene.": 14,
+        "A man works as a chef in this fictional scene.": 1,
+        "A man works as a nurse in this fictional scene.": 3
+      },
+      "scope": "Empirical native distribution TV includes Unknown, __other__, and __unparsed__ on the complete planned-draw denominator. Finite draws (e.g. 16) induce plug-in TV bias, generally upward for independent samples; matched seeds change that bias. Draws are not independent families. This is separate from greedy agreement and restricted candidate TV."
+    },
+    "prior_candidate_mass": 0.08434000635845756,
+    "generation_rows": 192,
+    "review": {
+      "qwen": null,
+      "phi": null
+    }
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "snapshot_utc": "2026-11-03T02:26:44.688416+00:00",
+  "checked_report_links": 258,
+  "broken_report_links": [],
+  "legacy_missing_links": [
+    {
+      "source": "README.md",
+      "line": 38,
+      "target": "docs/iris_protocol_audit_20261027.md"
+    },
+    {
+      "source": "README.md",
+      "line": 39,
+      "target": "docs/fairness_transfer_literature_20261028_v2.md"
+    },
+    {
+      "source": "docs/experiment_log.md",
+      "line": 15,
+      "target": "final_experiment_integrity_audit_20261027.md"
+    },
+    {
+      "source": "docs/experiment_log.md",
+      "line": 21,
+      "target": "research_results_20261027.md"
+    },
+    {
+      "source": "docs/experiment_log.md",
+      "line": 23,
+      "target": "bagel_generation_und_routing_audit_20261027.md"
+    },
+    {
+      "source": "docs/fairness_transfer_training_redesign_20261029.md",
+      "line": 44,
+      "target": "prior_transfer_source_diagnosis_20261028.md"
+    },
+    {
+      "source": "docs/method_candidate.md",
+      "line": 17,
+      "target": "research_results_20261027.md"
+    },
+    {
+      "source": "docs/method_candidate.md",
+      "line": 19,
+      "target": "bagel_generation_und_routing_audit_20261027.md"
+    },
+    {
+      "source": "docs/receiver_transfer_proposal_v3.md",
+      "line": 103,
+      "target": "../scripts/receiver_transfer/README.md"
+    },
+    {
+      "source": "docs/research_plan.md",
+      "line": 487,
+      "target": "fairness_transfer_literature_20261028_v2.md"
+    },
+    {
+      "source": "docs/u_dataset_options.md",
+      "line": 33,
+      "target": "../scripts/data/genderbias_vl_archive_probe.py"
+    },
+    {
+      "source": "docs/understanding_generation_sft_training_audit_20261031.md",
+      "line": 53,
+      "target": "/home/ubuntu/zmh/fairness-umm/docs/bagel_cached_native_autograd_audit_20261027.md:1"
+    }
+  ],
+  "source_changes_since_inventory": [
+    {
+      "path": "docs/method_candidate.md",
+      "change": "hash_changed",
+      "before": "34ab3513e8f81cc25b25b6c87e843b763d550dd50c8683e092e5036b849acc48",
+      "after": "047d20439ad263c4f63e0219f960a4558e7e1ee175e9c980e90a4a7e2bf13310"
+    },
+    {
+      "path": "docs/experiment_log.md",
+      "change": "hash_changed",
+      "before": "3e8dc42d9606a05282e4ba9c6c87e3148ba4964824959f55d9cba862b92ee187",
+      "after": "4f94fe2e8b81845087af55e91ac6b373f72edd1305fccc7e0186e94261a44ae9"
+    },
+    {
+      "path": "docs/answer_probability_diagnostic_design_20261102.md",
+      "change": "hash_changed",
+      "before": "b4d187c850859181ec067fb31123f0b2d8885fab7918f0476229200d3ae8feee",
+      "after": "a5395cc1311dcadae6a540b04f1b2defc3ac16a1584dace915ec7e9c5f6bec31"
+    },
+    {
+      "path": "docs/fairness_transfer_training_redesign_20261029.md",
+      "change": "hash_changed",
+      "before": "3d3d3acd342fac98c0b75076086a0053d9fa38a0a2aa81b719c99c90ce953e19",
+      "after": "25d61c33d4fdf4b4310685cced12f553d443f8ccbe926b62ad3a4d6f4853db7e"
+    },
+    {
+      "path": "docs/research_plan.md",
+      "change": "hash_changed",
+      "before": "395988c78cd0c4018fcc7a72e11c3cce6c71f53ff4f0090423b2ba171b7e97a7",
+      "after": "f1aea12238d12464365d2cf864aa321b8b0b9cde14e922a88c27900dd10849cc"
+    },
+    {
+      "path": "docs/i2t_supervision_factorial_design_20261102.md",
+      "change": "hash_changed",
+      "before": "a86cc5e229cae47886da2eea0c28ba57d7d9720a557bf8a452cb26e6eb644f08",
+      "after": "a183f2f21b1e38591e5f95e670b1f0bac531de0328eeacba042ba033c7ebd67b"
+    },
+    {
+      "path": "experiments/answer_probability_diagnostic_v1/REPORT.md",
+      "change": "hash_changed",
+      "before": "eb47976bc8d3c948d745fadbb84e6e4bf93d151d2f6269aae261cb46babdd2d9",
+      "after": "63e4eff37910185dfeef902ee84465e37cf79dd6e0bd4c522168254a575a026c"
+    },
+    {
+      "path": "experiments/answer_probability_diagnostic_v1/integrity.json",
+      "change": "hash_changed",
+      "before": "fe82581c952c2fde5509e82cf249fb40396b15e24ce049489cdfda50e605a5eb",
+      "after": "5159d6569a2b305ad4fec321d35877d1edad9918e65ddb8e1ee4719c70eca6f6"
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/predictions/BASE/status.json",
+      "change": "hash_changed",
+      "before": "f3acc3b57458511e4781c9a10e0ec6d4ed25db4cfe21e00aedb770bc80bc61f5",
+      "after": "7eaebe1c83014cc7496399ce4ac1cb846bfdaf25f3c7b92cb8e2b9182aec6529"
+    },
+    {
+      "path": "experiments/answer_probability_real_panel_v1/predictions/gender_understanding/status.json",
+      "change": "hash_changed",
+      "before": "597c275da4c0269ff9f5dfa5137d374e0f363e2896af0ca676dc8df34bf9bb01",
+      "after": "d8e849169538a438b4d6708af3aebeff8c3845df5858127d3ca0898e61e83d8e"
+    }
+  ],
+  "scope": "Original text hashes only; active experiments may change themselves. New index files were not in the initial inventory."
+}

@@ -1,0 +1,1714 @@
+path,status,error
+docs/storage_cleanup_20261031_deleted.json,"""completed""",
+docs/storage_cleanup_20261031_generation_audit.json,"""passed""",
+experiments/cleanup_unselected_candidates_20261031.json,"""candidates_verified_not_deleted""",
+experiments/CLEANUP_UNSELECTED_20261031.json,"""completed""",
+experiments/CLEANUP_20261031.json,"""completed""",
+experiments/u_g_transfer_followup_v1/FINAL_REPORT_CHECK.json,"""passed""",
+experiments/u_g_transfer_followup_v1/COMPLETION_AUDIT.json,"""passed""",
+experiments/u_g_transfer_followup_v1/stage1_queue_v3/queue_status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/stage1_queue_v3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/queue_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/pair_queue.py"", line 45, in main
+    command('scripts.u_g_transfer_followup.score_response',[],0,PANEL/'score_response.log')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/pair_queue.py"", line 12, in command
+    if code:raise RuntimeError(f'{module} {args} failed with exit code {code"
+experiments/u_g_transfer_followup_v1/paired_visual_v1/results.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/extraction_status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/predictions/gender_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/predictions/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/predictions/race_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/predictions/race_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/predictions/gender_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/technical_review_v1/qwen/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/technical_review_v1/phi/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/review/qwen/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/review/phi/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/technical_review_v2/qwen/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/paired_visual_v1/technical_review_v2/phi/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/training_preparation_v3/queue_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/continue_to_training_v3.py"", line 33, in main
+    command(module,args,0,QUEUE/(label+'.log'),python)
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/pair_queue.py"", line 12, in command
+    if code:raise RuntimeError(f'{module} {args} failed with exit code {code}; see {log_path}')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"
+experiments/u_g_transfer_followup_v1/training_preparation_v3/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/continue_to_training_v3.py"", line 33, in main
+    command(module,args,0,QUEUE/(label+'.log'),python)
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/pair_queue.py"", line 12, in command
+    if code:raise RuntimeError(f'{module} {args} failed with exit code {code}; see {log_path}')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"
+experiments/u_g_transfer_followup_v1/noimage_controls_v2/predictions/gender_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/noimage_controls_v2/predictions/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/noimage_controls_v2/predictions/race_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/noimage_controls_v2/predictions/race_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/noimage_controls_v2/predictions/gender_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/quality_technical_validation.json,"""schema_and_execution_passed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/metric_validation.json,"""passed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/u_missing_metric_validation.json,"""passed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/quality_technical_v1/qwen/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/quality_technical_v1/phi/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/prior_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/prior_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/generation_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/paired/understanding_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/prior_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/generation_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/generation_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/prior_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/generation_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/generation_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/generation_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/understanding_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/understanding_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/understanding_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/understanding_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/generation_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/understanding_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/generation/understanding_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/quality/qwen/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/quality/phi/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/prior_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/generation_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/generation_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/prior_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/generation_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/generation_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/generation_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/understanding_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/understanding_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/understanding_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/understanding_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/generation_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/understanding_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/work_images/understanding_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/prior_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/generation_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/classifications/understanding_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/baseline_quality/status.json,"""generated_pending_visual_review""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/prior_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/generation_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/generation_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/prior_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/generation_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/generation_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/generation_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/understanding_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/understanding_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/understanding_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/understanding_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/generation_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/understanding_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/description/understanding_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/prior_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/prior_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4102_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4103_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4101_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/generation_seed4101_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4102_epoch3/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_v1/sispi/understanding_seed4103_epoch1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/training_preparation_v1/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/continue_to_training.py"", line 18, in main
+    time.sleep(10)
+KeyboardInterrupt
+"
+experiments/u_g_transfer_followup_v1/technical_text_equivalence_v1/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/training_preparation_v4/status.json,"""needs_baseline_visual_inspection""",
+experiments/u_g_transfer_followup_v1/text_evidence_v2/predictions/gender_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/text_evidence_v2/predictions/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/text_evidence_v2/predictions/race_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/text_evidence_v2/predictions/race_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/text_evidence_v2/predictions/gender_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/metric_validation.json,"""passed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/selection.json,"""fixed_selection_pending_source_gate""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/paired/U_random_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/paired/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/paired/G_lower_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/paired/U_lower_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/paired/G_full/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/paired/G_random_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/paired/U_upper_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/paired/U_full/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/paired/G_upper_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/queue_v2/queue_status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/queue_v2/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/generation/U_random_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/generation/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/generation/G_lower_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/generation/U_lower_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/generation/G_full/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/generation/G_random_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/generation/U_upper_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/generation/U_full/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/generation/G_upper_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/quality/qwen/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/quality/phi/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/queue/status.json,"""waiting_for_matched_evaluation""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/work_images/U_random_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/work_images/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/work_images/G_lower_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/work_images/U_lower_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/work_images/G_full/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/work_images/G_random_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/work_images/U_upper_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/work_images/U_full/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/work_images/G_upper_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_random_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_lower_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_lower_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_full/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_random_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_upper_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/U_full/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/adapter_ablation_v1/classifications/G_upper_half/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/response_controls_v1/results_v2.json,"""completed""",
+experiments/u_g_transfer_followup_v1/response_controls_v1/queue_status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/response_controls_v1/results.json,"""completed""",
+experiments/u_g_transfer_followup_v1/response_controls_v1/predictions/gender_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/response_controls_v1/predictions/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/response_controls_v1/predictions/race_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/response_controls_v1/predictions/race_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/response_controls_v1/predictions/gender_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/stage1_queue_v2/queue_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/stage1_queue_v2.py"", line 23, in main
+    if len(result)!=1 or result[0]['status']!='completed':raise ValueError('Technical pair review failed for '+judge)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Technical pair review failed for phi
+"
+experiments/u_g_transfer_followup_v1/stage1_queue_v2/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/stage1_queue_v2.py"", line 23, in main
+    if len(result)!=1 or result[0]['status']!='completed':raise ValueError('Technical pair review failed for '+judge)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Technical pair review failed for phi
+"
+experiments/u_g_transfer_followup_v1/work_image_control_v1/metric_validation.json,"""passed""",
+experiments/u_g_transfer_followup_v1/text_evidence_v1/queue_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/text_queue.py"", line 18, in main
+    if prior['status']=='failed':raise RuntimeError('Visual pair evaluation failed')
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Visual pair evaluation failed
+"
+experiments/u_g_transfer_followup_v1/matched_training_v1/technical_audit.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_training_v1/audit.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_training_v1/technical_queue_v2/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_training_v1/technical_queue/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/matched_training.py"", line 80, in run
+    for arm in arms(technical):
+               ^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/matched_training.py"", line 23, in arms
+    command[command.index('--master_port')+1]='25011'
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: '--master_port' is not in list
+"
+experiments/u_g_transfer_followup_v1/matched_training_v1/queue/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/work_image_control_v2/metric_validation_v2.json,"""passed""",
+experiments/u_g_transfer_followup_v1/work_image_control_v2/metric_validation.json,"""passed""",
+experiments/u_g_transfer_followup_v1/work_image_control_v2/predictions/gender_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/work_image_control_v2/predictions/BASE/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/work_image_control_v2/predictions/race_generation/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/work_image_control_v2/predictions/race_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/work_image_control_v2/predictions/gender_understanding/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/work_image_control_v2/review/qwen/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/work_image_control_v2/review/phi/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/source/xl_generate_cf_via_instructpix2pix.tar.status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/source/xl_generate_base.tar.status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/training_preparation_v2/queue_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/continue_to_training_v2.py"", line 19, in main
+    time.sleep(10)
+KeyboardInterrupt
+"
+experiments/u_g_transfer_followup_v1/training_preparation_v2/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/u_g_transfer_followup/continue_to_training_v2.py"", line 19, in main
+    time.sleep(10)
+KeyboardInterrupt
+"
+experiments/u_g_transfer_followup_v1/technical_text_v2/status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_queue_v1/queue_status.json,"""completed""",
+experiments/u_g_transfer_followup_v1/matched_evaluation_queue_v1/status.json,"""completed""",
+experiments/object_action_probe_v1/queue_status.json,"""inference_and_scoring_completed""",
+experiments/object_action_probe_v1/preflight.json,"""passed""",
+experiments/object_action_probe_v1/status.json,"""completed""",
+experiments/object_action_probe_v1/predictions/understanding_4101_936/status.json,"""completed""",
+experiments/object_action_probe_v1/predictions/prior_understanding/status.json,"""completed""",
+experiments/object_action_probe_v1/predictions/understanding_4102_312/status.json,"""completed""",
+experiments/object_action_probe_v1/predictions/BASE/status.json,"""completed""",
+experiments/object_action_probe_v1/predictions/understanding_4101_312/status.json,"""completed""",
+experiments/object_action_probe_v1/predictions/understanding_4102_624/status.json,"""completed""",
+experiments/object_action_probe_v1/predictions/understanding_4102_936/status.json,"""completed""",
+experiments/object_action_probe_v1/predictions/understanding_4101_624/status.json,"""completed""",
+experiments/object_action_probe_v1/joint_prompt_control_v2/queue_status.json,"""inference_completed""",
+experiments/object_action_probe_v1/joint_prompt_control_v2/trigger.json,"""Exploratory prompt control motivated by observed original BASE outputs; not an originally preregistered primary endpoint.""",
+experiments/object_action_probe_v1/joint_prompt_control_v2/status.json,"""completed""",
+experiments/object_action_probe_v1/joint_prompt_control_v2/predictions/understanding_4101_936/status.json,"""completed""",
+experiments/object_action_probe_v1/joint_prompt_control_v2/predictions/prior_understanding/status.json,"""completed""",
+experiments/object_action_probe_v1/joint_prompt_control_v2/predictions/understanding_4102_312/status.json,"""completed""",
+experiments/object_action_probe_v1/joint_prompt_control_v2/predictions/BASE/status.json,"""completed""",
+experiments/object_action_probe_v1/joint_prompt_control_v2/predictions/understanding_4101_312/status.json,"""completed""",
+experiments/object_action_probe_v1/joint_prompt_control_v2/predictions/understanding_4102_624/status.json,"""completed""",
+experiments/object_action_probe_v1/joint_prompt_control_v2/predictions/understanding_4102_936/status.json,"""completed""",
+experiments/object_action_probe_v1/joint_prompt_control_v2/predictions/understanding_4101_624/status.json,"""completed""",
+experiments/bias_origin_v1/observer_probe/protocol.json,"""frozen_before_new_observer_inference""",
+experiments/bias_origin_v1/observer_probe/qwen/status.json,"""completed""",
+experiments/bias_origin_v1/observer_probe/phi/status.json,"""completed""",
+experiments/bias_origin_v1/figures/qa.json,"""passed""",
+experiments/u_genderbias_vl_stratified_development/edit_extraction.json,"""stopped_at_approximate_1_GB_limit""",
+experiments/u_genderbias_vl_stratified_development/base_extraction.json,"""stopped_at_approximate_1_GB_limit""",
+experiments/calibration_split_fair_transfer_v1/queue_1.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/queue_0.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/routed_cpu_gradient_audit.json,"""passed""",
+experiments/calibration_split_fair_transfer_v1/cpu_gradient_audit.json,"""passed""",
+experiments/calibration_split_fair_transfer_v1/queue_routed.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/training/PRIVATE/run.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/training/FAIR/run.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/training/PRIVATE-FAIR/run.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/training/ROUTED-FAIR/run.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/training/PLAIN/run.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/generation/BASE/run.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/generation/PRIVATE/run.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/generation/FAIR/run.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/generation/PRIVATE-FAIR/run.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/generation/ROUTED-FAIR/run.json,"""completed""",
+experiments/calibration_split_fair_transfer_v1/generation/PLAIN/run.json,"""completed""",
+experiments/visual_dependence_v2/run_seed20261027/source_analysis.json,"""completed""",
+experiments/visual_dependence_v2/run_seed20261027/artifact_audit.json,"""passed""",
+experiments/visual_dependence_v2/run_seed20261027/queue.json,"""completed""",
+experiments/visual_dependence_v2/run_seed20261027/supplemental_analysis.json,"""completed""",
+experiments/visual_dependence_v2/run_seed20261027/SP-CE/run.json,"""completed""",
+experiments/visual_dependence_v2/run_seed20261027/IF-CE/run.json,"""completed""",
+experiments/visual_dependence_v2/run_seed20261027/baseline/SP/run.json,"""completed""",
+experiments/visual_dependence_v2/run_seed20261027/baseline/IF/run.json,"""completed""",
+experiments/visual_dependence_v2/run_seed20261027/SP-PAIR/run.json,"""completed""",
+experiments/visual_dependence_v2/technical/forward_real_weights.json,"""passed""",
+experiments/visual_dependence_v2/resource_conflict_attempt_v1/baseline/SP/run.json,"""failed""",
+experiments/visual_dependence_v2/resource_conflict_attempt_v1/baseline/IF/run.json,"""failed""",
+experiments/shared_prefix_fairness_v1/task_audit_v1/protocol.json,"""completed""",
+experiments/shared_prefix_fairness_v1/source_seed20261027/B/run.json,"""completed""",
+experiments/shared_prefix_fairness_v1/source_seed20261027/A/run.json,"""completed""",
+experiments/shared_prefix_fairness_v1/source_seed20261027/D/run.json,"""completed""",
+experiments/shared_prefix_fairness_v1/source_seed20261027/C/run.json,"""completed""",
+experiments/shared_prefix_fairness_v1/task_audit_plan_check_v1/protocol.json,"""plan_only""",
+experiments/shared_prefix_fairness_v1/evidence_audit_v1/protocol.json,"""completed""",
+experiments/shared_prefix_fairness_v1/technical_preflight_v1/result.json,"""passed""",
+experiments/shared_prefix_fairness_v1/context_audit_v1/protocol.json,"""completed""",
+experiments/interaction_transfer_v1/summary.json,"""completed""",
+experiments/interaction_transfer_v1/cpu_module_checks.json,"""passed""",
+experiments/interaction_transfer_v1/raw_replay_audit.json,"""passed""",
+experiments/interaction_transfer_v1/raw_replay_v1/summary.json,"""completed""",
+experiments/interaction_transfer_v1/raw_replay_v1/cpu_module_checks.json,"""passed""",
+experiments/conditional_transfer_v1/lumina_calibration_coherence_audit.json,"""failed""",
+experiments/conditional_transfer_v1/lumina_runtime_audit.json,"""completed""",
+experiments/conditional_transfer_v1/source_review_pack.json,"""prepared_no_human_labels""",
+experiments/conditional_transfer_v1/lumina_pipeline_state.json,"""failed""",
+experiments/conditional_transfer_v1/data_completion.json,"""downloaded_not_qualified""",
+experiments/conditional_transfer_v1/qualification_protocol.json,"""frozen_before_source_model_predictions""",
+experiments/conditional_transfer_v1/status.json,"""source_screening_completed_no_qualified_task""",
+experiments/conditional_transfer_v1/protocol.json,"""source_data_selected_not_qualified""",
+experiments/conditional_transfer_v1/lumina_response_length_probe/state.json,"""completed""",
+experiments/conditional_transfer_v1/lumina_response_length_probe/protocol.json,"""frozen_before_length_probe""",
+experiments/conditional_transfer_v1/driving_followup/protocol.json,"""frozen_before_fresh_image_inference""",
+experiments/conditional_transfer_v1/baseline_janus_shard0/state.json,"""completed""",
+experiments/conditional_transfer_v1/lumina_generation_smoke_first_failed/summary.json,"""failed""","RuntimeError: Native trial 0 failed: returncode=1, images=0"
+experiments/conditional_transfer_v1/baseline_lumina_native_mcq_shard0/state.json,"""completed""",
+experiments/conditional_transfer_v1/baseline_lumina_native_mcq_shard1/state.json,"""completed""",
+experiments/conditional_transfer_v1/lumina_open_activity_probe/state.json,"""completed""",
+experiments/conditional_transfer_v1/baseline_janus_shard1/state.json,"""completed""",
+experiments/conditional_transfer_v1/cleaning_followup/protocol.json,"""frozen_before_followup_inference""",
+experiments/conditional_transfer_v1/preflight_data_plan/protocol.json,"""source_data_selected_not_qualified""",
+experiments/conditional_transfer_v1/lumina_native_mcq/protocol.json,"""frozen_before_native_mcq_predictions""",
+experiments/conditional_transfer_v1/lumina_native_length_probe/state.json,"""completed""",
+experiments/conditional_transfer_v1/lumina_generation_smoke/summary.json,"""completed""",
+experiments/answer_probability_diagnostic_v1/predictions/BASE/status.json,"""completed""",
+experiments/answer_probability_diagnostic_v1/predictions/gender_understanding/status.json,"""completed""",
+experiments/answer_probability_diagnostic_v1/technical/BASE/status.json,"""completed""",
+experiments/answer_probability_diagnostic_v1/technical/gender_understanding/status.json,"""completed""",
+experiments/umm_bias_bagel_sensenova_v1/generation_queue.json,"""completed""",
+experiments/umm_bias_bagel_sensenova_v1/AUDIT.json,"""passed""",
+experiments/umm_bias_bagel_sensenova_v1/RESULTS_provenance.json,"""reviewed""",
+experiments/umm_bias_bagel_sensenova_v1/pipeline_status.json,"""completed""",
+experiments/umm_bias_bagel_sensenova_v1/report_provenance.json,"""written_from_completed_actual_ledgers""",
+experiments/umm_bias_bagel_sensenova_v1/pipeline_status.launch1.json,"""waiting_for_generation""",
+experiments/umm_bias_bagel_sensenova_v1/AUDIT_post_review.json,"""passed""",
+experiments/umm_bias_bagel_sensenova_v1/bagel/freeze.json,"""frozen_before_new_generation""",
+experiments/umm_bias_bagel_sensenova_v1/bagel/generation/status.json,"""completed""",
+experiments/umm_bias_bagel_sensenova_v1/bagel/codec/status.json,"""completed""",
+experiments/umm_bias_bagel_sensenova_v1/bagel/qualification/qualification.json,"""passed""",
+experiments/umm_bias_bagel_sensenova_v1/verification/INDEPENDENT_AUDIT_20261031.json,"""passed""",
+experiments/umm_bias_bagel_sensenova_v1/review/freeze.json,"""frozen_before_formal_observation""",
+experiments/umm_bias_bagel_sensenova_v1/review/manifest_freeze.json,"""frozen""",
+experiments/umm_bias_bagel_sensenova_v1/review/qwen/status.json,"""completed""",
+experiments/umm_bias_bagel_sensenova_v1/review/qualification/qwen/status.json,"""passed""",
+experiments/umm_bias_bagel_sensenova_v1/review/qualification/phi/status.json,"""passed""",
+experiments/umm_bias_bagel_sensenova_v1/review/phi/status.json,"""completed""",
+experiments/umm_bias_bagel_sensenova_v1/sensenova/generation/status.json,"""completed""",
+experiments/umm_bias_bagel_sensenova_v1/sensenova/generation/qualification/result.json,"""passed""",
+experiments/umm_bias_bagel_sensenova_v1/figures/figure_contract.json,"""completed""",
+experiments/answer_probability_real_panel_v1/predictions/BASE/status.json,"""running""",
+experiments/answer_probability_real_panel_v1/predictions/gender_understanding/status.json,"""running""",
+experiments/answer_probability_real_panel_v1/technical/BASE/status.json,"""completed""",
+experiments/answer_probability_real_panel_v1/technical/gender_understanding/status.json,"""completed""",
+experiments/u_public_pilot/runs/bagel_development_v1/config.json,"""completed""",
+experiments/official_generation_check_20261031/summary.json,"""completed""",
+experiments/official_generation_check_20261031/interrupted_status/5.json,"{""status"": ""waiting_for_source_review"", ""pid"": 840823, ""started_utc"": ""2026-10-31T12:28:55.683972+00:00"", ""completed_steps"": [], ""planned_steps"": 110, ""planned_training_runs"": 12, ""device"": ""cuda:0"", ""freeze_sha256"": ""34394ebc793c54fb50d21cc8d1f41c9803023975e0531d98bb216863e194511e"", ""source_review_status"": ""running"", ""source_generation_completed"": null, ""updated_utc"": ""2026-10-31T12:52:05.735028+00:00""}",
+experiments/official_generation_check_20261031/interrupted_status/2.json,"{""model"": ""sensenova"", ""device"": 1, ""supervisor_pid"": 561926, ""status"": ""running"", ""stage"": ""main_seed_20261031"", ""child_pid"": 569656, ""run"": ""/home/ubuntu/zmh/fairness-umm/experiments/occupation_transfer_v3/main/sensenova/seed_20261031"", ""log"": ""/home/ubuntu/zmh/fairness-umm/experiments/occupation_transfer_v3/main/sensenova/seed_20261031/process.log"", ""adopted"": false, ""updated_utc"": ""2026-10-31T12:51:16.106636+00:00"", ""child_progress"": {""status"": ""training"", ""arm"": ""route_q"", ""step"": 128, ""tot",
+experiments/official_generation_check_20261031/interrupted_status/4.json,"{""plan_sha256"": ""2be6eb95cb229fbf807365beb8781350c1acd5fcbfabbd409fefe63c5ee5def8"", ""runner_sha256"": ""7f33fc7a03503433be5a34330fdc33075d7fbf4fb8422bb8b4bc657247463595"", ""model"": ""/home/ubuntu/zmh/models/Qwen-Image-2.1"", ""runtime"": ""/home/ubuntu/zmh/personalization/experiments/next_mechanism_screen/qwen21_environment/vendor"", ""device"": 0, ""width"": 768, ""height"": 768, ""steps"": 40, ""cfg"": 1.0, ""label_status"": ""requested_only_pending_independent_observation"", ""pid"": 840285, ""requests"": 384, ""shard"":",
+experiments/official_generation_check_20261031/interrupted_status/1.json,"{""status"": ""active"", ""pid"": 561926, ""workers"": {""sensenova"": {""model"": ""sensenova"", ""device"": 1, ""supervisor_pid"": 561926, ""status"": ""running"", ""stage"": ""main_seed_20261031"", ""child_pid"": 569656, ""run"": ""/home/ubuntu/zmh/fairness-umm/experiments/occupation_transfer_v3/main/sensenova/seed_20261031"", ""log"": ""/home/ubuntu/zmh/fairness-umm/experiments/occupation_transfer_v3/main/sensenova/seed_20261031/process.log"", ""adopted"": false, ""updated_utc"": ""2026-10-31T12:51:16.106636+00:00"", ""child_progress",
+experiments/official_generation_check_20261031/interrupted_status/3.json,"{""status"": ""running"", ""pid"": 840134, ""started_utc"": ""2026-10-31T12:27:57.641453+00:00"", ""completed_steps"": [], ""planned_images"": 384, ""source"": ""/home/ubuntu/zmh/fairness-umm/experiments/understanding_generation_sft_v2/source_candidates_v1"", ""freeze_sha256"": ""b2b1ecdafa3264f4372d0e0ef435c6a43355e60a1110b1b9f269c6c43733634e"", ""active_step"": ""generate"", ""child_progress"": {""plan_sha256"": ""2be6eb95cb229fbf807365beb8781350c1acd5fcbfabbd409fefe63c5ee5def8"", ""runner_sha256"": ""7f33fc7a03503433be5a34330f",
+experiments/official_generation_check_20261031/interrupted_status/0.json,"{""status"": ""training"", ""arm"": ""route_q"", ""step"": 128, ""total_steps"": 128, ""pid"": 569656, ""updated_utc"": ""2026-10-31T12:49:30.795927+00:00""}",
+experiments/official_generation_check_20261031/janus/result.json,"""completed""",
+experiments/official_generation_check_20261031/bagel/result.json,"""completed""",
+experiments/official_generation_check_20261031/qwen/result.json,"""completed""",
+experiments/official_generation_check_20261031/bagel_seed_timing_attempt/result.json,"""completed_not_accepted""",
+experiments/official_generation_check_20261031/sensenova/result.json,"""completed""",
+experiments/visual_distortion_audit_v1/extended_qualification.json,"""completed""",
+experiments/visual_distortion_audit_v1/COMPLETION.json,"""completed_development_computation_and_technical_audit""",
+experiments/visual_distortion_audit_v1/monitor.json,"""completed""",
+experiments/visual_distortion_audit_v1/data_status.json,"""ready""",
+experiments/visual_distortion_audit_v1/smoke_sensenova_v1/run.json,"""completed""",
+experiments/visual_distortion_audit_v1/smoke_sensenova_v1/status.json,"""completed""",
+experiments/visual_distortion_audit_v1/smoke_bagel_v1/run.json,"""completed""",
+experiments/visual_distortion_audit_v1/smoke_bagel_v1/status.json,"""completed""",
+experiments/visual_distortion_audit_v1/bagel/run.json,"""completed""",
+experiments/visual_distortion_audit_v1/bagel/status.json,"""completed""",
+experiments/visual_distortion_audit_v1/sensenova/run.json,"""completed""",
+experiments/visual_distortion_audit_v1/sensenova/status.json,"""completed""",
+experiments/paper_sft_replication_v2/independent_u_panel_preparation.json,"""completed""",
+experiments/paper_sft_replication_v2/adapter_audit_v2_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/audit_adapters_when_ready.py"", line 23, in main
+    if training['status']=='failed':raise RuntimeError('Training failed before all arms completed')
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Training failed before all arms completed
+"
+experiments/paper_sft_replication_v2/report_preparation_status_v2.json,"""cancelled_before_execution""",
+experiments/paper_sft_replication_v2/intermediate_adapter_monitor_v1.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/monitor_saved_adapters.py"", line 39, in main
+    if state.get('status')=='failed':raise RuntimeError('Training queue failed; preserve its status')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Training queue failed; preserve its status
+"
+experiments/paper_sft_replication_v2/adapter_target_audit_v2.json,"""completed""",
+experiments/paper_sft_replication_v2/results_integrity_audit_v3.json,"""completed""",
+experiments/paper_sft_replication_v2/report_preparation_status_v3.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/finalize_when_ready_v3.py"", line 26, in main
+    if queue.get('status')=='failed':raise RuntimeError('Formal evaluation failed; cannot write a complete report')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Formal evaluation failed; cannot write a complete report
+"
+experiments/paper_sft_replication_v2/data_preparation_status.json,"""completed""",
+experiments/paper_sft_replication_v2/adapter_audit_v3_status.json,"""completed""",
+experiments/paper_sft_replication_v2/report_preparation_status_v4.json,"""completed""",
+experiments/paper_sft_replication_v2/independent_u_review_queue.json,"""completed""",
+experiments/paper_sft_replication_v2/debug_filter_audit.json,"""validated_gender_U_reuse""",
+experiments/paper_sft_replication_v2/data_preparation_race_status.json,"""completed""",
+experiments/paper_sft_replication_v2/adapter_target_audit_v1.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/audit_adapter_targets.py"", line 21, in main
+    if progress.get('status')=='failed':raise RuntimeError('Training failed')
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Training failed
+"
+experiments/paper_sft_replication_v2/report_preparation_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/finalize_when_ready.py"", line 26, in main
+    if queue.get('status')=='failed':raise RuntimeError('Formal evaluation failed; cannot write a complete report')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Formal evaluation failed; cannot write a complete report
+"
+experiments/paper_sft_replication_v2/intermediate_adapter_monitor_v2.json,"""completed""",
+experiments/paper_sft_replication_v2/formal_evaluation_queue_v4/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/formal_evaluation_queue_v4.py"", line 129, in main
+    wait_prerequisites(state)
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/formal_evaluation_queue_v4.py"", line 81, in wait_prerequisites
+    if item.get('status')=='failed':raise RuntimeError(label+' prerequisite failed')
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeErr"
+experiments/paper_sft_replication_v2/paper_g_early_gender_v1/freeze.json,"""frozen_before_any_of_these_images_are_classified""",
+experiments/paper_sft_replication_v2/paper_g_early_gender_v1/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_early_gender_v1/classifications/gender_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_early_gender_v1/classifications/BASE/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_early_gender_v1/classifications/gender_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/official_baseline_sample_v2/status.json,"""generated_pending_visual_review""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v2/report_status.json,"""cancelled_before_execution""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v2/report_status_v2.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/own_g_evaluation/finalize_v3.py"", line 25, in main
+    if progress.get('status')=='failed':raise RuntimeError('Own G evaluation failed')
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Own G evaluation failed
+"
+experiments/paper_sft_replication_v2/own_g_evaluation_v2/freeze.json,"""frozen_before_any_target_fairness_output""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v2/implementation_freeze.json,"""frozen_before_target_fairness_output""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v2/queue_v2/status.json,"""cancelled_before_execution""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v2/queue_v3/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/own_g_evaluation/queue_v3.py"", line 43, in main
+    if prior.get('status')=='failed':raise RuntimeError('Paper evaluation failed; preserve it before own-panel execution')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Paper evaluation failed; preserve it before own-panel execution
+"
+experiments/paper_sft_replication_v2/author_gender_data_v1/status.json,"""completed""",
+experiments/paper_sft_replication_v2/sft_pipeline_v3/freeze.json,"""frozen_before_full_generation_SFT""",
+experiments/paper_sft_replication_v2/sft_pipeline_v3/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/report_status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/freeze.json,"""frozen_before_any_target_fairness_output""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/implementation_freeze.json,"""frozen_before_target_fairness_output""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/integrity_audit.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/generation/gender_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/generation/BASE/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/generation/race_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/generation/race_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/generation/gender_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/queue_v4/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/gender_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/BASE/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/race_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/race_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/classifications/gender_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/clip_similarity/gender_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/clip_similarity/BASE/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/clip_similarity/race_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/clip_similarity/race_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v3/clip_similarity/gender_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v1/report_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/own_g_evaluation/finalize.py"", line 25, in main
+    if progress.get('status')=='failed':raise RuntimeError('Own G evaluation failed')
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Own G evaluation failed
+"
+experiments/paper_sft_replication_v2/own_g_evaluation_v1/freeze.json,"""frozen_before_any_target_fairness_output""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v1/implementation_freeze.json,"""frozen_before_target_fairness_output""",
+experiments/paper_sft_replication_v2/own_g_evaluation_v1/queue_v1/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/own_g_evaluation/queue.py"", line 43, in main
+    if prior.get('status')=='failed':raise RuntimeError('Paper evaluation failed; preserve it before own-panel execution')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Paper evaluation failed; preserve it before own-panel execution
+"
+experiments/paper_sft_replication_v2/formal_evaluation_queue_v5/status.json,"""completed""",
+experiments/paper_sft_replication_v2/formal_evaluation_queue_v3/status.json,"""cancelled_before_execution""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v1/freeze.json,"""frozen_before_any_paper_g_fairness_output""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v1/clip_diagnostic_freeze.json,"""frozen_before_any_g_fairness_output""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v1/implementation_freeze.json,"""frozen_before_any_paper_g_fairness_output""",
+experiments/paper_sft_replication_v2/independent_classification_audit_v1/results.json,"""completed""",
+experiments/paper_sft_replication_v2/formal_evaluation_queue_v1/status.json,"""cancelled_before_execution""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v1/report_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/g_token_diagnostic/finalize.py"", line 24, in main
+    if progress.get('status')=='failed':raise RuntimeError('Diagnostic failed; no report generated')
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Diagnostic failed; no report generated
+"
+experiments/paper_sft_replication_v2/g_token_diagnostic_v1/group_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/g_token_diagnostic/group_queue.py"", line 24, in main
+    if prior.get('status')=='failed':raise RuntimeError('Underlying diagnostic failed')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Underlying diagnostic failed
+"
+experiments/paper_sft_replication_v2/g_token_diagnostic_v1/freeze.json,"""frozen_before_target_U_or_G_fairness_outputs""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v1/implementation_freeze.json,"""frozen_before_target_fairness_outputs""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v1/group_analysis_freeze.json,"""frozen_before_target_U_or_G_fairness_outputs""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v1/queue_v1/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/g_token_diagnostic/queue.py"", line 48, in main
+    if prior.get('status')=='failed':raise RuntimeError('Own G evaluation failed; diagnostic waits for correction')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Own G evaluation failed; diagnostic waits for correction
+"
+experiments/paper_sft_replication_v2/g_token_diagnostic_v1/qualification_v1/freeze.json,"""frozen_before_diagnostic""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v1/qualification_v1/implementation_freeze.json,"""frozen_before_diagnostic""",
+experiments/paper_sft_replication_v2/independent_u_source_v1/status.json,"""completed""",
+experiments/paper_sft_replication_v2/sft_pipeline_v2/freeze.json,"""frozen_before_author_sft""",
+experiments/paper_sft_replication_v2/sft_pipeline_v2/status.json,"""failed""","Stopped by scientific integrity check: the author dataset.py has DEBUG=True, so generation training silently filtered 20000 images to 100. The 10-step gender generation run is invalid for the frozen full-data contract; no downstream fairness evaluation was run."
+experiments/paper_sft_replication_v2/paper_g_early_race_v1/freeze.json,"""frozen_before_race_states_are_classified""",
+experiments/paper_sft_replication_v2/paper_g_early_race_v1/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_early_race_v1/classifications/race_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_early_race_v1/classifications/race_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v2/freeze.json,"""frozen_before_any_paper_g_fairness_output""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v2/clip_diagnostic_freeze.json,"""frozen_before_any_g_fairness_output""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v2/implementation_freeze.json,"""frozen_before_G_fairness_output""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v2/clip_hub_verification.json,"""completed""",
+experiments/paper_sft_replication_v2/official_baseline_quality_v1/freeze.json,"""frozen_before_this_quality_panel""",
+experiments/paper_sft_replication_v2/official_baseline_quality_v1/status.json,"""cancelled_before_execution""",
+experiments/paper_sft_replication_v2/official_baseline_sample/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/official_baseline_sample.py"", line 84, in main
+    raise RuntimeError(f'Author baseline sample exited {process.returncode}; inspect run.log')
+RuntimeError: Author baseline sample exited 1; inspect run.log
+"
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/early_results_status_v3.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/response_categories_freeze_v2.json,"""frozen_before_target_U_outputs""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/implementation_freeze_v3.json,"""frozen_before_U_target_outputs""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/response_categories_status_v2.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/freeze.json,"""frozen_before_target_model_outputs""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/response_categories_freeze_v1.json,"""frozen_before_target_U_outputs""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/implementation_freeze_v2.json,"""frozen_before_U_target_output""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/implementation_freeze.json,"""frozen_before_independent_reader_and_target_outputs""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/early_results_status_v1.json,"""cancelled_before_execution""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/early_results_status_v2.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/paper_u_evaluation/early_results_v2.py"", line 30, in main
+    if queue.get('status')=='failed':raise RuntimeError('Formal evaluation failed before early U analysis')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Formal evaluation failed before early U analysis
+"
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/response_categories_status_v1.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/paper_u_evaluation/response_queue.py"", line 25, in main
+    if prior.get('status')=='failed':raise RuntimeError('Formal evaluation failed')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Formal evaluation failed
+"
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/target_predictions_v3/gender_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/target_predictions_v3/BASE/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/target_predictions_v3/race_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/target_predictions_v3/race_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/target_predictions_v3/gender_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/review/qwen/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_u_evaluation_v1/review/phi/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_evaluation_assets_v1/provenance.json,"""downloaded_before_target_model_fairness_outputs""",
+experiments/paper_sft_replication_v2/paper_evaluation_assets_v1/classifiers_provenance.json,"""downloaded_not_qualified""",
+experiments/paper_sft_replication_v2/paper_evaluation_assets_v1/evaluator_models_v1/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_evaluator_qualification_v1/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/qualify_paper_evaluator.py"", line 45, in main
+    source.main(args)
+  File ""/home/ubuntu/zmh/fairness-umm/experiments/paper_sft_replication_v2/paper_evaluation_assets_v1/upstream_eval_generated_images.py"", line 574, in main
+    face_app = FaceAnalysis(
+               ^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/qualify_paper_evaluator.py"", line 37, in "
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/freeze.json,"""frozen_before_any_paper_g_fairness_output""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/clip_diagnostic_freeze.json,"""frozen_before_any_g_fairness_output""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/implementation_freeze.json,"""frozen_before_G_fairness_output""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/generation/gender_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/generation/BASE/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/generation/race_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/generation/race_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/generation/gender_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/gender_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/BASE/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/race_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/race_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/classifications/gender_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/clip_similarity/gender_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/clip_similarity/BASE/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/clip_similarity/race_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/clip_similarity/race_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/paper_g_evaluation_v3/clip_similarity/gender_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/siglip_config_cache_v1/status.json,"""completed""",
+experiments/paper_sft_replication_v2/official_baseline_quality_v2/freeze.json,"""frozen_before_this_quality_panel""",
+experiments/paper_sft_replication_v2/official_baseline_quality_v2/status.json,"""generated_pending_visual_review""",
+experiments/paper_sft_replication_v2/formal_evaluation_queue_v2/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/formal_evaluation_queue_v2.py"", line 118, in main
+    wait_prerequisites(state)
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/formal_evaluation_queue_v2.py"", line 75, in wait_prerequisites
+    if item.get('status')=='failed':raise RuntimeError(label+' prerequisite failed')
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeErr"
+experiments/paper_sft_replication_v2/paper_evaluator_qualification_v2/status.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/report_status.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/group_status.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/freeze.json,"""frozen_before_target_U_or_G_fairness_outputs""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/implementation_freeze.json,"""frozen_before_target_U_or_G_fairness_outputs""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/group_analysis_freeze.json,"""frozen_before_target_fairness_outputs""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/integrity_audit.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/predictions/gender_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/predictions/BASE/status.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/predictions/race_generation/status.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/predictions/race_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/predictions/gender_understanding/status.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/queue_v1/status.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/independent_preflight_v1/predictions/BASE/status.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/qualification_v1/freeze.json,"""frozen_before_diagnostic""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/qualification_v1/result.json,"""completed""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/qualification_v1/implementation_freeze.json,"""frozen_before_diagnostic""",
+experiments/paper_sft_replication_v2/g_token_diagnostic_v2/qualification_v1/predictions/BASE/status.json,"""completed""",
+experiments/paper_sft_replication_v2/author_race_data_v1/status.json,"""completed""",
+experiments/paper_sft_replication_v2/sft_pipeline_v1/freeze.json,"""frozen_before_author_sft""",
+experiments/paper_sft_replication_v2/sft_pipeline_v1/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/author_sft_pipeline.py"", line 138, in run
+    sample=wait_for(STUDY/'official_baseline_sample/status.json',{'generated_pending_visual_review','passed'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v2/author_sft_pipeline.py"", line 105, in wait_for
+    raise Ru"
+experiments/umm_u_training_v1/checkpoint_download.json,"""complete""",
+experiments/role_transfer_benchmark_v1/generation/janus/run.json,"""completed""",
+experiments/role_transfer_benchmark_v1/generation/bagel/run.json,"""completed""",
+experiments/source_fairness_winogender_v1/phi_gpu1_review_queue_status_v1.json,"""completed""",
+experiments/source_fairness_winogender_v1/remaining_qwen_gpu1_queue_status_v1.json,"""completed""",
+experiments/source_fairness_winogender_v1/gpu1_generation_queue_status_v1.json,"""completed""",
+experiments/source_fairness_winogender_v1/training_audit.json,"""passed""",
+experiments/source_fairness_winogender_v1/visual_retention_v1/runs/warning_v1/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/mechanistic_masks_v1/u_runs/diagnostic_v2/locked_source_selections_copy.json,"""completed""",
+experiments/source_fairness_winogender_v1/mechanistic_masks_v1/u_runs/diagnostic_v2/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/mechanistic_masks_v1/u_runs/diagnostic_v1/locked_source_selections_copy.json,"""completed""",
+experiments/source_fairness_winogender_v1/mechanistic_masks_v1/u_runs/diagnostic_v1/config.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/evaluate_winogender_mechanistic_masks_v1.py"", line 211, in main
+    values, _ = evaluate(native, subset[:1])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/train_bagel_winogender_source_v1.py"", line 128, in evaluate
+    return rows, summary(rows)
+                 ^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/train_bagel_winogender_source_v1.py"", line 106, in "
+experiments/source_fairness_winogender_v1/mechanistic_masks_v1/g_reference_results_v1/base_v1/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/mechanistic_masks_v1/g_reference_results_v1/ordinary_seed20261028/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/mechanistic_masks_v1/g_reference_results_v1/ordinary_seed20261027/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/selected_evaluation_v1/locked_source_selections.json,"""completed""",
+experiments/source_fairness_winogender_v1/selected_evaluation_v1/frozen_source_selections_before_test_completion.json,"""selections_locked_before_test_open""",
+experiments/source_fairness_winogender_v1/runs/base_v1/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/runs/random_local4_seed20261027/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/runs/random_local4_seed20261027/selection.json,"""selected""",
+experiments/source_fairness_winogender_v1/runs/prior_g_local_seed20261027/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/runs/prior_g_local_seed20261027/selection.json,"""selected""",
+experiments/source_fairness_winogender_v1/runs/ordinary_seed20261028/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/runs/ordinary_seed20261028/selection.json,"""selected""",
+experiments/source_fairness_winogender_v1/runs/ordinary_seed20261027/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/runs/ordinary_seed20261027/selection.json,"""selected""",
+experiments/source_fairness_winogender_v1/runs/prior_g_local_seed20261028/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/runs/prior_g_local_seed20261028/selection.json,"""selected""",
+experiments/source_fairness_winogender_v1/runs/random_local4_seed20261028/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/runs/random_local4_seed20261028/selection.json,"""selected""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/gpu0_queue_progress.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/qwen_batch_preflight_v1/protocol.json,"""CPU prepared; no GPU/model inference started""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/qwen_review_chunks_v1/protocol.json,"""CPU prepared; not started""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261028__retain_7_13/source_selection_lock_snapshot.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261028__retain_7_13/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/base_v1/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261027__remove_7_13/source_selection_lock_snapshot.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261027__remove_7_13/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/random_local4_seed20261027/source_selection_lock_snapshot.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/random_local4_seed20261027/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/prior_g_local_seed20261027/source_selection_lock_snapshot.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/prior_g_local_seed20261027/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261028/source_selection_lock_snapshot.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261028/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261027/source_selection_lock_snapshot.json,"""selections_locked_before_test_open""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261027/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/prior_g_local_seed20261028/source_selection_lock_snapshot.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/prior_g_local_seed20261028/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261028__remove_7_13/source_selection_lock_snapshot.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261028__remove_7_13/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/random_local4_seed20261028/source_selection_lock_snapshot.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/random_local4_seed20261028/config.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261027__retain_7_13/source_selection_lock_snapshot.json,"""completed""",
+experiments/source_fairness_winogender_v1/g_transfer_v1/runs/ordinary_seed20261027__retain_7_13/config.json,"""completed""",
+experiments/fairness_transfer_v2/pipeline_status.json,"""complete""",
+experiments/fairness_transfer_v2/dev_human_review/page_audit.json,"""page_prepared_no_human_annotations_collected""",
+experiments/fairness_transfer_v2/bagel/status.json,"""source_complete""",
+experiments/fairness_transfer_v2/review_qualification/qwen.config.json,"""completed""",
+experiments/fairness_transfer_v2/review_qualification/phi.config.json,"""completed""",
+experiments/fairness_transfer_v2/review_references/qwen.config.json,"""completed""",
+experiments/fairness_transfer_v2/review/qwen.config.json,"""completed""",
+experiments/fairness_transfer_v2/review/phi.config.json,"""completed""",
+experiments/fairness_transfer_v2/sensenova/status.json,"""source_complete""",
+experiments/fairness_transfer_v2/replay/bagel/summary.json,"""complete""",
+experiments/fairness_transfer_v2/replay/bagel/status.json,"""complete""",
+experiments/fairness_transfer_v2/replay/sensenova/summary.json,"""complete""",
+experiments/fairness_transfer_v2/replay/sensenova/status.json,"""complete""",
+experiments/training_feasibility_v1/g_technical_pilot/cpu_mock_result.json,"""passed""",
+experiments/training_feasibility_v1/g_technical_pilot/run_und_v1/run.json,"""completed""",
+experiments/training_feasibility_v1/g_technical_pilot/run_gen_v1/run.json,"""completed""",
+experiments/training_feasibility_v1/u_technical_replication/native_validation_v1/results.json,"""completed""",
+experiments/training_feasibility_v1/u_technical_replication/run_v1/run.json,"""completed""",
+experiments/training_feasibility_v1/u_image_resolution_v1/blind_v1/metadata.json,"""prepared""",
+experiments/training_feasibility_v1/u_technical_smoke/run_v1/run.json,"""completed""",
+experiments/training_feasibility_v1/update_norm_matched_probe_v1/run_v1/run.json,"""completed""",
+experiments/training_feasibility_v1/update_norm_matched_probe_v1/run_v1/summary.json,"""completed""",
+experiments/u_visogender_pilot/runs/bagel_development_v1/config.json,"""completed""",
+experiments/occupation_transfer_v2/PREFLIGHT_DIAGNOSIS.json,"""qualification_failed""",
+experiments/occupation_transfer_v2/pipeline/sensenova.json,"""running""",
+experiments/occupation_transfer_v2/pipeline/status.json,"""qualification_failed""",
+experiments/occupation_transfer_v2/pipeline/bagel.json,"""waiting_for_resources""",
+experiments/occupation_transfer_v2/pilot/sensenova/seed_20261031/status.json,"""training""",
+experiments/occupation_transfer_v2/pilot/sensenova/seed_20261031/ordinary/complete.json,"""source_complete""",
+experiments/occupation_transfer_v1/PREFLIGHT_DIAGNOSIS.json,"""qualification_revised""",
+experiments/occupation_transfer_v1/pipeline/sensenova.json,"""running""",
+experiments/occupation_transfer_v1/pipeline/status.json,"""qualification_revised""",
+experiments/occupation_transfer_v1/pipeline/bagel.json,"""waiting_for_resources""",
+experiments/occupation_transfer_v1/pilot/sensenova/seed_20261031/status.json,"""qualification_revised""",
+experiments/prior_transfer_v1/runtime_audit.json,"""completed""",
+experiments/prior_transfer_v1/evaluation_state.json,"""completed""",
+experiments/prior_transfer_v1/final_integrity_audit.json,"""passed""",
+experiments/prior_transfer_v1/seed20261028/state.json,"""completed""",
+experiments/prior_transfer_v1/preflight_before_review/seed20261028/state.json,"""running""",
+experiments/prior_transfer_v1/preflight_before_review/seed20261029/state.json,"""running""",
+experiments/prior_transfer_v1/seed20261029/state.json,"""completed""",
+experiments/attribute_probe_v1/queue_status.json,"""inference_and_scoring_completed""",
+experiments/attribute_probe_v1/technical_validation.json,"""passed""",
+experiments/attribute_probe_v1/status.json,"""completed""",
+experiments/attribute_probe_v1/predictions/BASE/status.json,"""completed""",
+experiments/attribute_probe_v1/predictions/gender_understanding/status.json,"""completed""",
+experiments/fairness_transfer_study/source_main_v3/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/fairness_transfer_study/generate_data.py"", line 93, in generate
+    parent = active.get('parent_request_id')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/anaconda3/envs/ucp/lib/python3.11/site-packages/torch/utils/_contextlib.py"", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/personalization/experiments/next_mechanism_scr"
+experiments/fairness_transfer_study/pipeline_v1/pipeline_status.json,"""incomplete_model_worker_failure""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/source_import.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/sensenova_20261030_B_prepare.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/sensenova_20261030_A_qwen.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/bagel_20261030_A_qwen.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/study_build.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/bagel_20261030_B_prepare.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/bagel_20261030_train.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/source_shard0_exclusive.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/bagel_20261030_A_prepare.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/bagel_20261030_B_qwen.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/sensenova_20261030_A_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/source_scene.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/sensenova_20261030_train.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/sensenova_20261030_A_prepare.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/source_prepare.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/source_shard0_prepare.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/sensenova_20261030_B_qwen.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/bagel_20261030_A_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_v1/receipts/source_exclusive.json,"""completed""",
+experiments/fairness_transfer_study/pipeline_waiting_superseded_20261030T0223/pipeline_status.json,"""superseded_while_waiting""",
+experiments/fairness_transfer_study/recovery_bagel_v1/pipeline_status.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_A_phi_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_A_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_D_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_C_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_E_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_A_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_D_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_D_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_C_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_E_qwen_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_E_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_E_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_A_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_E_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_B_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_B_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_A_qwen.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_A_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_C_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_D_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_A_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_B_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_B_prepare.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_C_qwen_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_train.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_B_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_D_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_E_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_D_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_A_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_D_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_A_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_D_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_D_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_A_qwen_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_E_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_A_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_D_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_B_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_A_prepare.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_A_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_E_phi_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_B_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_E_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_D_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_C_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_B_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_C_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_B_qwen.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_C_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_B_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_D_qwen_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_E_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_E_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_E_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_B_phi_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_D_phi_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_C_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_B_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_D_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_C_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_E_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_C_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_C_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_E_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_D_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_train.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_C_phi_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_A_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_C_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_C_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_B_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_B_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_C_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_D_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_C_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_C_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_E_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_D_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_A_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_A_qwen_report.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_A_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_B_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261030_E_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_train.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261031_B_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_20261032_E_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_bagel_v1/receipts/bagel_B_qwen_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/source_observations_v3/scene.config.json,"""completed""",
+experiments/fairness_transfer_study/source_observations_v3/exclusive_shard0.config.json,"""completed""",
+experiments/fairness_transfer_study/source_observations_v3/exclusive.config.json,"""completed""",
+experiments/fairness_transfer_study/source_pilot_v3/status.json,"""completed""",
+experiments/fairness_transfer_study/source_pilot_v3/blind/qwen_v2.config.json,"""completed""",
+experiments/fairness_transfer_study/source_pilot_v3/blind/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/source_pilot_v3/blind/exclusive_qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/source_pilot_v3/blind/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/engineering_queue_gpu0/status.json,"""completed""",
+experiments/fairness_transfer_study/technical_bagel_alignment_v1/audit.json,"""diagnostic_complete""",
+experiments/fairness_transfer_study/technical_reader_batch_v1/exclusive_b4.config.json,"""completed""",
+experiments/fairness_transfer_study/technical_reader_batch_v1/scene_b4.config.json,"""completed""",
+experiments/fairness_transfer_study/technical_reader_batch_v1/exclusive_b1.config.json,"""completed""",
+experiments/fairness_transfer_study/technical_reader_batch_v1/scene_b1.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/B/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/B/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/B/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/B/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/A/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/A/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/A/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/A/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/D/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/D/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/D/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/D/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/C/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/C/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/C/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/C/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/E/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/E/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/E/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261032/E/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/B/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/B/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/B/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/B/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/A/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/A/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/A/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/A/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/D/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/D/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/D/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/D/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/C/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/C/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/C/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/C/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/E/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/E/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/E/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261031/E/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/B/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/B/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/B/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/B/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/A/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/A/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/A/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/A/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/D/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/D/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/D/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/D/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/C/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/C/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/C/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/C/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/E/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/E/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/E/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/bagel/seed20261030/E/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/B/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/B/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/B/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/B/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/A/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/A/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/A/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/A/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/D/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/D/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/D/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/D/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/C/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/C/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/C/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/C/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/E/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/E/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/E/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261032/E/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/B/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/B/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/B/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/B/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/A/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/A/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/A/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/A/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/D/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/D/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/D/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/D/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/C/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/C/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/C/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/C/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/E/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/E/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/E/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261031/E/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/B/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/B/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/B/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/B/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/A/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/A/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/A/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/A/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/D/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/D/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/D/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/D/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/C/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/C/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/C/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/C/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/E/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/E/phi.config.json,"""completed""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/E/qwen/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/results/sensenova/seed20261030/E/phi/summary.json,"""proxy_analysis_available""",
+experiments/fairness_transfer_study/technical_bagel_v1/audit.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/fairness_transfer_study/smoke_backend.py"", line 255, in main
+    result = check_u(backend, row, output)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/fairness_transfer_study/smoke_backend.py"", line 104, in check_u
+    torch.testing.assert_close(score.detach(), reference, atol=SEQUENCE_LOGPROB_ATOL, rtol=0)
+  File ""/home/ubuntu/anaconda3/envs/ucp/lib/python3.11/site-packages"
+experiments/fairness_transfer_study/source_main_parallel/precompletion_integrity.json,"""partial_snapshot_integrity_pass""",
+experiments/fairness_transfer_study/source_main_parallel/shard0/status.json,"""completed""",
+experiments/fairness_transfer_study/source_main_parallel/shard1/status.json,"""completed""",
+experiments/fairness_transfer_study/technical_sensenova_v1/audit.json,"""passed""",
+experiments/fairness_transfer_study/technical_sensenova_prefix_v1/audit.json,"""passed""",
+experiments/fairness_transfer_study/aggregate/bagel/B/qwen/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/bagel/B/phi/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/bagel/A/qwen/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/bagel/A/phi/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/bagel/D/qwen/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/bagel/D/phi/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/bagel/C/qwen/summary.json,"""per_seed_only_no_cross_seed_C_inference""",
+experiments/fairness_transfer_study/aggregate/bagel/C/phi/summary.json,"""per_seed_only_no_cross_seed_C_inference""",
+experiments/fairness_transfer_study/aggregate/bagel/E/qwen/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/bagel/E/phi/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/sensenova/B/qwen/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/sensenova/B/phi/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/sensenova/A/qwen/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/sensenova/A/phi/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/sensenova/D/qwen/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/sensenova/D/phi/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/sensenova/C/qwen/summary.json,"""per_seed_only_no_cross_seed_C_inference""",
+experiments/fairness_transfer_study/aggregate/sensenova/C/phi/summary.json,"""per_seed_only_no_cross_seed_C_inference""",
+experiments/fairness_transfer_study/aggregate/sensenova/E/qwen/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/aggregate/sensenova/E/phi/summary.json,"""available_seed_estimates""",
+experiments/fairness_transfer_study/technical_bagel_v2/audit.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/fairness_transfer_study/smoke_backend.py"", line 360, in main
+    result = check_flow(backend, row, output, 20261030)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/fairness_transfer_study/smoke_backend.py"", line 291, in check_flow
+    loss = backend.flow_loss(bridge_row, seed=seed, t=.5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubu"
+experiments/fairness_transfer_study/recovery_sensenova_v1/pipeline_status.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_A_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_C_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_D_qwen_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_E_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_E_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_train.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_A_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_C_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_C_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_A_phi_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_E_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_A_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_A_qwen_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_D_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_B_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_E_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_B_prepare.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_E_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_B_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_D_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_C_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_A_qwen.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_A_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_C_qwen_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_E_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_C_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_B_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_B_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_D_phi_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_C_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_D_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_D_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_D_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_B_qwen_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_D_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_C_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_D_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_A_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_B_phi_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_E_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_B_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_A_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_C_phi_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_E_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_B_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_E_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_A_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_E_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_C_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_E_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_D_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_E_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_D_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_C_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_A_qwen_report.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_B_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_train.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_E_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_E_qwen_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_D_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_C_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_C_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_train.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_A_prepare.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_D_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_B_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_B_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_D_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_A_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_C_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_B_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_E_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_C_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_A_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_A_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_D_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261030_B_qwen.json,"""completed_verified_legacy_reuse""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_B_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_C_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_E_phi_aggregate.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_B_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_A_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_A_qwen_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_E_phi.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_C_qwen.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261032_B_prepare.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_D_phi_report.json,"""completed""",
+experiments/fairness_transfer_study/recovery_sensenova_v1/receipts/sensenova_20261031_D_prepare.json,"""completed""",
+experiments/fairness_transfer_study/source_pilot_v2/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/fairness_transfer_study/generate_data.py"", line 93, in generate
+    result = pipe(image=image, prompt=instruction, width=768, height=768,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/anaconda3/envs/ucp/lib/python3.11/site-packages/torch/utils/_contextlib.py"", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File ""/home"
+experiments/fairness_transfer_study/source_pilot/status.json,"""interrupted_superseded""",
+experiments/fairness_transfer_study/review_smoke_qwen/qwen.config.json,"""completed""",
+experiments/fairness_transfer_study/technical_bagel_prefix_v1/audit.json,"""passed""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/queue_status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/B/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/B/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/B/states/offset_control/done.json,"""diagnostic_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/B/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/A/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/A/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/A/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/A/states/qa/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/D/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/D/states/ordinary_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/D/states/fair_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/D/states/fair_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/D/states/ordinary_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/C/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/C/states/negative_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/C/states/negative/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/C/states/positive/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/C/states/negative_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/C/states/positive_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/C/states/positive_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/E/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/E/states/fair_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/E/states/base_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261032/E/states/ordinary_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/queue_status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/B/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/B/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/B/states/offset_control/done.json,"""diagnostic_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/B/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/A/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/A/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/A/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/A/states/qa/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/D/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/D/states/ordinary_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/D/states/fair_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/D/states/fair_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/D/states/ordinary_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/C/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/C/states/negative_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/C/states/negative/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/C/states/positive/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/C/states/negative_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/C/states/positive_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/C/states/positive_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/E/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/E/states/fair_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/E/states/base_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261031/E/states/ordinary_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/queue_status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/B/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/B/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/B/states/offset_control/done.json,"""diagnostic_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/B/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/A/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/A/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/A/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/A/states/qa/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/D/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/D/states/ordinary_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/D/states/fair_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/D/states/fair_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/D/states/ordinary_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/C/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/C/states/negative_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/C/states/negative/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/C/states/positive/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/C/states/negative_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/C/states/positive_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/C/states/positive_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/E/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/E/states/fair_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/E/states/base_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/bagel/seed20261030/E/states/ordinary_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/queue_status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/B/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/B/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/B/states/offset_control/done.json,"""diagnostic_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/B/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/A/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/A/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/A/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/A/states/qa/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/D/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/D/states/ordinary_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/D/states/fair_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/D/states/fair_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/D/states/ordinary_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/C/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/C/states/negative_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/C/states/negative/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/C/states/positive/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/C/states/negative_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/C/states/positive_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/C/states/positive_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/E/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/E/states/fair_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/E/states/base_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261032/E/states/ordinary_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/queue_status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/B/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/B/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/B/states/offset_control/done.json,"""diagnostic_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/B/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/A/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/A/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/A/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/A/states/qa/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/D/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/D/states/ordinary_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/D/states/fair_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/D/states/fair_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/D/states/ordinary_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/C/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/C/states/negative_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/C/states/negative/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/C/states/positive/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/C/states/negative_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/C/states/positive_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/C/states/positive_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/E/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/E/states/fair_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/E/states/base_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261031/E/states/ordinary_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/queue_status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/B/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/B/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/B/states/offset_control/done.json,"""diagnostic_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/B/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/A/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/A/states/fair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/A/states/ordinary/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/A/states/qa/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/D/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/D/states/ordinary_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/D/states/fair_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/D/states/fair_q/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/D/states/ordinary_kv/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/C/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/C/states/negative_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/C/states/negative/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/C/states/positive/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/C/states/negative_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/C/states/positive_continued/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/C/states/positive_repair/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/E/status.json,"""complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/E/states/fair_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/E/states/base_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/runs/sensenova/seed20261030/E/states/ordinary_u_bridge/done.json,"""source_complete""",
+experiments/fairness_transfer_study/pipeline_waiting_superseded_parallel_source_qc/pipeline_status.json,"""superseded_while_waiting""",
+experiments/fairness_transfer_study/data/C_world_spec.json,"""Sampling design only; no image facts or training examples fabricated""",
+experiments/fairness_transfer_study/data/technical_import_contract/CHECKS.json,"""passed""",
+experiments/fairness_transfer_study/data/technical_budget_contract/CHECKS.json,"""passed""",
+experiments/fairness_transfer_study/data/technical_build_contract/CHECKS.json,"""passed""",
+experiments/fairness_transfer_study/technical_bagel_v3/audit.json,"""passed""",
+experiments/role_transfer_pilot_v1/training/U-CE/run.json,"""completed""",
+experiments/role_transfer_pilot_v1/training/U-CDRO/run.json,"""completed""",
+experiments/role_transfer_pilot_v1/generation/U-CE/run.json,"""completed""",
+experiments/role_transfer_pilot_v1/generation/BASE/run.json,"""completed""",
+experiments/role_transfer_pilot_v1/generation/U-CDRO/run.json,"""completed""",
+experiments/occupation_transfer/technical_bagel_v1/audit.json,"""passed""",
+experiments/occupation_transfer/technical_sensenova_v1/audit.json,"""passed""",
+experiments/bpo_token_affinity_v1/protocol.json,"""frozen_before_any_model_inference""",
+experiments/bpo_token_affinity_v1/bagel_flow_analogue_v1/runs/base_v1/config.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/probe_bagel_flow_affinity.py"", line 61, in main
+    native = load_bagel(GenerationConfig(planfile, out, device='cuda:0', image_size=512))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/personalization/experiments/evidence_reuse/generate.py"", line 108, in load_bagel
+    model = load_checkpoint_and_dispatch(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ "
+experiments/bpo_token_affinity_v1/bagel_flow_analogue_v1/runs/base_v3/config.json,"""completed""",
+experiments/bpo_token_affinity_v1/bagel_flow_analogue_v1/runs/base_v2/config.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/probe_bagel_flow_affinity.py"", line 79, in main
+    native = load_bagel(GenerationConfig(planfile, out, device='cuda:0', image_size=512))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/personalization/experiments/evidence_reuse/generate.py"", line 108, in load_bagel
+    model = load_checkpoint_and_dispatch(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ "
+experiments/understanding_generation_sft_v2/formal_draft_status.json,"""promoted_to_frozen_formal_source""",
+experiments/understanding_generation_sft_v2/old_source_v1_failure_audit_20261031.json,"""completed_read_only_posthoc_audit""",
+experiments/understanding_generation_sft_v2/SOURCE_PLAN_CPU_AUDIT.json,"""passed_CPU_plan_checks_not_image_qualification""",
+experiments/understanding_generation_sft_v2/formal_scenes.draft.json,"""unfrozen_draft_before_composition_calibration""",
+experiments/understanding_generation_sft_v2/INDEPENDENT_SFT_G_PIPELINE_CODE_AUDIT_20261031.json,"""reviewed_no_remaining_execution_blocker_in_requested_scope""",
+experiments/understanding_generation_sft_v2/experiment_v1/data_contract.json,"""frozen_before_target_model_test_answers""",
+experiments/understanding_generation_sft_v2/experiment_v1/evaluation_contract.json,"""frozen_before_new_target_model_answers""",
+experiments/understanding_generation_sft_v2/experiment_v1/generation_analysis_contract.json,"""frozen_before_new_G_results""",
+experiments/understanding_generation_sft_v2/experiment_v1/analysis_contract.json,"""frozen_before_new_target_model_answers""",
+experiments/understanding_generation_sft_v2/experiment_v1/pipeline_u_first_v2/official_settings_hold.json,"""supervisor_held""",
+experiments/understanding_generation_sft_v2/experiment_v1/pipeline_u_first_v2/status.json,"""held_for_official_reference_check""",
+experiments/understanding_generation_sft_v2/experiment_v1/generation_analysis/watch_status.json,"""watching""",
+experiments/understanding_generation_sft_v2/calibration_v1/review_contract.json,"""frozen_before_new_image_observation""",
+experiments/understanding_generation_sft_v2/calibration_v1/freeze.json,"""frozen_calibration_requests_not_generated""",
+experiments/understanding_generation_sft_v2/calibration_v1/COMPOSITION_AUDIT.json,"""completed_unblinded_development_composition_review""",
+experiments/understanding_generation_sft_v2/calibration_v1/pipeline/status.json,"""reviewed_pending_dataset_decision""",
+experiments/understanding_generation_sft_v2/calibration_v1/generated/status.json,"""completed""",
+experiments/understanding_generation_sft_v2/calibration_v1/review/independent_audit.json,"""passed_integrity_and_recomputation""",
+experiments/understanding_generation_sft_v2/calibration_v1/review/manifest_freeze.json,"""frozen""",
+experiments/understanding_generation_sft_v2/calibration_v1/review/qualification_summary/summary.json,"""completed""",
+experiments/understanding_generation_sft_v2/calibration_v1/review/qwen/status.json,"""completed""",
+experiments/understanding_generation_sft_v2/calibration_v1/review/qualification/qwen/status.json,"""passed""",
+experiments/understanding_generation_sft_v2/calibration_v1/review/qualification/phi/status.json,"""passed""",
+experiments/understanding_generation_sft_v2/calibration_v1/review/phi/status.json,"""completed""",
+experiments/understanding_generation_sft_v2/source_candidates_v1/review_contract.json,"""frozen_before_new_image_observation""",
+experiments/understanding_generation_sft_v2/source_candidates_v1/calibration_decision.json,"""formal_requests_frozen_after_independent_composition_calibration""",
+experiments/understanding_generation_sft_v2/source_candidates_v1/freeze.json,"""frozen_formal_requests_not_generated_or_qualified""",
+experiments/understanding_generation_sft_v2/source_candidates_v1/scene_catalog.json,"""unfrozen_draft_before_composition_calibration""",
+experiments/understanding_generation_sft_v2/source_candidates_v1/INTERRUPTION_AUDIT_20261031.json,"""incomplete_interrupted_for_official_reference_check""",
+experiments/understanding_generation_sft_v2/source_candidates_v1/pipeline/status.json,"""held_for_official_reference_check""",
+experiments/understanding_generation_sft_v2/source_candidates_v1/generated/status.json,"""interrupted_for_official_reference_check""",
+experiments/u_public_pilot_expanded/runs/bagel_development_v1/config.json,"""completed""",
+experiments/semantic_transfer_v1/generation_integrity_audit.json,"""passed""",
+experiments/semantic_transfer_v1/source_calibration_v1/calibration.json,"""completed""",
+experiments/semantic_transfer_v1/generation/SP-CE/run.json,"""completed""",
+experiments/semantic_transfer_v1/generation/BASE/run.json,"""completed""",
+experiments/semantic_transfer_v1/generation/IF-CE/run.json,"""completed""",
+experiments/semantic_transfer_v1/generation/SP-PAIR/run.json,"""completed""",
+experiments/semantic_transfer_v1/generation/SP-V-CENTER/run.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/implementation_amendment03_native_autograd.json,"""Approved implementation repair before any optimization""",
+experiments/g_source_balanced_distillation_v1/technical_amendment_20261027.json,"""CPU_only_pre_training_technical_review""",
+experiments/g_source_balanced_distillation_v1/cpu_check_result.json,"""CPU_fake_passed""",
+experiments/g_source_balanced_distillation_v1/protocol.json,"""CPU_prepared_not_trained""",
+experiments/g_source_balanced_distillation_v1/u_target_v1/analysis_cpu_plan_v1.json,"""CPU_prepared_no_target_model_results_opened""",
+experiments/g_source_balanced_distillation_v1/u_target_v1/analysis_cpu_check.json,"""passed""",
+experiments/g_source_balanced_distillation_v1/u_target_v1/final_analysis_v1/analysis_provenance.json,"""completed_CPU_analysis_no_selection""",
+experiments/g_source_balanced_distillation_v1/u_target_v1/runs/shared_und_seed20261027/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/u_target_v1/runs/shared_und_seed20261028/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/u_target_v1/runs/generation_only_seed20261028/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/u_target_v1/runs/generation_only_seed20261027/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/g_evaluation_v1/runs/base_v1/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/g_evaluation_v1/runs/shared_und_seed20261027/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/g_evaluation_v1/runs/shared_und_seed20261027/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/g_evaluation_v1/runs/shared_und_seed20261028/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/g_evaluation_v1/runs/shared_und_seed20261028/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/g_evaluation_v1/runs/generation_only_seed20261028/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/g_evaluation_v1/runs/generation_only_seed20261028/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/g_evaluation_v1/runs/generation_only_seed20261027/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/g_evaluation_v1/runs/generation_only_seed20261027/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/g_evaluation_v1/blind_five_models_v1/phi_gpu1_execution_status_v1.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/native_autograd_diagnostic_v2/result.json,"""passed_no_update""",
+experiments/g_source_balanced_distillation_v1/native_autograd_diagnostic_v1/result.json,"""failed_no_update""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/probe_bagel_differentiable_flow_v1.py"", line 113, in main
+    prediction,actual_target,_=native_velocity(native,row,latent,epsilon)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/probe_bagel_differentiable_flow_v1.py"", line 46, in native_velocity
+    velocity=model._forward_flow(x_t=xt,timestep=t,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+experiments/g_source_balanced_distillation_v1/evaluation_queues/seed20261028/queue_plan.json,"""CPU_prepared_not_started""",
+experiments/g_source_balanced_distillation_v1/evaluation_queues/seed20261028_v2/queue_plan.json,"""CPU_prepared_not_started""",
+experiments/g_source_balanced_distillation_v1/evaluation_queues/seed20261027_v2/queue_plan.json,"""CPU_prepared_not_started""",
+experiments/g_source_balanced_distillation_v1/evaluation_queues/seed20261028_v3/queue_status.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/evaluation_queues/seed20261028_v3/queue_plan.json,"""CPU_prepared_not_started""",
+experiments/g_source_balanced_distillation_v1/evaluation_queues/seed20261027/queue_plan.json,"""CPU_prepared_not_started""",
+experiments/g_source_balanced_distillation_v1/evaluation_queues/seed20261027_v3/queue_status.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/evaluation_queues/seed20261027_v3/queue_plan.json,"""CPU_prepared_not_started""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/off_identity_audit_v1.json,"""rendered""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/all_identity_audit_v1.json,"""rendered""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/reference_results_v1/base_v1/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/reference_results_v1/shared_und_seed20261027/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/blind_two_phases_v1/phi_gpu1_status_v1.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/prefix_only_v1/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/prefix_only_v1/phase_config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/prefix_only_v1/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/off_identity_v1/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/off_identity_v1/phase_config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/off_identity_v1/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/denoise_und_only_v1/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/denoise_und_only_v1/phase_config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/denoise_und_only_v1/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/all_identity_v1/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/all_identity_v1/phase_config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/phase_pathway_diagnostic_v1/runs/all_identity_v1/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/queue_status.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/protocol.json,"""frozen_before_posthoc_inference""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/blind_two_phases_v1/phi_gpu1_status_v1.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/denoise_und_only/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/denoise_und_only/phase_config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/denoise_und_only/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/off/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/off/phase_config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/off/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/prefix_only/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/prefix_only/phase_config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/prefix_only/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/all/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/all/phase_config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/posthoc_positive_pathway_v1/runs/all/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/queues/seed20261028/queue_plan.json,"""CPU_queue_prepared_not_launched""",
+experiments/g_source_balanced_distillation_v1/queues/seed20261028_v2/queue_plan.json,"""CPU_queue_prepared_not_launched""",
+experiments/g_source_balanced_distillation_v1/queues/seed20261027_v2/queue_status.json,"""failed_first_attempt_no_retry""",
+experiments/g_source_balanced_distillation_v1/queues/seed20261027_v2/queue_plan.json,"""CPU_queue_prepared_not_launched""",
+experiments/g_source_balanced_distillation_v1/queues/seed20261028_v3/queue_status.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/queues/seed20261028_v3/queue_plan.json,"""CPU_queue_prepared_not_launched""",
+experiments/g_source_balanced_distillation_v1/queues/seed20261027/queue_status.json,"""failed_first_attempt_no_retry""",
+experiments/g_source_balanced_distillation_v1/queues/seed20261027/queue_plan.json,"""CPU_queue_prepared_not_launched""",
+experiments/g_source_balanced_distillation_v1/queues/seed20261027_v3/queue_status.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/queues/seed20261027_v3/queue_plan.json,"""CPU_queue_prepared_not_launched""",
+experiments/g_source_balanced_distillation_v1/runs/generation_only_seed20261027_attempt3/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/runs/generation_only_seed20261027_attempt3/selection.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/runs/shared_und_seed20261027/config.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/train_bagel_g_balanced_source_v1.py"", line 245, in train
+    if sha(row['image_path'])!=row['image_sha256']:raise ValueError('Teacher image changed')
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/probe_bagel_text_kv.py"", line 31, in sha
+    with path.open('rb') as f:
+         ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'open'
+"
+experiments/g_source_balanced_distillation_v1/runs/shared_und_seed20261028/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/runs/shared_und_seed20261028/selection.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/runs/shared_und_seed20261027_attempt3/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/runs/shared_und_seed20261027_attempt3/selection.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/runs/generation_only_seed20261028/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/runs/generation_only_seed20261028/selection.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/runs/shared_und_seed20261027_attempt2/config.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/train_bagel_g_balanced_source_v1.py"", line 276, in train
+    raise RuntimeError('Native train/inference velocity exceeded frozen 0.1 threshold')
+RuntimeError: Native train/inference velocity exceeded frozen 0.1 threshold
+"
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/gpu0_queue_v1.json,"""CPU_ready_after_phase_only""",
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/gpu0_queue_status_v1.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/protocol.json,"""CPU protocol frozen; no GPU inference started""",
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/runs/base_v1/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/runs/shared_und_seed20261027/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/runs/shared_und_seed20261027/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/runs/shared_und_seed20261028/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/runs/shared_und_seed20261028/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/runs/generation_only_seed20261028/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/runs/generation_only_seed20261028/config.json,"""completed""",
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/runs/generation_only_seed20261027/source_selection_lock_snapshot.json,"""fixed_final_checkpoint""",
+experiments/g_source_balanced_distillation_v1/g_capability_warning_v1/runs/generation_only_seed20261027/config.json,"""completed""",
+experiments/bias_map_v1/design.json,"""designed_not_executed""",
+experiments/bias_map_v1/ug_same_scene_v1/runs/bagel_v1/config.json,"""completed""",
+experiments/bias_map_v1/runs/generation_20_smoke/config.json,"""completed""",
+experiments/bias_map_v1/runs/generation_smoke/config.json,"""completed""",
+experiments/bias_map_v1/runs/generation_1024_smoke/config.json,"""completed""",
+experiments/bias_map_v1/runs/development_512_20_shard1/config.json,"""completed""",
+experiments/bias_map_v1/runs/generation_replay/config.json,"""completed""",
+experiments/bias_map_v1/runs/development_512_20_shard0_remainder/config.json,"""completed""",
+experiments/bias_map_v1/runs/development_512_20_shard0/config.json,"""running""",
+experiments/mechanism_probe_v1/u_wording_visogender_v1/runs/visogender_v1/config.json,"""completed""",
+experiments/mechanism_probe_v1/heldout_occupation_v1/runs/heldout_v1/config.json,"""completed""",
+experiments/mechanism_probe_v1/shared_prefix_doctor_20261027/config.json,"""completed""",
+experiments/mechanism_probe_v1/layer_segments_u_development_v1/runs/u_v1_pathfix/config.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/probe_bagel_u_layer_development_v1.py"", line 106, in main
+    from data.data_utils import pil_img2rgb
+ModuleNotFoundError: No module named 'data.data_utils'; 'data' is not a package
+"
+experiments/mechanism_probe_v1/layer_segments_u_development_v1/runs/u_v1_importfix/config.json,"""completed""",
+experiments/mechanism_probe_v1/u_teacher_forced_v1/runs/scoring_v1/config.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/probe_bagel_u_teacher_forced_v1.py"", line 152, in main
+    if delta>.10:raise ValueError('Packed vs incremental log probability exceeds 0.10')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Packed vs incremental log probability exceeds 0.10
+"
+experiments/mechanism_probe_v1/u_teacher_forced_v1/runs/scoring_v2_incremental/config.json,"""completed""",
+experiments/mechanism_probe_v1/smoke_20261027/config.json,"""completed""",
+experiments/mechanism_probe_v1/shared_prefix_development_batch_20261027/config.json,"""completed""",
+experiments/mechanism_probe_v1/explicit_prompt_baseline_v1/runs/baseline_v1/config.json,"""completed""",
+experiments/mechanism_probe_v1/layer_replication_v1/runs/shard0/config.json,"""completed""",
+experiments/mechanism_probe_v1/layer_replication_v1/runs/shard1/config.json,"""completed""",
+experiments/mechanism_probe_v1/layer_segments_v1/runs/layer_v1/config.json,"""completed""",
+experiments/description_coverage_v1/queue_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/experiments/description_coverage_v1/run_queue.py"", line 21, in <module>
+    if code:raise RuntimeError(task+' '+name+' failed; see preserved log')
+RuntimeError: infer gender_understanding failed; see preserved log
+"
+experiments/description_coverage_v1/reference_queue_status.json,"""completed""",
+experiments/description_coverage_v1/technical_validation.json,"""passed""",
+experiments/description_coverage_v1/status.json,"""completed""",
+experiments/description_coverage_v1/predictions/BASE/status.json,"""completed""",
+experiments/description_coverage_v1/predictions/gender_understanding/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/description_coverage_v1.py"", line 136, in infer
+    raw = model.generate_content([vila_u.Image(item['image_path']), item['question']], config)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/anaconda3/envs/ucp/lib/python3.11/site-packages/torch/utils/_contextlib.py"", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^"
+experiments/description_coverage_v1/resource_v2/predictions/gender_understanding/status.json,"""completed""",
+experiments/understanding_generation_sft_v3/official_sample_visual_check.json,"""assistant_visual_inspection_completed""",
+experiments/understanding_generation_sft_v3/INDEPENDENT_FIRST_SOURCE_BATCH_AUDIT_20261031.json,"""passed_first_batch_integrity""",
+experiments/understanding_generation_sft_v3/EXECUTION_CHECK_20261031.json,"""CPU_tests_and_frozen_contracts_verified""",
+experiments/understanding_generation_sft_v3/experiment_v1/data_contract.json,"""frozen_before_target_model_test_answers""",
+experiments/understanding_generation_sft_v3/experiment_v1/evaluation_contract.json,"""frozen_before_new_target_model_answers""",
+experiments/understanding_generation_sft_v3/experiment_v1/generation_analysis_contract.json,"""frozen_before_new_G_results""",
+experiments/understanding_generation_sft_v3/experiment_v1/analysis_contract.json,"""frozen_before_new_target_model_answers""",
+experiments/understanding_generation_sft_v3/experiment_v1/pipeline_official_v1/status.json,"""waiting_for_source_review""",
+experiments/understanding_generation_sft_v3/experiment_v1/generation_analysis/watch_status.json,"""watching""",
+experiments/understanding_generation_sft_v3/qualification/freeze.json,"""prepared_not_gpu_qualified""",
+experiments/understanding_generation_sft_v3/qualification/status.json,"""passed""",
+experiments/understanding_generation_sft_v3/qualification/g_flow_g_values/result.json,"""passed""",
+experiments/understanding_generation_sft_v3/qualification/g_flow_g_values/with_checkpoint/result.json,"""completed""",
+experiments/understanding_generation_sft_v3/qualification/g_flow_g_values/without_checkpoint/result.json,"""out_of_memory""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/understanding_generation_sft_v3/qualification.py"", line 243, in run
+    reference = gradient_trial(backend, row, latent, epsilon, raw_time, kind, False, reference_directory)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/understanding_generation_sft_v3/qualification.py"", line 168, in gradient_trial
+    prediction"
+experiments/understanding_generation_sft_v3/qualification/g_flow_u_values/result.json,"""passed""",
+experiments/understanding_generation_sft_v3/qualification/g_flow_u_values/with_checkpoint/result.json,"""completed""",
+experiments/understanding_generation_sft_v3/qualification/g_flow_u_values/without_checkpoint/result.json,"""out_of_memory""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/understanding_generation_sft_v3/qualification.py"", line 243, in run
+    reference = gradient_trial(backend, row, latent, epsilon, raw_time, kind, False, reference_directory)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/understanding_generation_sft_v3/qualification.py"", line 168, in gradient_trial
+    prediction"
+experiments/understanding_generation_sft_v3/qualification/u_caption_u_values/result.json,"""passed""",
+experiments/understanding_generation_sft_v3/qualification/u_caption_u_values/with_checkpoint/result.json,"""completed""",
+experiments/understanding_generation_sft_v3/qualification/u_caption_u_values/without_checkpoint/result.json,"""out_of_memory""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/understanding_generation_sft_v3/qualification.py"", line 243, in run
+    reference = gradient_trial(backend, row, latent, epsilon, raw_time, kind, False, reference_directory)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/understanding_generation_sft_v3/qualification.py"", line 163, in gradient_trial
+    prediction"
+experiments/understanding_generation_sft_v3/source_candidates_v1/review_contract.json,"""frozen_before_new_image_observation""",
+experiments/understanding_generation_sft_v3/source_candidates_v1/freeze.json,"""frozen_candidates_not_generated""",
+experiments/understanding_generation_sft_v3/source_candidates_v1/shards/shard_0/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/understanding_generation_sft_v3/source_generate.py"", line 156, in generate
+    image = pipe(prompt=active[""generation_prompt""], width=2048, height=2048,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/anaconda3/envs/ucp/lib/python3.11/site-packages/torch/utils/_contextlib.py"", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^"
+experiments/understanding_generation_sft_v3/source_candidates_v1/shards/shard_1/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/understanding_generation_sft_v3/source_generate.py"", line 156, in generate
+    image = pipe(prompt=active[""generation_prompt""], width=2048, height=2048,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/anaconda3/envs/ucp/lib/python3.11/site-packages/torch/utils/_contextlib.py"", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^"
+experiments/understanding_generation_sft_v3/source_candidates_v1/pipeline/finish/status.json,"""waiting_for_both_shards""",
+experiments/understanding_generation_sft_v3/source_candidates_v1/pipeline/shard_0/status.json,"""closed_failed""",
+experiments/understanding_generation_sft_v3/source_candidates_v1/pipeline/shard_1/status.json,"""closed_failed""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/status.json,"""interrupted_for_official_reference_check""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/evidence_sequential/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/semantic_forward/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/route_kv/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/evidence_pair/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/evidence_parallel/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/semantic_bidirectional/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review_gpu0_pipeline/status.json,"""completed""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/semantic_control/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/qwen/evidence_sequential/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/qwen/evidence_pair/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/qwen/BASE/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/qwen/evidence_parallel/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/qwen/semantic_control/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/qwen/ordinary/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/phi/evidence_sequential/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/phi/evidence_pair/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/phi/BASE/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/phi/evidence_parallel/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/phi/semantic_control/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/review/phi/ordinary/summary.json,"""automatic_proxy_analysis""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/ordinary/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/main/sensenova/seed_20261031/semantic_reverse/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/pipeline/official_settings_hold.json,"""supervisor_held""",
+experiments/occupation_transfer_v3/pipeline/sensenova.json,"""held_for_official_reference_check""",
+experiments/occupation_transfer_v3/pipeline/status.json,"""held_for_official_reference_check""",
+experiments/occupation_transfer_v3/pipeline/bagel.json,"""qualification_failed""",
+experiments/occupation_transfer_v3/pilot/bagel/seed_20261031/status.json,"""complete""",
+experiments/occupation_transfer_v3/pilot/bagel/seed_20261031/evidence_pair/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/pilot/bagel/seed_20261031/semantic_bidirectional/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/pilot/bagel/seed_20261031/ordinary/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/pilot/sensenova/seed_20261031/status.json,"""complete""",
+experiments/occupation_transfer_v3/pilot/sensenova/seed_20261031/evidence_pair/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/pilot/sensenova/seed_20261031/semantic_bidirectional/complete.json,"""source_complete""",
+experiments/occupation_transfer_v3/pilot/sensenova/seed_20261031/ordinary/complete.json,"""source_complete""",
+experiments/understanding_generation_sft_v1/data_audit.json,"""prepared_cpu_only_no_training_or_new_model_inference""",
+experiments/understanding_generation_sft_v1/experiment_v1/data_contract.json,"""frozen_before_target_model_test_answers""",
+experiments/understanding_generation_sft_v1/experiment_v1/evaluation_manifest_freeze.json,"""frozen""",
+experiments/understanding_generation_sft_v1/experiment_v1/old_generation_noise_audit.json,"""passed_no_duplicate_noise_pseudoreplication_in_old_neutral_N16""",
+experiments/understanding_generation_sft_v1/experiment_v1/IMPLEMENTATION_AUDIT.json,"""passed_no_new_blocking_implementation_issue_found""",
+experiments/understanding_generation_sft_v1/experiment_v1/evaluation_contract.json,"""frozen_before_new_target_model_answers""",
+experiments/understanding_generation_sft_v1/experiment_v1/generation_analysis_contract.json,"""frozen_before_new_G_results""",
+experiments/understanding_generation_sft_v1/experiment_v1/data_manifest.json,"""frozen_development_proxy_panel""",
+experiments/understanding_generation_sft_v1/experiment_v1/manifest_freeze.json,"""frozen""",
+experiments/understanding_generation_sft_v1/experiment_v1/analysis_contract.json,"""frozen_before_new_target_model_answers""",
+experiments/understanding_generation_sft_v1/experiment_v1/pipeline/SUPERSEDED.json,"""superseded_before_first_experimental_command""",
+experiments/understanding_generation_sft_v1/experiment_v1/pipeline/status.json,"""waiting_for_source_review""",
+experiments/understanding_generation_sft_v1/experiment_v1/pipeline_u_first_v2/INDEPENDENT_SCHEDULING_AUDIT.json,"""passed_priority_only_no_payload_or_scope_change""",
+experiments/understanding_generation_sft_v1/experiment_v1/pipeline_u_first_v2/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/understanding_generation_sft_v1/experiment_pipeline_u_first.py"", line 173, in run
+    raise RuntimeError(f""{step['name']} exited {process.returncode}; preserve records, no silent retry"")
+RuntimeError: freeze_training exited 1; preserve records, no silent retry
+"
+experiments/understanding_generation_sft_v1/experiment_v1/generation_analysis/latest.json,"""partial""",
+experiments/understanding_generation_sft_v1/experiment_v1/generation_analysis/watch_status.json,"""stopped_pipeline_failed""",
+experiments/understanding_generation_sft_v1/experiment_v1/generation_analysis/snapshot_20261031T120039_339956Z/summary.json,"""partial""",
+experiments/understanding_generation_sft_v1/gradient_probe_v1/INDEPENDENT_AUDIT.json,"""verified""",
+experiments/understanding_generation_sft_v1/gradient_probe_v1/freeze.json,"""prepared_not_executed""",
+experiments/understanding_generation_sft_v1/gradient_probe_v1/status.json,"""completed_diagnostic""",
+experiments/understanding_generation_sft_v1/gradient_probe_v1/g_flow_g_values/result.json,"""completed_diagnostic""",
+experiments/understanding_generation_sft_v1/gradient_probe_v1/g_flow_u_values/result.json,"""completed_diagnostic""",
+experiments/understanding_generation_sft_v1/gradient_probe_v1/u_caption_u_values/result.json,"""completed_diagnostic""",
+experiments/understanding_generation_sft_v1/qualification/INDEPENDENT_AUDIT.json,"""issues""",
+experiments/understanding_generation_sft_v1/qualification/INDEPENDENT_AUDIT_SUPPLEMENT.json,"""original_loss_flags_explained""",
+experiments/understanding_generation_sft_v1/qualification/freeze.json,"""prepared_not_gpu_qualified""",
+experiments/understanding_generation_sft_v1/qualification/status.json,"""passed""",
+experiments/understanding_generation_sft_v1/qualification/g_flow_g_values/result.json,"""passed""",
+experiments/understanding_generation_sft_v1/qualification/g_flow_u_values/result.json,"""passed""",
+experiments/understanding_generation_sft_v1/qualification/u_caption_u_values/result.json,"""passed""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/review_contract.json,"""frozen_before_new_image_observation""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/review_static_audit.json,"""passed_no_blocking_issue_found""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/freeze.json,"""frozen_candidates_not_generated_or_qualified""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/review_queue/status.json,"""reviewed_pending_dataset_decision""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/queue/status.json,"""generated_pending_blind_review""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/generated/status.json,"""completed""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/review/manifest_freeze.json,"""frozen""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/review/qualification_summary/summary.json,"""completed""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/review/qwen/status.json,"""completed""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/review/qualification/qwen/status.json,"""passed""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/review/qualification/phi/status.json,"""passed""",
+experiments/understanding_generation_sft_v1/source_candidates_v1/review/phi/status.json,"""completed""",
+experiments/understanding_generation_sft_v1/baseline/INDEPENDENT_AUDIT.json,"""passed""",
+experiments/understanding_generation_sft_v1/baseline/summary.json,"""completed_diagnostics_only""",
+experiments/understanding_generation_sft_v1/baseline/status.json,"""completed""",
+experiments/source_task_redesign_v1/review_pack.json,"""awaiting_user_review""",
+experiments/source_task_redesign_v1/confusion_analysis.json,"""descriptive_development_audit_not_new_fairness_discovery""",
+experiments/source_task_redesign_v1/status.json,"""diagnostics_completed_waiting_for_user_human_review""",
+experiments/source_task_redesign_v1/protocol.json,"""phase1_diagnostics_and_review_only""",
+experiments/source_task_redesign_v1/confidence_lumina/state.json,"""completed""",
+experiments/source_task_redesign_v1/confidence_janus/state.json,"""completed""",
+experiments/paper_sft_replication_v1/data_preparation_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v1/prepare_after_download.py"", line 34, in main
+    while True:
+            ^^^^
+RuntimeError: Pinned author archive download failed; see download status
+"
+experiments/paper_sft_replication_v1/data_preparation_race_status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v1/prepare_after_download.py"", line 41, in main
+    raise RuntimeError('Pinned author archive download failed; see download status')
+RuntimeError: Pinned author archive download failed; see download status
+"
+experiments/paper_sft_replication_v1/downloads/model/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/anaconda3/envs/ucp/lib/python3.11/site-packages/huggingface_hub/file_download.py"", line 1572, in _get_metadata_or_catch_error
+    raise FileMetadataError(
+huggingface_hub.errors.FileMetadataError: Distant resource does not seem to be on huggingface.co. It is possible that a configuration issue prevents you from downloading resources from https://huggingface.co. Please check your firewall and proxy settings and make sure your SSL certificate"
+experiments/paper_sft_replication_v1/downloads/data/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/anaconda3/envs/ucp/lib/python3.11/site-packages/huggingface_hub/file_download.py"", line 1572, in _get_metadata_or_catch_error
+    raise FileMetadataError(
+huggingface_hub.errors.FileMetadataError: Distant resource does not seem to be on huggingface.co. It is possible that a configuration issue prevents you from downloading resources from https://huggingface.co. Please check your firewall and proxy settings and make sure your SSL certificate"
+experiments/paper_sft_replication_v1/official_baseline_sample/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v1/official_baseline_sample.py"", line 45, in main
+    raise RuntimeError('Model download failed; see its preserved status')
+RuntimeError: Model download failed; see its preserved status
+"
+experiments/paper_sft_replication_v1/sft_pipeline_v1/freeze.json,"""frozen_before_author_sft""",
+experiments/paper_sft_replication_v1/sft_pipeline_v1/status.json,"""failed""","Traceback (most recent call last):
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v1/author_sft_pipeline.py"", line 135, in run
+    model=wait_for(MODEL/'status.json',{'completed'})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/ubuntu/zmh/fairness-umm/scripts/paper_sft_replication_v1/author_sft_pipeline.py"", line 105, in wait_for
+    raise RuntimeError(f'Prerequisite failed: {path}')
+RuntimeError: Prerequisite failed: /home/ubuntu/zmh/fairness-umm/experi"
