@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-31T08:42:59.057367+00:00",
+  "status": "reviewed",
+  "document": "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/RESULTS.md",
+  "document_sha256": "b1431f49efa3ba91966a178e1e41120fb61761488af65bdb8105c3b6d3b82d9e",
+  "sources_sha256": {
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/REPORT.md": "58cc441084506cdf0b560797f036b93a0f4c8158e44cd5bcd5dff1fd3c6c4e75",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/analysis/summary.json": "57bd87841ff5082785d86c760ba3562061e94b28f071b278bc89a82b3df9a067",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/analysis/analysis_contract.json": "4428a2ec93b84c17ad71e10928530498bfe00240ee4981c2bc7dc17a74a1db56",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/review/qwen/raw.jsonl": "ddd2fc9069bcc38ab2535572b6e2959d06d46518eae4acfad745c7aa46e2d38d",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/review/phi/raw.jsonl": "5850204b5d3b51c505f96143d6e515763503510ca32e54f1f8475552d7fe9e5e",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/AUDIT_post_review.json": "8e334f2cf8fb5c546cdb82e4f20adccc18a45974c1ba3abf617182110dd2eb0a",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/verification/INDEPENDENT_AUDIT_20261031.json": "55e8acc7d8706b37fd6a473663c2f56209915a920f3b85f086c8a72b27dd4713",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/figures/figure_contract.json": "246cc28865deed475d4a9ae7471b6ac34c0b7112d2aec5f541f96597e35b4393"
+  },
+  "scope": "Plain Chinese interpretation of completed real experiment; no change to data, parser, frozen analysis, automatic report or pipeline history.",
+  "review": "Independent agent reviewed actual narrative against recomputed counts; no material issues. Original statistical audit includes all180cells,48bootstrap entries and figure-source checks.",
+  "visual_review": "AI-assisted inspection of four exported PNG figures is recorded in independent audit; root additionally inspected both quantitative figures and all24prespecified original example images. No new human image labels.",
+  "unknowns": "No independent human image gold labels; no age/skin-tone or internal U-to-G causal intervention results in this experiment.",
+  "local_links_checked": true,
+  "finalized_utc": "2026-10-31T08:45:13.957596+00:00",
+  "pdf_export_check": {
+    "font_embedded": true,
+    "unicode_text_extraction": "passed for quantitative PDF checked",
+    "poppler_warning": "Mismatch between font type and embedded font file for Noto CJK OpenType. Existing PNG/SVG are the primary reviewed visual outputs; PDF cross-viewer compatibility not certified.",
+    "artifacts_modified": false
+  }
+}

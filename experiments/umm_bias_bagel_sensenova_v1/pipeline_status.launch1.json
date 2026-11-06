@@ -1,0 +1,8 @@
+{
+  "status": "waiting_for_generation",
+  "started_utc": "2026-10-31T07:31:53.075004+00:00",
+  "generation_queue_pid": 700432,
+  "finished_stages": [],
+  "administrative_fix": "Before any child stage: move final integrity audit before report generation",
+  "stopped_pid": 704569
+}

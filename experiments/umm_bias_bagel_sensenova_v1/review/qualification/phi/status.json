@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "planned": 6,
+  "records": 6,
+  "status_counts": {
+    "annotated": 6
+  },
+  "updated_utc": "2026-10-31T07:59:25.104973+00:00",
+  "contract_sha256": "cc97f028dc4fc32f513a24c36fb714a0ad49c0694002f8faab86b400a4c56e3e",
+  "raw_sha256": "dd000dfec0acd4e87ae69d5bd1af0276a21ddd836c68d669e2532a40e3dcc7f5",
+  "qualification_criterion": "6/6 strict JSON and all six fields valid; no visual correctness criterion"
+}

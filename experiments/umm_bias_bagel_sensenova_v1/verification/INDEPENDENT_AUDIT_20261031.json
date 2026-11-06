@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "reader_stats": {
+    "qwen": {
+      "raw": 726,
+      "status_counts": {
+        "annotated": 726
+      },
+      "model_called": 726,
+      "field_errors": {}
+    },
+    "phi": {
+      "raw": 726,
+      "status_counts": {
+        "annotated": 726
+      },
+      "model_called": 726,
+      "field_errors": {}
+    }
+  },
+  "checked_cells": 180,
+  "independently_recomputed_bootstrap_records": 48,
+  "agreement_observed_unknown_breakdown": [
+    {
+      "model": "bagel",
+      "variant": "original",
+      "field": "presentation",
+      "N_pairs": 288,
+      "same": 132,
+      "changed": 80,
+      "incomparable": 76,
+      "both_observed_unknown": 2,
+      "any_observed_unknown": 70
+    },
+    {
+      "model": "bagel",
+      "variant": "original",
+      "field": "severe_artifact",
+      "N_pairs": 288,
+      "same": 55,
+      "changed": 233,
+      "incomparable": 0,
+      "both_observed_unknown": 0,
+      "any_observed_unknown": 230
+    },
+    {
+      "model": "bagel",
+      "variant": "vae_roundtrip",
+      "field": "presentation",
+      "N_pairs": 144,
+      "same": 85,
+      "changed": 30,
+      "incomparable": 29,
+      "both_observed_unknown": 0,
+      "any_observed_unknown": 21
+    },
+    {
+      "model": "bagel",
+      "variant": "vae_roundtrip",
+      "field": "severe_artifact",
+      "N_pairs": 144,
+      "same": 34,
+      "changed": 110,
+      "incomparable": 0,
+      "both_observed_unknown": 0,
+      "any_observed_unknown": 110
+    },
+    {
+      "model": "sensenova",
+      "variant": "original",
+      "field": "presentation",
+      "N_pairs": 288,
+      "same": 167,
+      "changed": 87,
+      "incomparable": 34,
+      "both_observed_unknown": 2,
+      "any_observed_unknown": 70
+    },
+    {
+      "model": "sensenova",
+      "variant": "original",
+      "field": "severe_artifact",
+      "N_pairs": 288,
+      "same": 87,
+      "changed": 201,
+      "incomparable": 0,
+      "both_observed_unknown": 0,
+      "any_observed_unknown": 199
+    }
+  ],
+  "error_count": 0,
+  "errors": [],
+  "created_utc": "2026-10-31T08:39:11.626966+00:00",
+  "scope": "Independent CPU recomputation and source-artifact verification; no models invoked, labels changed, or frozen artifacts rewritten.",
+  "code_path": "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/verification/independent_check.py",
+  "code_sha256": "a1bb7cf451dc6dfdd411fba2f9f1df3f9d7d97d485d2989e300a2e9a7b3bc513",
+  "method": "Raw field parser re-evaluated with frozen parser; statistical indicators, full denominators, direct-index paired bootstrap and pair tables independently recomputed.",
+  "visual_qa": {
+    "reviewer": "Codex AI visual inspection; not independent human annotation",
+    "files": [
+      "neutral_counts.png",
+      "outcomes.png",
+      "fixed_examples_bagel.png",
+      "fixed_examples_sensenova.png"
+    ],
+    "status": "passed_layout_and_legibility",
+    "findings": "Chinese glyphs, full-frame fixed panels, labels and actual plotted counts are legible; no clipped content or overlapping labels observed. No image label was rescored."
+  },
+  "interpretation_notes": [
+    "Legal null severe_artifact is an unknown observation, not a false judgment. BAGEL original inter-reader differences: 233, of which 230 involve a null; SenseNova: 201, of which 199 involve a null. These are not all explicit true/false disagreements.",
+    "This verifies internal arithmetic/provenance consistency and figure layout, not label correctness or causal identification of U-to-G mechanisms."
+  ],
+  "source_sha256": {
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/review/private/key.jsonl": "ae8883a5daf9bc9dca2c9c150b60f35f1726992164e4d8a5799fac06d0c9ddb9",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/review/qwen/raw.jsonl": "ddd2fc9069bcc38ab2535572b6e2959d06d46518eae4acfad745c7aa46e2d38d",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/review/phi/raw.jsonl": "5850204b5d3b51c505f96143d6e515763503510ca32e54f1f8475552d7fe9e5e",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/analysis/summary.json": "57bd87841ff5082785d86c760ba3562061e94b28f071b278bc89a82b3df9a067",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/analysis/analysis_contract.json": "4428a2ec93b84c17ad71e10928530498bfe00240ee4981c2bc7dc17a74a1db56",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/REPORT.md": "58cc441084506cdf0b560797f036b93a0f4c8158e44cd5bcd5dff1fd3c6c4e75",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/report_provenance.json": "3cbb539ba3191e49178b234ee67442ee75e1de6a633a1c99dc552060ef202e8b",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/AUDIT.json": "0a37763a13e943d9dc0f1dbdd204f3bc8ac0613835a846f31eff787ca1dc6cce",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/AUDIT_post_review.json": "8e334f2cf8fb5c546cdb82e4f20adccc18a45974c1ba3abf617182110dd2eb0a",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/figures/figure_contract.json": "246cc28865deed475d4a9ae7471b6ac34c0b7112d2aec5f541f96597e35b4393",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/figures/fixed_examples_bagel.csv": "e142f2d07ad3b734d43361d64a34450cd8bdd383108c43f283ebd3a11d03eaa1",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/figures/fixed_examples_sensenova.csv": "33b5121c7693166ae387093778fe85d303c3f9d47669f4f6e2ef32290c2d809d",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/figures/neutral_counts.csv": "9807be2872286e80aaedcfe8f97273052b6d4975b1ae1db3e34bb2cc3468b9a2",
+    "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/figures/outcomes.csv": "c34a91870aebba04ba08d4f88f1422e202a71967823b4060c4fd0c43af7610ee"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "planned": 726,
+  "records": 726,
+  "status_counts": {
+    "annotated": 726
+  },
+  "updated_utc": "2026-10-31T08:36:37.822681+00:00",
+  "contract_sha256": "cc97f028dc4fc32f513a24c36fb714a0ad49c0694002f8faab86b400a4c56e3e",
+  "raw_sha256": "5850204b5d3b51c505f96143d6e515763503510ca32e54f1f8475552d7fe9e5e",
+  "qualification_criterion": null
+}

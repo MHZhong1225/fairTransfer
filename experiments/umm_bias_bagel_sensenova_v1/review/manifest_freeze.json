@@ -1,0 +1,45 @@
+{
+  "status": "frozen",
+  "created_utc": "2026-10-31T07:58:55.362902+00:00",
+  "sources": [
+    {
+      "model": "bagel",
+      "kind": "generation",
+      "plan_path": "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/bagel/generation/plan.jsonl",
+      "plan_sha256": "16aae5621b235d3fe0950361dd9571293e3e1723001c873854629331b0d83b12",
+      "result_path": "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/bagel/generation/results.jsonl",
+      "results_sha256": "df3efeccaec9f5e0af77db95e4eb625a2a9b6cbf1771052f573fe935801d89c0",
+      "recorded": 288,
+      "planned": 288
+    },
+    {
+      "model": "bagel",
+      "kind": "codec",
+      "plan_path": "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/bagel/codec/plan.jsonl",
+      "plan_sha256": "2bf77ae83c873672158d18fe8b2c7a680be020a971d21ebe08005212a715aaee",
+      "result_path": "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/bagel/codec/results.jsonl",
+      "results_sha256": "5c5fa935b0121473f2f1a502f3d82ed9f69d8ee666ef374e49681d6f54cbc01c",
+      "recorded": 144,
+      "planned": 144
+    },
+    {
+      "model": "sensenova",
+      "kind": "generation",
+      "plan_path": "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/sensenova/generation/plan.jsonl",
+      "plan_sha256": "a96b5c388b4fc4bab67625a84c9ea591fd8e04eccf2da49e56845b38547613be",
+      "result_path": "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/sensenova/generation/results.jsonl",
+      "results_sha256": "b0c33b32512614e347ff09a14276df78183f7aa95d2820ac5a0e4cddbe1292a0",
+      "recorded": 288,
+      "planned": 288
+    }
+  ],
+  "contract_sha256": "cc97f028dc4fc32f513a24c36fb714a0ad49c0694002f8faab86b400a4c56e3e",
+  "plan_sha256": "9f845b5d24d463fb7ad23b1cd4d1df76a0a2d762f76cedd0bbbb434bcf4e45b9",
+  "key_sha256": "ae8883a5daf9bc9dca2c9c150b60f35f1726992164e4d8a5799fac06d0c9ddb9",
+  "ledger_sha256": "7271e189bc69be1e5815a66674056da5fec416d17c4e0561226bcebe29623d32",
+  "planned_images": 720,
+  "planned_calls": 726,
+  "source_status_counts": {
+    "rendered": 726
+  }
+}

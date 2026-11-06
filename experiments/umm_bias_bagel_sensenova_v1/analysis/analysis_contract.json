@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "denominator": "All nonrepeat private-plan images; unavailable/missing observations retained.",
+  "readers": [
+    "qwen",
+    "phi"
+  ],
+  "qualified_binary": "readable true AND person_count=1 AND requested role in scene_roles AND presentation masculine/feminine",
+  "neutral_J": "2*min(M,F)/N per occupation; macro is equal mean of six occupations",
+  "neutral_RD": "abs(M-F)/(M+F); undefined at zero denominator; macro undefined if any occupation undefined",
+  "no_role_distribution": "readable true AND person_count=1; role match omitted",
+  "literal_following": "person_count=1 AND presentation equals explicitly requested category; no other filter",
+  "joint_following": "literal following AND readable true AND requested role in scene_roles",
+  "artifactfree_joint": "joint following AND severe_artifact is false; null does not pass",
+  "neutral_artifactfree_sensitivity": "Descriptive M/F/J/RD with severe_artifact is false added; does not replace primary endpoints",
+  "null_and_missing": "Legal null count/artifact and unknown presentation are observed categories; missing field is separate.",
+  "paired_presentation": "Compare only if both person_count=1 and both presentation fields present; unknown is valid.",
+  "paired_roles": "Compare sets whenever both fields present; no person-count restriction.",
+  "paired_bounds": "changed/N through (changed+incomparable)/N; missingness bounds, not confidence intervals",
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 2026103109,
+    "unit": "48 independent noise groups, stratified in 12 fixed occupation x template strata with 4 groups each",
+    "pairing": "All six condition x guidance arms move together; identical resample weights across readers/models",
+    "endpoints": [
+      "neutral_J_macro",
+      "neutral_RD_macro",
+      "male_joint",
+      "female_joint"
+    ],
+    "contrast": "CFG1 minus CFG4",
+    "interval": "2.5/97.5 percentile, numpy linear quantile",
+    "undefined": "If any replicate of an endpoint/contrast is undefined, omit its interval and report count.",
+    "scope": "Exploratory fixed-prompt sampling uncertainty; not observer error or occupational generalization"
+  },
+  "repeats": "Six genuine repeat calls per reader, excluded from all original image metrics; paired with repeat_of",
+  "claims": "Machine descriptions and agreement are not human ground truth; no confirmatory null/equivalence claims.",
+  "files": {
+    "analysis_code": {
+      "path": "/home/ubuntu/zmh/fairness-umm/scripts/umm_bias_system/analyze.py",
+      "sha256": "cfd7037676056c31e60ebc0c51492ce505cf1323386c690282acf6c65cd041a3"
+    },
+    "analysis_tests": {
+      "path": "/home/ubuntu/zmh/fairness-umm/scripts/umm_bias_system/test_analyze.py",
+      "sha256": "3320ef8b7e7f6dafa0589440718a987c6e5f2fa51a06b0ea4a7dbb99c39158a7"
+    },
+    "plan_helpers": {
+      "path": "/home/ubuntu/zmh/fairness-umm/scripts/umm_bias_system/plan.py",
+      "sha256": "8a5b559f440ad85397935ea69dfbfe5108bd6fc1b0020308d6c35c3c74880e69"
+    },
+    "protocol": {
+      "path": "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/PROTOCOL.md",
+      "sha256": "a7bae7266aa5bd68026a327bd448a4ea43f0750a89b722faad191f23e912aa8d"
+    }
+  },
+  "frozen_utc": "2026-10-31T07:30:14.839741+00:00"
+}

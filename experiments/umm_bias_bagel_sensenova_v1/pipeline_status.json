@@ -1,0 +1,52 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-31T07:38:34.947220+00:00",
+  "generation_queue_pid": 700432,
+  "finished_stages": [
+    {
+      "stage": "prepare_review",
+      "completed_utc": "2026-10-31T07:58:55.369900+00:00"
+    },
+    {
+      "stage": "audit",
+      "completed_utc": "2026-10-31T07:58:58.799635+00:00"
+    },
+    {
+      "stage": "qualify_qwen",
+      "completed_utc": "2026-10-31T07:59:12.314116+00:00"
+    },
+    {
+      "stage": "qualify_phi",
+      "completed_utc": "2026-10-31T07:59:25.583449+00:00"
+    },
+    {
+      "stage": "review_qwen",
+      "completed_utc": "2026-10-31T08:17:40.769433+00:00"
+    },
+    {
+      "stage": "review_phi",
+      "completed_utc": "2026-10-31T08:36:38.305108+00:00"
+    },
+    {
+      "stage": "final_audit",
+      "completed_utc": "2026-10-31T08:36:41.807403+00:00"
+    },
+    {
+      "stage": "analysis",
+      "completed_utc": "2026-10-31T08:36:42.119541+00:00"
+    },
+    {
+      "stage": "figures",
+      "completed_utc": "2026-10-31T08:36:48.805055+00:00"
+    },
+    {
+      "stage": "report",
+      "completed_utc": "2026-10-31T08:36:48.860162+00:00"
+    }
+  ],
+  "stage": "completed",
+  "updated_utc": "2026-10-31T08:36:48.805267+00:00",
+  "completed_utc": "2026-10-31T08:36:48.860337+00:00",
+  "report": "/home/ubuntu/zmh/fairness-umm/experiments/umm_bias_bagel_sensenova_v1/REPORT.md",
+  "report_sha256": "58cc441084506cdf0b560797f036b93a0f4c8158e44cd5bcd5dff1fd3c6c4e75"
+}
